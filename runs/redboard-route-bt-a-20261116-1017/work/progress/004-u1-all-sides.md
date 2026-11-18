@@ -1,0 +1,2 @@
+# 004 – ESP32-P4 left/bottom/right sides
+Every supply pin goes straight to its decoupling capacitor on F.Cu (second-row caps are reached through the 0.39 mm slots between first-row caps with 0.127 mm tracks). Crystal routed short on F.Cu. Signals that must leave on B.Cu alternate between ring vias (between pad row and EPAD, 0.45/0.3) and vias just outside the pad row, so adjacent pins never need two vias side by side. All probe-clean.

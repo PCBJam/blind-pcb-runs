@@ -1,0 +1,1 @@
+{"analog":"^(\\+3\\.3VA|/keys/H\\d+|Net-\\(U2002-CH\\d\\))$","power":"^(\\+5V|\\+5V_AUX|\\+5V_LED|\\+3\\.3V)$","led":"^(/LED_DATA|.*LED_DATA_IN|.*LED_(IN|OUT)|.*LED_L\\d_OUT)$","digital":"^(/KEYS_(SCK|MOSI|MISO|CS)|/encoders/I2C_(SCL|SDA)|/D_CS|Net-\\(DS1001-(SDA|SCL|DC)\\))$"}

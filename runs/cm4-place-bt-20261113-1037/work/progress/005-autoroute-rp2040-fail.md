@@ -1,0 +1,5 @@
+# 005 – autorouting the slow signals: two failed rounds around the RP2040 and the CM4 connector
+- `bt route --nets` did the 64 short local nets in under a minute (one failure, fixed by moving two resistors).
+- The ~50 long nets were another story. Round 1 (0.2 mm, 3 passes) ran over 10 minutes and had to be stopped; round 2 connected 36/48, a retry at 0.15 mm 31/42. The failures were always "boxed in": early routes ran across the mouths of neighbouring 0.4 mm-pitch pins at the RP2040 and at the CM4 connector, and the passes that should fix it (shove / rip-up) took minutes per net.
+- The picture shows the tangle round U18 after round 2 (kept for the record, thrown away afterwards).
+- Change of plan: (1) hand-planned fanout of the RP2040 north side (fan PWM/tacho in pin order straight to the fan headers, no vias), decaps moved under the chip, LED order mirrored to match the pin order; (2) `bt escape` for every remaining CM4 / RP2040 signal pin (short stub + via) before any long route; (3) long hauls preferably on the bottom, starting from those vias.

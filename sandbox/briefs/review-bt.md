@@ -1,0 +1,2 @@
+
+`bt` is experimental, and we want your honest opinion of it. After the board is finished, write /work/BT-REVIEW.md: which bt commands you used and how often, which helped and how much (time, tokens, fewer mistakes), which got in the way or gave wrong or confusing answers (with the command and what happened), what you did yourself instead and why, and what you would change, add or remove. Say so if you didn't use it at all, and why.

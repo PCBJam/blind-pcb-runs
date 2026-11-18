@@ -1,0 +1,17 @@
+# Sandbox image + the KiCad MCP server (github.com/mixelpixx/KiCAD-MCP-Server, MIT) for the
+# "does an MCP make it faster/cheaper" comparison. The agent can't reach GitHub, so everything the
+# server needs is baked in at build time: its source (build context = a checkout of the repo),
+# its Python deps, Java 25 (Temurin) and the Freerouting 2.5.0 jar its `autoroute` tool runs.
+# docker build --platform linux/amd64 -f Dockerfile.mcp -t blind-pcb-sandbox-mcp <dir holding KiCAD-MCP-Server/ and freerouting-2.5.0.jar>
+FROM --platform=linux/amd64 eclipse-temurin:25-jre AS java
+FROM --platform=linux/amd64 blind-pcb-sandbox:latest
+USER root
+COPY --from=java /opt/java/openjdk /opt/java/openjdk
+ENV JAVA_HOME=/opt/java/openjdk PATH=/opt/java/openjdk/bin:$PATH
+COPY KiCAD-MCP-Server /opt/kicad-mcp
+COPY freerouting-2.5.0.jar /opt/kicad-mcp/freerouting.jar
+RUN cd /opt/kicad-mcp && npm ci --ignore-scripts && npm run build && python3 -m pip install --no-user --ignore-installed --break-system-packages -r requirements.txt && python3 -c "import requests, sexpdata, kipy, fitz" \
+ && chown -R kicad:kicad /opt/kicad-mcp
+ENV FREEROUTING_JAR=/opt/kicad-mcp/freerouting.jar KICAD_PYTHON=/usr/bin/python3
+USER kicad
+COPY mcp.json /opt/kicad-mcp/mcp.json

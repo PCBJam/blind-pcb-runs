@@ -1,0 +1,58 @@
+{
+ "board": "mega-route-20261112-1222",
+ "seconds": 8541,
+ "drcErrors": {
+  "courtyards_overlap": 12
+ },
+ "unconnected": {},
+ "totalTrackMm": 4987,
+ "totalVias": 342,
+ "roles": {},
+ "placement": {
+  "footprints": 66,
+  "moved": []
+ },
+ "place": null,
+ "agent": {
+  "model": "claude-fable-5-2",
+  "costUsd": 18.614841799999994,
+  "turns": 173,
+  "subtype": "success",
+  "isError": false,
+  "tools": {
+   "Bash": 124,
+   "Read": 28,
+   "Write": 1
+  },
+  "web": [],
+  "hosts": {
+   "api.anthropic.com": 18,
+   "http-intake.logs.us5.datadoghq.com": 105,
+   "api.adoptium.net": 2,
+   "jitpack.io": 9,
+   "repo1.maven.org": 5,
+   "pypi.org": 5,
+   "about.gitlab.com": 1,
+   "gitlab.com": 1,
+   "sourceforge.net": 1,
+   "api.freerouting.app": 1,
+   "registry.npmjs.org": 1,
+   "hub.docker.com": 1,
+   "files.pythonhosted.org": 3,
+   "deb.debian.org": 19,
+   "cdn.azul.com": 1,
+   "corretto.aws": 1,
+   "conda.anaconda.org": 1
+  },
+  "denied": {
+   "github.com": 2,
+   "raw.githubusercontent.com": 1,
+   "codeload.github.com": 1,
+   "ghcr.io": 1,
+   "gitee.com": 1,
+   "ghproxy.com": 1,
+   "mirror.ghproxy.com": 1
+  },
+  "notes": "# Arduino Mega 2560 – routing notes\n\nBoard: `Arduino_Mega_2560.kicad_pcb` (KiCad 10.0.8), 2 layers, 1.6 mm, intended for JLCPCB standard service.\nPlacement is untouched (all 66 footprints verified identical to the original: position, rotation, side, pad nets).\n\n## State of the board\n\n- All nets routed: KiCad DRC reports **0 unconnected items** and **0 copper/clearance/hole violations**\n  with the rules listed below.\n- What DRC still reports are 113 items that were already in the unrouted board and come from the fixed\n  placement / footprints, not from routing: `lib_footprint_mismatch` (51), `silk_overlap` (37),\n  `courtyards_overlap` (12), `silk_over_copper` (8), `silk_edge_clearance` (5). I did not touch silkscreen\n  or footprints.\n- 1724 track segments, 342 vias (157 of them ground vias, 185 signal/power). Track length ≈ 3.2 m on top,\n  ≈ 1.75 m on the bottom.\n- Gerber and drill export with `kicad-cli` runs cleanly (I did not inspect the Gerbers in a viewer).\n- There is no GUI here: everything was checked with `kicad-cli pcb drc` and rendered images only.\n\n## Design rules (in `.kicad_pro`, chosen for JLCPCB 2-layer with margin)\n\n| Rule | Value | JLCPCB limit (as I understand it) |\n|---|---|---|\n| min clearance / min track | 0.15 mm / 0.15 mm | 0.127 mm |\n| via | 0.6 mm pad / 0.3 mm drill (power class 0.8 / 0.4) | 0.3 mm drill |\n| annular ring | ≥ 0.13 mm (actual 0.15 / 0.2) | 0.13 mm |\n| hole to hole | 0.5 mm | 0.5 mm (different nets) |\n| hole to copper | 0.25 mm | 0.2–0.25 mm |\n| copper to board edge | 0.3 mm | 0.2–0.3 mm |\n\nNet classes:\n\n- `Default` – 0.2 mm track, 0.15 mm clearance.\n- `USB` (D+, D-, RD+, RD-) – 0.25 mm.\n- `Power` (+5V, +3.3V, AVCC, USBVCC, XVCC, USHIELD, GND) – 0.5 mm nominal.\n- `PowerIn` (VCC = VIN after the diode, and the barrel-jack net) – 1.0 mm nominal, 0.25 mm clearance.\n\nChanges to the original rules that are relaxations, so you can judge them:\n\n- `min_resolved_spokes` 2 → 1. One through-hole ground pin (J12 pin 6, ICSP GND) only gets one thermal spoke\n  on the bottom because signal tracks pass both sides of it. It also has a top-side connection, so it is\n  properly grounded, just not with two spokes on that layer.\n- `Arduino_Mega_2560.kicad_dru` (new file) holds one custom rule: the USB-C footprint J1 has its own\n  locating-peg holes 0.194 mm from its own ground pads. That is inside the footprint and cannot be fixed by\n  routing, so the 0.25 mm hole clearance is relaxed to 0.15 mm **only between items of J1**.\n- I added `min_connection` = 0.15 mm (it was 0 = off).\n\n## Approach\n\n1. **Ground**: both layers are poured with GND (zone clearance 0.25 mm, thermal reliefs on through-hole pads,\n   solid connection on SMD pads). Before any routing, every SMD ground pad got its own via next to it\n   (decoupling caps, regulator, bulk caps with 2–3 larger vias, four vias in the ATmega16U2 thermal pad, the\n   ATmega2560 ground pins drop to vias under the package). After routing, the pours were tied together with\n   extra vias wherever a piece of pour was not yet connected, plus a loose stitching grid. The ground net is\n   one connected group.\n2. **Hand-routed (scripted with explicit coordinates) critical parts**\n   - USB-C receptacle escape: D+ straight to the series resistor, the two D+ pads joined by a small loop on\n     the connector side, the second D- pad joined by one short bottom hop, CC1/CC2 straight to their 5.1 k\n     resistors, USB data from the series resistors to the 16U2 as a short parallel pair.\n   - VBUS: one side of the connector goes on top to the polyfuse, the other side joins through a bottom link.\n   - 16 MHz resonator of the ATmega2560: two short parallel top-layer tracks, no vias.\n   - VIN from the protection diode to the VIN header pin (0.8 mm, below the header row) and the\n     regulator-input trunk (1.0–1.2 mm).\n   - ATmega2560 supply pins: pins 10 and 80 go directly to their 100 nF caps (C8, C7); pins 31 and 61 have no\n     nearby cap in the placement and drop to vias under the chip.\n3. **Everything else was autorouted** with Freerouting 1.9 run locally (nothing was uploaded anywhere), in\n   stages so that the important nets got first choice: critical/power nets near the connectors → top-layer-only\n   pass for the buses that can be planar (port A/C/L to the double-row header etc.) → +5 V / +3.3 V with a\n   preference for the bottom layer → remaining signals. Power nets were routed narrow and then widened\n   segment by segment as far as clearance allows.\n4. A few leftovers (RESET2, a handful of nets that had via holes closer than 0.5 mm, ground islands) were\n   finished with a small grid router of my own and some manual edits around RN5.\n5. Keep-out areas (rule areas) were added around the four fiducials (front copper only), around the six\n   mounting holes (r = 2.45 mm, both layers, so an M3 screw head does not sit on tracks) and over the\n   \"Mega2560\" copper text on the back.\n\n## What is not good / not finished\n\nPlease read this section before ordering.\n\n- **The signal routing is autorouter quality, not hand quality.** It is electrically complete and rule-clean,\n  but it has more vias and detours than a careful manual layout would have: 14 signal nets use 4 or more\n  vias (worst: ADC10 with 9, several other ADC lines with 5–7). The analog inputs have to cross from the top\n  edge of the MCU to the bottom headers, which is where most of this comes from. For a board I cared about I\n  would re-route the ADC lines and the MCU fan-out by hand.\n- **The bottom layer is not a solid ground plane.** About 1.75 m of track runs on the bottom and cuts the\n  pour into pieces, especially under and to the right of the ATmega2560. Return paths rely on the stitching\n  vias and the top pour. Fine for a 16 MHz AVR board, not something I would call good EMC practice.\n- **+5 V has narrow stretches.** About 200 mm of the +5 V net is 0.6 mm, but about 60 mm is only 0.25 mm and\n  another ~55 mm is 0.3–0.4 mm, where it squeezes between other tracks. I did not trace which loads sit\n  behind the narrow parts, so I cannot promise the 5 V header pins can deliver a full shield load without\n  noticeable drop. This is the first thing I would improve.\n- **USB is not impedance controlled.** 90 Ω differential is not realistic on a 1.6 mm 2-layer stack; the pair\n  is short (≈ 10 mm connector to 16U2) and full-speed only, so this is normal practice, but D+ and D- are not\n  length matched and one D- connector pad uses two vias.\n- **VIN path**: mostly 0.8–1.2 mm, with about 2 mm at 0.3 mm (the tap to the RN5 divider, not in the main\n  current path) and the barrel-jack net narrows to 0.6 mm for 1.5 mm at a pad entry.\n- The RESET2 pull-up pad of RN5 has its via directly beside the pad (0.14 mm of mask between pad and via).\n  Acceptable, but it is tighter than I like for hand soldering.\n- No teardrops, no length tuning, no test points added.\n- Fiducial FID4 sits under the ATmega2560 in the fixed placement; I only kept copper away from it.\n- Not done: review in the KiCad GUI / 3D viewer, Gerber inspection in a viewer, any electrical simulation.\n  The design has no schematic, so nets were taken from the board as given; I did not check the circuit\n  itself.\n"
+ }
+}

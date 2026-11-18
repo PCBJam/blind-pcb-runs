@@ -1,0 +1,2274 @@
+{
+ "board": "esp32-small-bt-20261112-1613",
+ "seconds": 10881,
+ "drcErrors": {},
+ "unconnected": {
+  "/GPIO15/HS2_CMD": 3,
+  "GND": 24,
+  "/ESP_EN": 1,
+  "/GPIO2/HS2_DATA0": 1,
+  "/GPIO4/U1TXD": 1,
+  "Net-(LAN_CON1-RCT)": 1,
+  "/GPIO17/EMAC_CLK_OUT_180": 1,
+  "Net-(U3-VBAT)": 1,
+  "Net-(MICRO_SD1-CLK/SCLK)": 1,
+  "Net-(Q2-E)": 1,
+  "Net-(D9-K)": 1,
+  "/D_Com": 1,
+  "Net-(D6-K)": 1,
+  "Net-(U1-V3)": 1
+ },
+ "totalTrackMm": 1999,
+ "totalVias": 146,
+ "roles": {},
+ "placement": {
+  "footprints": 147,
+  "moved": [
+   {
+    "ref": "FID3|OLIMEX_Other-FP:Fiducial1x3",
+    "from": {
+     "x": 193.673894,
+     "y": 222.755042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 169.7,
+     "y": 128.699999,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "L5|OLIMEX_RLC-FP:L_0805_5MIL_DWS",
+    "from": {
+     "x": 127.993,
+     "y": 251.925042,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137.8,
+     "y": 110.9,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "EXT2|OLIMEX_Connectors-FP:HN1x10",
+    "from": {
+     "x": 155.359694,
+     "y": 235.082042,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 155.7,
+     "y": 102.3,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "FID6|OLIMEX_Other-FP:Fiducial1x3",
+    "from": {
+     "x": 205.673894,
+     "y": 222.755042,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 169.7,
+     "y": 128.699999,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "FID2|OLIMEX_Other-FP:Fiducial1x3",
+    "from": {
+     "x": 189.673894,
+     "y": 222.755042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 169.7,
+     "y": 101.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R37|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 148.6338,
+     "y": 295.267482,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 161,
+     "y": 106.3,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R40|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 166.1002,
+     "y": 295.466682,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 151.9,
+     "y": 106.5,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "FID5|OLIMEX_Other-FP:Fiducial1x3",
+    "from": {
+     "x": 201.673894,
+     "y": 222.755042,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 169.7,
+     "y": 101.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "FID4|OLIMEX_Other-FP:Fiducial1x3_Paste",
+    "from": {
+     "x": 197.673894,
+     "y": 222.755042,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140.8,
+     "y": 113,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "RM3|OLIMEX_RLC-FP:R_MATRIX_4",
+    "from": {
+     "x": 134.8458,
+     "y": 302.962882,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 134.199999,
+     "y": 109.65,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R39|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 157.6658,
+     "y": 295.267482,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140.9,
+     "y": 109.3,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R32|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 126.6514,
+     "y": 295.466682,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164.6,
+     "y": 106.3,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "BUT1|OLIMEX_Buttons-FP:IT1185AU2_V2",
+    "from": {
+     "x": 104.64692,
+     "y": 206.552,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 134,
+     "y": 105,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "EXT1|OLIMEX_Connectors-FP:HN1x10",
+    "from": {
+     "x": 149.565694,
+     "y": 235.082042,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 155.7,
+     "y": 127.7,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C1|OLIMEX_RLC-FP:C_0603_5MIL_DWS",
+    "from": {
+     "x": 110.31092,
+     "y": 204.674,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 141.6,
+     "y": 128.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U3|OLIMEX_IC-FP:SOT-23-5",
+    "from": {
+     "x": 99.8137,
+     "y": 313.751682,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146,
+     "y": 124,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R6|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 102.9346,
+     "y": 302.120682,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.9,
+     "y": 122.05,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R4|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 161.9826,
+     "y": 295.466682,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 162,
+     "y": 106.3,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R9|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 115.6858,
+     "y": 302.120682,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 163,
+     "y": 106.3,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "CHRG1|OLIMEX_LEDs-FP:LED_0603_KA",
+    "from": {
+     "x": 154.638384,
+     "y": 213.989,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.4,
+     "y": 121.95,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "PWR1|OLIMEX_LEDs-FP:LED_0603_KA",
+    "from": {
+     "x": 106.114295,
+     "y": 277.325042,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 139.6,
+     "y": 121.95,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C19|OLIMEX_RLC-FP:C_0603_5MIL_DWS",
+    "from": {
+     "x": 157.90652,
+     "y": 204.166,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 132,
+     "y": 125.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R5|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 94.6994,
+     "y": 302.120682,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140,
+     "y": 120.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "FID1|OLIMEX_Other-FP:Fiducial1x3_Paste",
+    "from": {
+     "x": 185.673894,
+     "y": 222.755042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 124.3,
+     "y": 113.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "RST1|OLIMEX_Buttons-FP:IT1185AU2_V2",
+    "from": {
+     "x": 141.7544,
+     "y": 304.637682,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 138.2,
+     "y": 105,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C2|OLIMEX_RLC-FP:C_1206_5MIL_DWS_ISO",
+    "from": {
+     "x": 163.57352,
+     "y": 205.563,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 113.2,
+     "y": 120.35,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C11|OLIMEX_RLC-FP:C_0402_5MIL_DWS",
+    "from": {
+     "x": 119.53672,
+     "y": 204.035,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 125.6,
+     "y": 112.3,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "FET1|OLIMEX_Transistors-FP:SOT23",
+    "from": {
+     "x": 161.306094,
+     "y": 224.062482,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.2,
+     "y": 124.4,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "L2|OLIMEX_RLC-FP:L_2016_MM",
+    "from": {
+     "x": 105.604,
+     "y": 252.184042,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 158.4,
+     "y": 120.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R30|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 117.8186,
+     "y": 295.267482,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 152.9,
+     "y": 120.4,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R29|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 109.185,
+     "y": 295.267482,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 152.9,
+     "y": 121.3,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C6|OLIMEX_RLC-FP:C_0603_5MIL_DWS",
+    "from": {
+     "x": 135.521684,
+     "y": 213.716,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 156.6,
+     "y": 120.4,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U7|OLIMEX_Regulators-FP:SOT-563-6",
+    "from": {
+     "x": 145.090853,
+     "y": 312.976682,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 154.9,
+     "y": 120.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C22|OLIMEX_RLC-FP:C_0603_5MIL_DWS",
+    "from": {
+     "x": 182.60652,
+     "y": 204.166,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 158.9,
+     "y": 122.35,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C20|OLIMEX_RLC-FP:C_1808(4520)_5MIL_DWS_ISO",
+    "from": {
+     "x": 170.63752,
+     "y": 204.674,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 125.5,
+     "y": 125.5,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C23|OLIMEX_RLC-FP:C_1808(4520)_5MIL_DWS_ISO",
+    "from": {
+     "x": 189.79752,
+     "y": 204.674,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 125.5,
+     "y": 128,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R14|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 144.577595,
+     "y": 276.921042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 143.25,
+     "y": 110.75,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "LNK1|OLIMEX_LEDs-FP:LED_0603_KA",
+    "from": {
+     "x": 153.6187,
+     "y": 252.071042,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 141.3,
+     "y": 102,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R15|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 148.695195,
+     "y": 276.921042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.6,
+     "y": 104.3,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "ACT1|OLIMEX_LEDs-FP:LED_0603_KA",
+    "from": {
+     "x": 90.6707,
+     "y": 204.439,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.6,
+     "y": 102,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "L3|OLIMEX_RLC-FP:L_0805_5MIL_DWS",
+    "from": {
+     "x": 110.645,
+     "y": 252.687042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 124.2,
+     "y": 108.35,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C7|OLIMEX_RLC-FP:C_0603_5MIL_DWS",
+    "from": {
+     "x": 140.807684,
+     "y": 214.224,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 129.1,
+     "y": 107.8,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "FET2|OLIMEX_Transistors-FP:SOT23",
+    "from": {
+     "x": 167.404894,
+     "y": 224.057402,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 150.45,
+     "y": 121,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R3|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 113.5018,
+     "y": 295.466682,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 163.6,
+     "y": 115.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C10|OLIMEX_RLC-FP:C_0603_5MIL_DWS",
+    "from": {
+     "x": 115.08892,
+     "y": 204.674,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164,
+     "y": 113.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C18|OLIMEX_RLC-FP:C_0402_5MIL_DWS",
+    "from": {
+     "x": 152.75152,
+     "y": 203.8358,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 145.1,
+     "y": 110.75,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C21|OLIMEX_RLC-FP:C_0603_5MIL_DWS",
+    "from": {
+     "x": 177.32052,
+     "y": 204.674,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.65,
+     "y": 118.9,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C17|OLIMEX_RLC-FP:C_0603_5MIL_DWS",
+    "from": {
+     "x": 147.59652,
+     "y": 204.166,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.35,
+     "y": 109.75,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "L1|OLIMEX_RLC-FP:L_0805_5MIL_DWS",
+    "from": {
+     "x": 99.801,
+     "y": 251.925042,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140,
+     "y": 118.15,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U4|OLIMEX_IC-FP:QFN32_EP(33)_5.00x5.00x0.90mm_Pitch_0.50mm",
+    "from": {
+     "x": 107.511853,
+     "y": 315.025835,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.5,
+     "y": 114.5,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "T1|OLIMEX_Transistors-FP:SOT23",
+    "from": {
+     "x": 182.125274,
+     "y": 303.165042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 158,
+     "y": 109.1,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R12|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 136.342395,
+     "y": 276.921042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 132.96,
+     "y": 116.344,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R2|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 169.681595,
+     "y": 276.921042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 163.6,
+     "y": 114.5,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R16|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 153.011995,
+     "y": 276.721842,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 159,
+     "y": 106.3,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R7|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 107.2514,
+     "y": 301.921482,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 158,
+     "y": 106.3,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C9|OLIMEX_RLC-FP:C_0603_5MIL_DWS",
+    "from": {
+     "x": 150.101684,
+     "y": 214.224,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 155.3,
+     "y": 114.5,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "FET3|OLIMEX_Transistors-FP:SOT23",
+    "from": {
+     "x": 173.756654,
+     "y": 223.804442,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164,
+     "y": 111,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R25|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 195.183995,
+     "y": 276.921042,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 145.45,
+     "y": 118.9,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R18|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 161.446395,
+     "y": 276.921042,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 166.8,
+     "y": 119.2,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C16|OLIMEX_RLC-FP:C_0402_5MIL_DWS",
+    "from": {
+     "x": 142.44152,
+     "y": 203.8358,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 141.7,
+     "y": 111.2,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R26|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 199.500795,
+     "y": 276.721842,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140.7,
+     "y": 112.75,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R1|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 123.790395,
+     "y": 276.721842,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 135.2,
+     "y": 125.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R20|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 173.799195,
+     "y": 276.921042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 145,
+     "y": 107.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R21|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 177.916795,
+     "y": 276.921042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 149,
+     "y": 107.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "Q3|OLIMEX_Transistors-FP:SOT23",
+    "from": {
+     "x": 118.230035,
+     "y": 277.712442,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 149,
+     "y": 105.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "Q2|OLIMEX_Transistors-FP:SOT23",
+    "from": {
+     "x": 111.615155,
+     "y": 277.712442,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 145,
+     "y": 105.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D2|OLIMEX_Diodes-FP:SOT23-3",
+    "from": {
+     "x": 187.275484,
+     "y": 214.82344,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 150.3,
+     "y": 124.7,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R31|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 122.3346,
+     "y": 295.267482,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 130.6,
+     "y": 119.2,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R49|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 90.5818,
+     "y": 302.120682,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 154.2,
+     "y": 104.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "Drill_Slot3|OLIMEX_Other-FP:Mounting_hole_2_mm",
+    "from": {
+     "x": 143.461587,
+     "y": 223.962149,
+     "rot": 45,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 125.56,
+     "y": 123.45,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R35|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 139.6018,
+     "y": 295.267482,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 150.9,
+     "y": 108,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R36|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 144.1178,
+     "y": 295.267482,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 157.3,
+     "y": 125.4,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C13|OLIMEX_RLC-FP:C_0603_5MIL_DWS",
+    "from": {
+     "x": 128.76252,
+     "y": 204.674,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 124.4,
+     "y": 112.4,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R46|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 198.4382,
+     "y": 295.267482,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 139.75,
+     "y": 109.2,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "DCDC1|OLIMEX_Regulators-FP:SIP-7_Universal",
+    "from": {
+     "x": 128.87748,
+     "y": 228.382042,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 128.1,
+     "y": 123.45,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C27|OLIMEX_RLC-FP:CPOL-RM2.5mm_6.3x11mm_PTH",
+    "from": {
+     "x": 102.665063,
+     "y": 216.041021,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 107.8,
+     "y": 126.6,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D4|OLIMEX_Diodes-FP:SOD-123_1C-2A_KA",
+    "from": {
+     "x": 202.482084,
+     "y": 213.9192,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 127.5,
+     "y": 114.3,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R11|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 132.224795,
+     "y": 276.921042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 132.96,
+     "y": 112.81,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R10|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 128.107195,
+     "y": 276.921042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 132.96,
+     "y": 114.044,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U1|OLIMEX_IC-FP:MSOP-10_Pitch-0.5mm_3.00x3.00x1.00mm",
+    "from": {
+     "x": 202.597574,
+     "y": 304.262682,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.5,
+     "y": 103.4,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R19|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 165.563995,
+     "y": 276.921042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 163.4,
+     "y": 122.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D6|OLIMEX_Diodes-FP:SOD-123_1C-2A_KA",
+    "from": {
+     "x": 103.2898,
+     "y": 224.655042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 161.6,
+     "y": 119.6,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D3|OLIMEX_Diodes-FP:SOD-123_1C-2A_KA",
+    "from": {
+     "x": 194.682084,
+     "y": 213.8938,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.4,
+     "y": 120.9,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D1|OLIMEX_Diodes-FP:SOD-123_1C-2A_KA",
+    "from": {
+     "x": 160.736884,
+     "y": 213.9192,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137.6,
+     "y": 125.8,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R17|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 157.328795,
+     "y": 276.921042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164,
+     "y": 117.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "USB-UART1|OLIMEX_Connectors-FP:USB-MICRO_MISB-SWMM-5B_LF",
+    "from": {
+     "x": 183.466853,
+     "y": 316.101682,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.5,
+     "y": 102.4,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TVS1|OLIMEX_Diodes-FP:SOT-23-5",
+    "from": {
+     "x": 188.211374,
+     "y": 303.262682,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 129.3,
+     "y": 109.2,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "LAN_CON1|OLIMEX_Connectors-FP:RJP-003TC1(LPJ4112CNL)",
+    "from": {
+     "x": 141.371,
+     "y": 262.036042,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 110.5,
+     "y": 108.9,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D9|OLIMEX_Diodes-FP:SOD-123_1C-2A_KA",
+    "from": {
+     "x": 114.90828,
+     "y": 224.655042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 166.9,
+     "y": 113,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TVS2|OLIMEX_Diodes-FP:D_0402_5MIL_DWS",
+    "from": {
+     "x": 193.294174,
+     "y": 302.120682,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 130.43,
+     "y": 112.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TVS3|OLIMEX_Diodes-FP:D_0402_5MIL_DWS",
+    "from": {
+     "x": 197.411774,
+     "y": 302.120682,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.5,
+     "y": 109.2,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C3|OLIMEX_RLC-FP:C_0805_5MIL_DWS",
+    "from": {
+     "x": 119.163684,
+     "y": 213.97,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137.65,
+     "y": 109.25,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "RM2|OLIMEX_RLC-FP:R_MATRIX_4",
+    "from": {
+     "x": 127.5786,
+     "y": 302.962882,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 152.9,
+     "y": 115.65,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R13|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 140.459995,
+     "y": 276.921042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 132.96,
+     "y": 115.11,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C15|OLIMEX_RLC-FP:C_0402_5MIL_DWS",
+    "from": {
+     "x": 137.92552,
+     "y": 203.8358,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 141,
+     "y": 115.9,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "UEXT1|OLIMEX_Connectors-FP:GBH-254-SMT-10",
+    "from": {
+     "x": 166.552853,
+     "y": 317.251682,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 132.199999,
+     "y": 116,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C8|OLIMEX_RLC-FP:C_0402_5MIL_DWS",
+    "from": {
+     "x": 145.454684,
+     "y": 213.3858,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 128.6,
+     "y": 101.9,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D8|OLIMEX_Diodes-FP:DO214AA_1(K)-2(A)",
+    "from": {
+     "x": 109.11174,
+     "y": 225.321042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 133.3,
+     "y": 128.199999,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "Logo_Olimex|OLIMEX_Signs-FP:Logo_OLIMEX_TB",
+    "from": {
+     "x": 176.419035,
+     "y": 253.165708,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 171.5,
+     "y": 115,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "Sign_PB-Free|OLIMEX_Signs-FP:Sign_PB-Free",
+    "from": {
+     "x": 167.904837,
+     "y": 303.606879,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 171.6,
+     "y": 110.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "Logo_OSHW|OLIMEX_Signs-FP:Sign_OSHW_8x8",
+    "from": {
+     "x": 161.28348,
+     "y": 253.983782,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 104.5,
+     "y": 105.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "Sign_CE|OLIMEX_Signs-FP:CE_Sign",
+    "from": {
+     "x": 158.8954,
+     "y": 303.489682,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 111.5,
+     "y": 107.75,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "Sign_Antistatic|OLIMEX_Signs-FP:Sign_Antistatic",
+    "from": {
+     "x": 153.7684,
+     "y": 301.612682,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.8,
+     "y": 116.1,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C25|OLIMEX_RLC-FP:C_0402_5MIL_DWS",
+    "from": {
+     "x": 202.14352,
+     "y": 203.8358,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 112.9,
+     "y": 124.3,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R22|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 182.233595,
+     "y": 276.721842,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 116.47,
+     "y": 117.2,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R23|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 186.749595,
+     "y": 276.721842,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 117.74,
+     "y": 117.2,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R28|OLIMEX_RLC-FP:R_1206_5MIL_DWS",
+    "from": {
+     "x": 103.102,
+     "y": 295.978682,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 112.45,
+     "y": 122.05,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "L4|OLIMEX_RLC-FP:FNR8040S",
+    "from": {
+     "x": 118.938,
+     "y": 255.186042,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 104.6,
+     "y": 109.2,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C26|OLIMEX_RLC-FP:CPOL-RM2.5mm_6.3x11mm_PTH",
+    "from": {
+     "x": 93.237021,
+     "y": 216.041021,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 114.3,
+     "y": 126.6,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R47|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 202.755,
+     "y": 295.466682,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 136.1,
+     "y": 108.9,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R8|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 111.5682,
+     "y": 302.120682,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 143.2,
+     "y": 121,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C28|OLIMEX_RLC-FP:C_0402_5MIL_DWS",
+    "from": {
+     "x": 109.637084,
+     "y": 213.3858,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 157,
+     "y": 106.3,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C14|OLIMEX_RLC-FP:C_0402_5MIL_DWS",
+    "from": {
+     "x": 133.40952,
+     "y": 203.8358,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.9,
+     "y": 114.25,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "RM1|OLIMEX_RLC-FP:R_MATRIX_4",
+    "from": {
+     "x": 120.8448,
+     "y": 303.496282,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 152.6,
+     "y": 111,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C12|OLIMEX_RLC-FP:C_0603_5MIL_DWS",
+    "from": {
+     "x": 123.98452,
+     "y": 204.674,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 102,
+     "y": 114.8,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C24|OLIMEX_RLC-FP:C_0603_5MIL_DWS",
+    "from": {
+     "x": 196.98852,
+     "y": 204.166,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 119.4,
+     "y": 116.4,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R33|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 130.9682,
+     "y": 295.267482,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 104.5,
+     "y": 114.8,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D10|OLIMEX_Diodes-FP:SMA-KA",
+    "from": {
+     "x": 169.636884,
+     "y": 214.304,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 114.5,
+     "y": 119.4,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D5|OLIMEX_Diodes-FP:DO214AB(SMC)_1(K)-2(A)",
+    "from": {
+     "x": 94.623,
+     "y": 225.482042,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 103.3,
+     "y": 120.2,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R41|OLIMEX_RLC-FP:R_2512_MM_DWS",
+    "from": {
+     "x": 173.536,
+     "y": 296.535682,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 104.2,
+     "y": 102.2,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U5|OLIMEX_Regulators-FP:ESOIC-8",
+    "from": {
+     "x": 115.988853,
+     "y": 315.351682,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 109.1,
+     "y": 122.05,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R34|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 135.285,
+     "y": 295.466682,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 114.1,
+     "y": 124.8,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U6|OLIMEX_Cases-FP:ESP32-WROVER_MODULE",
+    "from": {
+     "x": 131.165853,
+     "y": 327.678682,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 158.87,
+     "y": 115,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C29|OLIMEX_RLC-FP:C_0402_5MIL_DWS",
+    "from": {
+     "x": 113.953884,
+     "y": 213.585,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 149,
+     "y": 118.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R48|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 207.0718,
+     "y": 295.267482,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 160,
+     "y": 106.3,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U8|OLIMEX_IC-FP:SOT-23-5",
+    "from": {
+     "x": 151.365853,
+     "y": 313.388382,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 154.5,
+     "y": 125.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R42|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 180.9718,
+     "y": 295.466682,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 155.6,
+     "y": 105.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "MH1|OLIMEX_Other-FP:NPTH_2.2mm",
+    "from": {
+     "x": 189.044782,
+     "y": 252.009042,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 102.6,
+     "y": 127.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "MH2|OLIMEX_Other-FP:NPTH_2.2mm",
+    "from": {
+     "x": 194.244782,
+     "y": 252.009042,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 172.4,
+     "y": 103,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "MH3|OLIMEX_Other-FP:NPTH_2.2mm",
+    "from": {
+     "x": 199.444782,
+     "y": 252.009042,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 172.4,
+     "y": 127,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "BAT1|OLIMEX_Connectors-FP:LIPO_BAT_VERTICAL_DW02S",
+    "from": {
+     "x": 94.6192,
+     "y": 206.43422,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 143.45,
+     "y": 125.9,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C31|OLIMEX_RLC-FP:C_0603_5MIL_DWS",
+    "from": {
+     "x": 129.727684,
+     "y": 213.716,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 165.9,
+     "y": 106.5,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R24|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 191.066395,
+     "y": 276.921042,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 152.4,
+     "y": 104.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "Sign_RecycleBin|OLIMEX_Signs-FP:Sign_RecycleBin_1",
+    "from": {
+     "x": 177.325874,
+     "y": 301.612682,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 169.6,
+     "y": 119.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "MICRO_SD1|OLIMEX_Connectors-FP:uSD(TFC-9P-1.xH(ATFFS150A01BR016))",
+    "from": {
+     "x": 96.203,
+     "y": 279.793042,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137,
+     "y": 104.3,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R38|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 153.1498,
+     "y": 295.267482,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 112,
+     "y": 124.3,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U2|OLIMEX_Regulators-FP:ESOIC-8",
+    "from": {
+     "x": 92.65,
+     "y": 315.351682,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 117.3,
+     "y": 121.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R43|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 185.2886,
+     "y": 295.267482,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 124.4,
+     "y": 102.6,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R44|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 189.8046,
+     "y": 295.267482,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 153.2,
+     "y": 119.3,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D11|OLIMEX_Diodes-FP:DO214AA_1(K)-2(A)",
+    "from": {
+     "x": 179.202884,
+     "y": 214.55674,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 119.5,
+     "y": 127.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R45|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 194.1214,
+     "y": 295.466682,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 166,
+     "y": 117.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R50|OLIMEX_RLC-FP:R_0402_5MIL_DWS",
+    "from": {
+     "x": 98.817,
+     "y": 302.120682,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 166.8,
+     "y": 121.2,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C30|OLIMEX_RLC-FP:C_0402_5MIL_DWS",
+    "from": {
+     "x": 124.572684,
+     "y": 213.3858,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 152.9,
+     "y": 122.2,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R27|OLIMEX_RLC-FP:R_2512_MM_DWS",
+    "from": {
+     "x": 93.9,
+     "y": 296.535682,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 104.1,
+     "y": 119.45,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "FET4|OLIMEX_Transistors-FP:SOT23",
+    "from": {
+     "x": 180.371534,
+     "y": 223.804442,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164.3,
+     "y": 120.2,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "FID7|OLIMEX_Other-FP:Fiducial1x3_Paste",
+    "from": {
+     "x": 90.523,
+     "y": 251.409042,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 124.7,
+     "y": 117,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "FID8|OLIMEX_Other-FP:Fiducial1x3_Paste",
+    "from": {
+     "x": 94.523,
+     "y": 251.409042,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 136.9,
+     "y": 120.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   }
+  ]
+ },
+ "place": {
+  "footprints": 147,
+  "keptMoved": [],
+  "missing": [],
+  "added": [],
+  "offBoard": [
+   "USB-UART1",
+   "LAN_CON1"
+  ],
+  "wrongSide": [],
+  "placedSides": {
+   "F": 35,
+   "B": 112
+  },
+  "outlineMm": [
+   74.8,
+   30.1
+  ],
+  "areaMm2": 2241,
+  "outlineClosed": true
+ },
+ "agent": {
+  "model": "claude-fable-5-2",
+  "costUsd": 45.55335080000001,
+  "turns": 166,
+  "subtype": "success",
+  "isError": false,
+  "tools": {
+   "Bash": 140,
+   "Read": 21,
+   "Write": 2
+  },
+  "web": [],
+  "hosts": {
+   "api.anthropic.com": 25,
+   "http-intake.logs.us5.datadoghq.com": 132
+  },
+  "denied": {},
+  "notes": "# ESP32-PoE-ISO Rev.O – compact 4-layer re-layout: design notes\n\nBoard: **30.0 x 74.7 mm** rectangle (2241 mm2; the original outline noted in the file was 28 x 98 mm),\n4 copper layers, parts on both sides. All 147 footprints are on the board; none added, removed or edited.\n\n> **Status – read this first.** Placement, outline, planes, the whole PoE primary side, the Ethernet\n> pairs, USB data, all power distribution and most signals are routed and pass KiCad DRC, including the\n> custom isolation rules. **The routing is not complete**: see \"Not finished / not good\" at the end for\n> the exact list of open connections. The board must not be ordered as it is.\n\n## Floorplan (left to right)\n\n```\n x=0                 ~21        ~43                         68        74.7\n +--------------------+----------+---------------------------+---------+\n | RJ45 (top)         | USB  BUT | EXT2 header (1x10)        | MH      |\n |  PoE primary parts |  RST LED |  ESP32-WROOM (antenna ->) | antenna |\n |  under it (bottom) | UEXT     |  PHY + power + passives   | keep-out|\n | C27 C26  DC/DC ====|==iso== BAT  underneath (bottom)      |         |\n +--------------------+----------+---------------------------+---------+\n   PoE primary (Earth) | 3 mm gap |        secondary (GND)\n```\n\n* **RJ45 at one short end, antenna at the other.** The two things that need a board edge and want to be\n  far from each other get the two ends. The module's antenna section lies on the board (not hanging\n  off) so the module is fully supported, with a copper keep-out on all four layers under and beside it.\n* **Width 30 mm, not 28.** With the jack against one long edge (17.2 mm of pads) a 28 mm board leaves a\n  10 mm strip plus the area under the jack front for the whole cable-side circuit: ~350 mm2 for ~310 mm2\n  of parts. That only fits by eating the isolation gap, so I gave the board 2 mm more width (progress 001).\n  The length is set by what must sit on the top side between jack and module: UEXT box header (20.6 mm)\n  above the SIP-7 DC/DC, with USB and the buttons along the top edge.\n* **Headers** EXT1/EXT2 flank the module at 25.4 mm (1.0\") row spacing, pin 1 diagonal like a DIP, so the\n  board still plugs into a breadboard. They use edge strips that nothing else could use.\n* **The full ESP32-WROVER footprint outline is kept free on the top side** (the fitted part is a\n  WROOM-32E, 6 mm shorter). This costs ~6 mm of length; I kept it because the footprint is a dual\n  footprint and its extra pads are on the board anyway.\n* **Bottom side** carries the PoE converter (under the RJ45), microSD (card slides out over the top long\n  edge, under the buttons), CH340 (under the USB connector), LAN8710A PHY (under the module tail), the\n  3.3 V buck, charger, power-path FETs and all small passives (under the module body, not under the antenna).\n* **Mounting holes:** MH1 in the bottom-left (PoE) corner next to the jack, MH2/MH3 in the two corners\n  beside the antenna. Those two are 3 mm from the antenna: use nylon screws/spacers there.\n* **Drill_Slot3** (2 x 4 mm milled slot) is used as an isolation slot under the DC/DC converter,\n  between its primary pin 2 and secondary pin 4.\n* Fiducials: three per side (two right corners + one left/middle) plus one spare each.\n\n## Isolation (the part I would not compromise)\n\n* Primary side = everything tied to the cable pairs: Spare1/Spare2 (rectified PoE), Earth (hot-swap\n  return), 5V_DCDC and the small control nets of U2/U5. Secondary = GND and everything on the ESP32/USB side.\n* **3.0 mm copper-to-copper between primary and secondary on every layer**, enforced by a custom DRC rule\n  (`ESP32-PoE-ISO_Rev_O.kicad_dru`, net classes `PoE_Power` + new `PoE_Sig`). 3.0 mm is what the bridging\n  parts themselves give: RJ45 pin 6 to pin 9 = 3.05 mm, SIP-7 pin 2 to pin 4 = 3.56 mm, 1808 Y-cap = 3.56 mm.\n* The zone outlines of the primary (Earth) and secondary (GND) pours are drawn so that they also never\n  overlap **between layers** (outer prepreg is only 0.127 mm); the gap is a copper-free band through the\n  whole stack. Only DCDC1, C23 (Y-cap, placed between DC/DC pins 2 and 4) and C20 (not populated) bridge it.\n* Cable shield / chassis net (jack tabs, NC pins 7/8, C2 2 kV): separate 1.0 mm rule (limited by the\n  jack: pins 8 and 10 are 1.016 mm apart). It runs as one 1 mm track between the primary area and the\n  jack's signal pins.\n* The two electrically unconnected pins of U2/U5 were put in the `PoE_Sig` class so the rule does not\n  flag them against their neighbours.\n\n## Layer use\n\n| layer | secondary area | primary area |\n|---|---|---|\n| F.Cu | module, connectors, signals, GND fill | Spare1/Spare2 under the jack body, R27, R28, D10, Earth fill |\n| In1.Cu | GND plane (reference for top side); 5V_USB feed and two short VDDA hops | Earth fill, 5V_DCDC trunk (1 mm), bootstrap hop |\n| In2.Cu | GND plane (reference for the bottom side incl. the Ethernet pairs), 3.3 V tree, 3.3VLAN hop, a few RMII lines | Earth plane (reference for the buck) |\n| B.Cu | most parts and signals, GND fill | buck, hot-swap, switch node, Earth fill |\n\nStackup is the one stored in the file (0.127 mm prepreg / 1.2 mm core / 0.127 mm prepreg), which is what\nthe Zdiff=100R (0.127/0.127 mm) and Zdiff=90R classes were defined for.\n\n## Routing decisions\n\n* **PoE primary by hand** (`routes/010_primary.py`). Switch node (U5.1, D5, L4, C12) is one short\n  bottom-layer island at the board edge. R28 (sense) sits on the top side so the pulsed input current\n  goes C27(+) -> R28 -> U5 exposed-pad via -> D5 -> C27(-) in a loop a few mm across. 5V_DCDC runs on In1\n  to C26 and on to DCDC1 pin 1; C26 and the TVS D11 sit at the DC/DC input. The two 9.1k/1W bleeders are\n  apart (one top, one bottom) and away from the electrolytics' pins.\n* **Ethernet pairs by hand** (`routes/020_eth_usb.py`), 0.127/0.127 mm, RD on the bottom all the way.\n  With the PHY on the bottom the jack's pin order and the PHY's pin order cannot both be met on one\n  layer, so TD leaves the jack on the top layer, crosses over RD there, and changes to the bottom with\n  one via per line beside the ESD array (TD+ has one extra stub via to reach its TVS pad). 49.9R\n  terminations lie alongside their lines 9 mm before the PHY; centre taps are decoupled next to the jack.\n* **USB D+/D-**: 2 mm, connector on top, CH340 directly underneath.\n* **3.3 V**: one via per load into a 0.5 mm tree on In2, routed around the pairs' reference area.\n  The buck (U7/L2/C6/C22) is under the middle of the module, 8 mm from the antenna, with SW leaving\n  between the input-capacitor pads.\n* **PHY**: decoupling on each supply pin, straps/RMII RX leave as a bus under the module pad column to\n  the pull-up arrays; 50 MHz clock and TX lines to the module on In2/B (see open items).\n* Everything else was auto-routed with `bt route` (F/B first, In2 for leftovers), 0.15–0.2 mm tracks.\n\n## Design-rule / project changes\n\n* New net class `PoE_Sig` (0.2032 mm clearance, 0.254 mm track) for the small primary control nets.\n* New rule file with the two isolation rules above. Nothing else in the project rules was changed.\n* The old board-level silkscreen texts/arrows (they were at their old absolute positions) were removed;\n  header pin labels, board name and layer markers were added again in new places.\n\n## Not finished / not good\n\nFinal check with kicad-cli 10.0.8 DRC (project rules + the isolation rule file): **0 violations,\n39 unconnected items**. Coordinates below are board-local mm (origin = top-left board corner; add 100 mm\nfor KiCad page coordinates).\n\n### Open signal connections (15 links, 13 nets) – the board does not work without these\n\n```\nTrack [/GPIO15/HS2_CMD] on In2.Cu (41.2, 4.0)  ↔  Pad 3 [/GPIO15/HS2_CMD] of MICRO_SD1 on B.Cu (35.3, 7.6)\nPad 2 [/GPIO15/HS2_CMD] of R39 on B.Cu (40.9, 8.8)  ↔  Track [/GPIO15/HS2_CMD] on In2.Cu (46.9, 4.0)\nTrack [/GPIO15/HS2_CMD] on F.Cu (48.4, 19.7)  ↔  Pad 2 [/GPIO15/HS2_CMD] of R39 on B.Cu (40.9, 8.8)\nTrack [/ESP_EN] on B.Cu (52.8, 20.0)  ↔  Pad 1 [/ESP_EN] of RST1 on F.Cu (38.2, 7.2)\nPad 1 [/GPIO2/HS2_DATA0] of D2 on B.Cu (51.4, 23.8)  ↔  Track [/GPIO2/HS2_DATA0] on F.Cu (49.4, 23.5)\nTrack [/GPIO4/U1TXD] on F.Cu (51.9, 24.3)  ↔  Via [/GPIO4/U1TXD] (55.5, 28.6)\nPad 2 [Net-(LAN_CON1-RCT)] of LNK1 on F.Cu (41.3, 1.2)  ↔  Pad 1 [Net-(LAN_CON1-RCT)] of C16 on B.Cu (42.2, 11.2)\nTrack [/GPIO17/EMAC_CLK_OUT_180] on F.Cu (54.4, 23.5)  ↔  Pad 5 [/GPIO17/EMAC_CLK_OUT_180] of U4 on B.Cu (44.8, 12.0)\nPad 3 [Net-(U3-VBAT)] of FET2 on B.Cu (50.4, 22.1)  ↔  Pad 1 [Net-(U3-VBAT)] of R7 on B.Cu (58.0, 6.8)\nPad 5 [Net-(MICRO_SD1-CLK/SCLK)] of MICRO_SD1 on B.Cu (37.6, 7.6)  ↔  Pad 2 [Net-(MICRO_SD1-CLK/SCLK)] of R40 on B.Cu (51.9, 6.0)\nTrack [Net-(Q2-E)] on B.Cu (47.4, 7.6)  ↔  Track [Net-(Q2-E)] on B.Cu, length 1.2000 mm (26.0, 5.8)\nPad 3 [Net-(D9-K)] of Q2 on B.Cu (43.9, 5.4)  ↔  Pad 1 [Net-(D9-K)] of D9 on B.Cu (66.9, 14.9)\nTrack [/D_Com] on B.Cu (53.2, 4.6)  ↔  Pad 2 [/D_Com] of R49 on B.Cu (54.7, 4.3)\nVia [Net-(D6-K)] (26.8, 3.0)  ↔  Pad 1 [Net-(D6-K)] of D6 on B.Cu (61.6, 21.5)\nVia [Net-(U1-V3)] (28.6, 3.2)  ↔  Pad 1 [Net-(U1-V3)] of R19 on B.Cu (62.9, 22.4)\n```\n\nWhat they mean functionally:\n* **USB programming path is open**: CH340 TXD (Net-(D6-K)), its V3 pull-up reference (Net-(U1-V3)),\n  RTS (Net-(Q2-E)) and the auto-reset nets (Net-(D9-K), /D_Com, /ESP_EN to the reset button side) are\n  each missing one link. The CH340 end has vias waiting under the IC (dangling-via warnings), the far\n  ends are boxed in on the bottom side under the module.\n* **Ethernet clock** GPIO17 -> PHY XTAL1/CLKIN is not connected, so the PHY would not run.\n* **microSD**: CMD (GPIO15) and CLK are not connected to the socket.\n* GPIO2 to D2, GPIO4 to its header via, battery-sense divider feed (VBAT -> R7), LNK LED anode to VDDA.\n\n### Open ground connections\n\nGND pads with no connection to the planes (their pour fragment has no via and I found no legal via\nspot next to them): C21.1 (NA part), RM1.1.1, U6.15 (one of the two module GND twin pads), C15.2, C17.2,\nR16.2, R26.2 (RBIAS resistor!), R30.2 (buck feedback divider!), R6.2 (charger PROG resistor!), plus\n11 small outer-layer GND pour fragments reported as zone-to-zone gaps.\n\n### Why it stopped here\n\nThe bottom side under the module and around the PHY ended up too dense for one-net-at-a-time routing:\nthe remaining pads are surrounded by other nets' tracks with no room for a via, and four passes of the\nautorouter (plain, In2, rip-up, shove) could not open them. Finishing needs manual rip-up of those\nclusters (module bottom-left corner around D2/U3/U8, the UART level-shifter group at x=60..67 y=17..23,\nthe row of 0402s under the module's top pad row) or 2-3 mm more board length to spread them. I ran out\nof effort budget before doing that; I would rather hand over an honest partial than a file that looks\nfinished.\n\n### Other things that are not good\n\n* **Board size**: 30 x 74.7 mm is 27 % smaller than the 28 x 98 mm noted in the original file, but the\n  density that this forced on the bottom side is exactly what blocked the last connections. A board\n  2-3 mm longer would be the better product.\n* Auto-routed signals were not cleaned up: unnecessary vias and detours, RMII TX/clock partly on In2\n  (cuts in the GND plane under the module), a few 0.127 mm tracks where 0.2 mm would fit. One 3.3 V\n  repair link runs on In2 under the TD pair (x=31.2, y=14.3..17.3) – a small slot in its reference plane.\n* Ethernet TD pair has 2 vias per line (+1 stub via on TD+); pair lengths are not matched (difference\n  is a few mm, fine for 100BASE-TX, not verified numerically). Impedance relies on the stackup stored\n  in the file; no field-solver check was done.\n* The 5V_USB feed runs ~50 mm on In1 at 0.4-0.5 mm; fine for the CH340 and the power-path FET, but it\n  is a long thin supply.\n* No thermal check of the PoE section (U5 exposed pad sits on the ILIM net in this schematic, so it\n  only has a small copper island; R27/R41 dissipate ~0.25 W each).\n* Mounting holes MH2/MH3 and two fiducials sit in the corners beside the antenna.\n* Silkscreen: 191 \"silk clipped by mask\" warnings – reference designators overlap pads on both sides\n  and were not tidied. Logo_OSHW and Sign_Antistatic had no free space and are on the top side inside\n  the RJ45 outline (hidden by the jack); Sign_PB-Free and Sign_RecycleBin are on the top side under the\n  module's antenna section (hidden by the module). Sign_CE and the Olimex logo are visible on the bottom.\n* Schematic parity: KiCad reports 26 pre-existing mismatches between the schematic and the footprints'\n  \"do not populate\"/datasheet fields; I did not touch footprints, so these are as delivered.\n* The `.kicad_prl` was not regenerated; `.kicad_pro` only gained the `PoE_Sig` class and its patterns.\n\n## Files\n\n* `ESP32-PoE-ISO_Rev_O.kicad_pcb` / `.kicad_pro` / `.kicad_dru` – result (the `.kicad_dru` is new and is\n  needed for the isolation DRC).\n* `orig/` – untouched copies of the files as received.\n* `tools/`, `routes/` – placement table, zone outlines, hand-route scripts and the bt item files.\n* `progress/` – numbered pictures and notes. `BT-REVIEW.md` – review of the bt tool.\n"
+ }
+}

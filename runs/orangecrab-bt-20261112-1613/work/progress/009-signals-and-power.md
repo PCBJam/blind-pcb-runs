@@ -1,0 +1,6 @@
+# 009 – remaining signals, power distribution (partly failed)
+- Top block of the FPGA: escapes reworked twice (inner vias for K2/L3/J2/H2, staggered via row above the BGA, USB resistors moved west). After that all top-block nets routed with `bt route` in a hand-chosen order.
+- Flash side: the flash thermal pad on the bottom sits under the bottom ball rows, so through vias are only possible in two narrow strips; I planned hand escapes for it but a scripting mistake (the route loop ran although the probe had failed) left router-made escapes there. MISO is still open.
+- Power: `bt escape` for all GND/rail pads, planes as zones (In1/In4 GND, In3 split into 3.3 V / 1.1 V / 1.35 V / RAM_VDD / RAM_VDDQ, a 3.3 V island on In2 under the FPGA core, GND pours on F/B), switch nodes by hand.
+- What failed: my "patch every unconnected pair with the router" loop. Once the board was this full, almost every remaining link was "boxed in". One run without zones even started to wire all plane pads to each other with tracks; I cut those ~500 segments out of the file again.
+- Several router results had to be removed because they ran over things the router does not see: the two copper logos, the B.Cu date text, the custom pads of the QFN mux, a fiducial.

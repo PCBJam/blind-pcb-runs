@@ -1,0 +1,1 @@
+{"mcpServers":{"kicad":{"command":"node","args":["/opt/kicad-mcp/dist/index.js"],"env":{"KICAD_PYTHON":"/usr/bin/python3","FREEROUTING_JAR":"/opt/kicad-mcp/freerouting.jar"}}}}

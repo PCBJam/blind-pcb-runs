@@ -1,0 +1,6 @@
+# 005 – plane vias, SD bus, LDO rails (several failed attempts)
+- `bt plane` dropped GND/3.3V vias from pads to the inner planes; decoupling caps beside U1 got hand-placed vias first (one per cap, between the two cap columns) because `bt plane` wanted to share far-away vias.
+- 1.1 V core: island on In2 under U1 (priority 2), fed by three vias at the buck inductor, with tabs to the caps on each side.
+- SD bus: `bt route --nets` (default order) completed all six on B.Cu, but with long detours for CLK/D0/D1 (12…33 mm spread). Two attempts with other orders (`--order given`, `--max-detour`) improved CLK but left D2 or three nets unroutable, and `--rip` could not recover; I went back to the first complete result. Not length-matched.
+- The router's first pass for the small LDO rails put a fat VDD_SD track diagonally under the whole chip; removed. The SD tracks fence off the left decoupling column on B.Cu, so VDD_FLASH and VDD_MIPI cross to their far pins as 0.2 mm tracks on In2 (west of the cap column, then along y≈98.6/99.05). Two SD segments were nudged by hand to make room for one via in C28's pad.
+- Known cost: those two In2 tracks cut a narrow slot in the In2 GND area under the B.Cu pairs just north of U1.

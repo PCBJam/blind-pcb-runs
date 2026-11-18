@@ -1,0 +1,1041 @@
+{
+ "board": "h4e2-place-20261111-1853",
+ "seconds": 3723,
+ "drcErrors": {},
+ "unconnected": {},
+ "totalTrackMm": 2202,
+ "totalVias": 229,
+ "roles": {
+  "analog": {
+   "mm": 339,
+   "layers": {
+    "F.Cu": 4,
+    "B.Cu": 335
+   },
+   "vias": 2,
+   "nearNoisy1mm": 5.3,
+   "crossings": 1,
+   "crossings90": 1,
+   "parallel": 38
+  },
+  "power": {
+   "mm": 458,
+   "layers": {
+    "B.Cu": 455,
+    "F.Cu": 3
+   },
+   "vias": 2,
+   "width": 0.8,
+   "edgeShare": 25,
+   "bendsPer10mm": 1.4,
+   "parallel": 32
+  },
+  "led": {
+   "mm": 249,
+   "layers": {
+    "F.Cu": 31,
+    "B.Cu": 218
+   },
+   "vias": 4,
+   "parallel": 0
+  },
+  "digital": {
+   "mm": 420,
+   "layers": {
+    "B.Cu": 354,
+    "F.Cu": 66
+   },
+   "vias": 1,
+   "parallel": 48
+  }
+ },
+ "placement": {
+  "footprints": 88,
+  "moved": [
+   {
+    "ref": "C21001|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 133.565,
+     "y": 154.695,
+     "rot": 0,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 43.6,
+     "y": 106.465,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U1004|Package_TO_SOT_SMD:SOT-23-6",
+    "from": {
+     "x": 98.125,
+     "y": 168.825,
+     "rot": 0,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 55,
+     "y": 65.2,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R3003|Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "from": {
+     "x": 34.425,
+     "y": 167.855,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 93.3,
+     "y": 72.3,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R2004|Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "from": {
+     "x": 131.065,
+     "y": 162.425,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 70.39,
+     "y": 113.23,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R2005|Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "from": {
+     "x": 135.575,
+     "y": 162.425,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 70.39,
+     "y": 110.69,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "JP1002|Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+    "from": {
+     "x": 96.735,
+     "y": 162.025,
+     "rot": 0,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 58.6,
+     "y": 66,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "JP1001|Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+    "from": {
+     "x": 90.385,
+     "y": 162.025,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 48.6,
+     "y": 67.1,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C1003|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 38.015,
+     "y": 155.615,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 79.4,
+     "y": 85.95,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP1003|TestPoint:TestPoint_Pad_D2.0mm",
+    "from": {
+     "x": 59.075,
+     "y": 168.625,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 58.7,
+     "y": 70.7,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C36001|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 71.425,
+     "y": 162.425,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 96,
+     "y": 132.6,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R3001|Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "from": {
+     "x": 141.005,
+     "y": 161.505,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 86.6,
+     "y": 77.74,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C2007|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 99.235,
+     "y": 155.615,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 67,
+     "y": 115.77,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R2003|Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "from": {
+     "x": 126.555,
+     "y": 162.425,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 70.39,
+     "y": 115.77,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C2014|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 119.115,
+     "y": 155.615,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 81.5,
+     "y": 118.31,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C1001|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 27.155,
+     "y": 155.615,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 41.5,
+     "y": 64.06,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP1005|TestPoint:TestPoint_Pad_D2.0mm",
+    "from": {
+     "x": 71.175,
+     "y": 168.625,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 37.4,
+     "y": 65,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C2011|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 110.095,
+     "y": 155.615,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 67,
+     "y": 110.69,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C3001|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 53.385,
+     "y": 162.425,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 87.3,
+     "y": 81.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C25002|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 38.015,
+     "y": 162.425,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 39.09,
+     "y": 117.615,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C31001|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 57.895,
+     "y": 162.425,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 99.3,
+     "y": 90.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C1009|Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "from": {
+     "x": 66.825,
+     "y": 155.845,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 30.3,
+     "y": 106,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U1001|Package_TO_SOT_SMD:SOT-23-5",
+    "from": {
+     "x": 83.825,
+     "y": 168.825,
+     "rot": 0,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 75.5,
+     "y": 85,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C1005|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 47.035,
+     "y": 155.615,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 56.4,
+     "y": 68.9,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C2006|Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "from": {
+     "x": 93.575,
+     "y": 154.945,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 62.9,
+     "y": 91.5,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C22002|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 27.155,
+     "y": 162.425,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 58.14,
+     "y": 98.565,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C25001|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 32.585,
+     "y": 161.505,
+     "rot": 0,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 43.6,
+     "y": 125.515,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R3004|Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "from": {
+     "x": 40.775,
+     "y": 167.855,
+     "rot": 0,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 97.7,
+     "y": 72.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C2002|Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "from": {
+     "x": 78.645,
+     "y": 155.845,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 62,
+     "y": 87.5,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C2015|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 123.625,
+     "y": 155.615,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 75,
+     "y": 121.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP1001|TestPoint:TestPoint_Pad_D2.0mm",
+    "from": {
+     "x": 46.975,
+     "y": 168.625,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 61.9,
+     "y": 68.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U2001|Package_TO_SOT_SMD:SOT-23-5",
+    "from": {
+     "x": 105.275,
+     "y": 169,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 58.5,
+     "y": 87.5,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C26002|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 48.875,
+     "y": 162.425,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 56,
+     "y": 117.615,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C21002|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 138.995,
+     "y": 155.615,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 39.09,
+     "y": 98.565,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R3002|Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "from": {
+     "x": 28.075,
+     "y": 167.855,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 88.4,
+     "y": 76.31,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C22001|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 144.425,
+     "y": 154.695,
+     "rot": 0,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 62.65,
+     "y": 106.465,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "FB2001|Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder",
+    "from": {
+     "x": 84.955,
+     "y": 162.425,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 65.9,
+     "y": 89.6,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U3001|Package_SO:SSOP-28_5.3x10.2mm_P0.65mm",
+    "from": {
+     "x": 128.7,
+     "y": 172.475,
+     "rot": 0,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 95.5,
+     "y": 79,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R1004|Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "from": {
+     "x": 108.515,
+     "y": 162.425,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 51.5,
+     "y": 66.34,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C2005|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 87.915,
+     "y": 155.615,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 67,
+     "y": 113.23,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C2009|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 104.665,
+     "y": 154.695,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 81.5,
+     "y": 120,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R1005|Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "from": {
+     "x": 113.025,
+     "y": 162.425,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 41.5,
+     "y": 66.34,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP1004|TestPoint:TestPoint_Pad_D2.0mm",
+    "from": {
+     "x": 65.125,
+     "y": 168.625,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 30.6,
+     "y": 92,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP1002|TestPoint:TestPoint_Pad_D2.0mm",
+    "from": {
+     "x": 53.025,
+     "y": 168.625,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 42.8,
+     "y": 69.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R1001|Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "from": {
+     "x": 103.085,
+     "y": 161.505,
+     "rot": 0,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 79.4,
+     "y": 84.05,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP2001|TestPoint:TestPoint_Pad_D2.0mm",
+    "from": {
+     "x": 77.225,
+     "y": 168.625,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 62.3,
+     "y": 94.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C36002|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 75.935,
+     "y": 162.425,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 99.4,
+     "y": 132.6,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C2001|Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "from": {
+     "x": 72.735,
+     "y": 154.945,
+     "rot": 0,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 55,
+     "y": 87.5,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C1008|Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "from": {
+     "x": 61.815,
+     "y": 155.845,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 89.6,
+     "y": 114.84,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C31002|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 62.405,
+     "y": 162.425,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 95.9,
+     "y": 90.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C1004|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 42.525,
+     "y": 155.615,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 46.4,
+     "y": 68.9,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C1002|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 32.585,
+     "y": 154.695,
+     "rot": 0,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 51.5,
+     "y": 64.06,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C1006|Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "from": {
+     "x": 51.795,
+     "y": 155.845,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 54.9,
+     "y": 98.3,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U2002|Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "from": {
+     "x": 115.575,
+     "y": 170.825,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 76,
+     "y": 114.5,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C36003|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 80.445,
+     "y": 162.425,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 92.4,
+     "y": 116.09,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R2001|Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "from": {
+     "x": 117.535,
+     "y": 162.425,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 66.6,
+     "y": 92.6,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C26001|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 43.445,
+     "y": 161.505,
+     "rot": 0,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 62.65,
+     "y": 125.515,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C31003|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 66.915,
+     "y": 162.425,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 103.3,
+     "y": 111.59,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U1003|Package_TO_SOT_SMD:SOT-23-6",
+    "from": {
+     "x": 90.975,
+     "y": 169,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 45,
+     "y": 65.2,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C2016|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 128.135,
+     "y": 155.615,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 78.6,
+     "y": 121.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C2012|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 114.605,
+     "y": 155.615,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 67,
+     "y": 118.31,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C2003|Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "from": {
+     "x": 83.405,
+     "y": 155.615,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 64,
+     "y": 87.6,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C1007|Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "from": {
+     "x": 56.805,
+     "y": 155.845,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 44.5,
+     "y": 115.6,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R2002|Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "from": {
+     "x": 122.045,
+     "y": 162.425,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 70.39,
+     "y": 118.31,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   }
+  ]
+ },
+ "place": {
+  "footprints": 88,
+  "keptMoved": [],
+  "missing": [],
+  "added": [],
+  "offBoard": [],
+  "wrongSide": [],
+  "placedSides": {
+   "F": 0,
+   "B": 63
+  },
+  "outlineMm": [
+   86.2,
+   77.88
+  ],
+  "areaMm2": 6659,
+  "outlineClosed": true
+ },
+ "agent": {
+  "model": "claude-fable-5-2",
+  "costUsd": 21.66864,
+  "turns": 60,
+  "subtype": "success",
+  "isError": false,
+  "tools": {
+   "Bash": 40,
+   "Read": 13,
+   "Write": 6
+  },
+  "web": [],
+  "hosts": {
+   "api.anthropic.com": 12,
+   "http-intake.logs.us5.datadoghq.com": 43,
+   "files.pythonhosted.org": 1,
+   "pypi.org": 1
+  },
+  "denied": {},
+  "notes": "# H4E2 – placement and routing notes\n\nBoard: 86 × 77.7 mm, 2 layers. All 62 loose parts were placed on B.Cu, the board was routed, and\nground zones were added on both layers. Outline, locked footprints, footprint definitions and nets are\nunchanged (checked by script against the original file).\n\n## Result\n\n- `kicad-cli pcb drc` with the project's JLCPCB rules (`H4E2.kicad_dru`): **0 unconnected items, no\n  clearance / copper / courtyard / silkscreen violations.**\n- What DRC still reports was already in the file I was given, and I left it alone:\n  - 10 × `lib_footprint_issues` (library link warnings);\n  - 1 × `npth_inside_courtyard` (H1012 inside the display courtyard – already excluded in the project);\n  - 3 schematic-parity warnings for the two logo footprints (`REF**`).\n- Gerber and drill export run without errors (tested to a temp folder; nothing is left in `/work`).\n- Copper: 0.2 mm minimum track, 0.2 mm minimum clearance, vias 0.6 / 0.3 mm (tented, as the board setup\n  already specified). Nothing needs a JLCPCB extra-cost option.\n- F.Cu is one continuous ground polygon. About 1850 mm of track is on B.Cu and 350 mm on F.Cu.\n\n## Floor plan (and why)\n\n| Block | Where | Reasoning |\n|---|---|---|\n| Power entry: U1003 and U1004 load switches, CT caps, EN pull-downs, input caps, JP1001/JP1002, TP1001/2/3/5 | left of the XIAO, top | Next to the XIAO 5V/GND/3V3 pins, so the unswitched +5V net is short. |\n| LDO U2001, C2001/2/3, FB2001, C2006, TP2001, R2001 | below-left of the XIAO | Fed from 5V_AUX; sits where the 3V3A feed can drop straight to the ADC without crossing SPI. |\n| ADC U2002, 4 × RC input filters, 4 decoupling caps | right of the key block, between the two key rows | Hall lines stay short (30–58 mm) and on B.Cu only; the SPI lines are the long ones instead, which is harmless at ≤ 2 MHz. |\n| Level shifter U1001, R1001, C1003 | just below the XIAO | See \"Channel under the XIAO\" below. The series resistor is at the driver. |\n| MCP23017 U3001, C3001, I2C / INT / RESET pull-ups | right of the XIAO | I2C and INT pads are on that side of the XIAO; encoders are below it. |\n| Per-key caps (hall 100 nF, LED 100 nF) | at each sensor VCC pin / each LED VDD pad | Each cap is within 2 mm of the pin it serves, with a ground via next to it. |\n| Encoder debounce caps | directly at the A/B/C pins of each encoder | |\n| Bulk 10 µF on 5V_LED (C1006–C1009) | end of row-1 rail, middle of row-2 rail, encoder-LED rail, west spine | Schematic note says \"end of the LED rails\". C1007 is mid-rail, not at the end – see open points. |\n\n## Routing decisions\n\n**F.Cu is the ground plane; signals are on B.Cu.** The nets cannot all be routed on one layer, so F.Cu is\nused only in these places:\n\n- A band of six thin traces along the very top edge (y 61.9–64.1 mm): DS_BL, D_CS, DS_RES, EN_AUX, EN_LED\n  and LED_DATA. These start on the right-hand XIAO pads and are needed on the left. At the board edge\n  they do not split the plane under anything else. BL / CS / RES end directly on the display header's\n  through-hole pins (one via each).\n- Five short hops:\n  - +3.3V under the 5V_LED / LED-data columns (2.5 mm);\n  - KEYS_LED_DATA_IN under the SPI lines and the 3V3A feed (5.5 mm);\n  - +3.3VA to the row-1 hall sensors under H1/H2 (4 mm) – a supply hops, not a signal;\n  - E1_SW into its through-hole encoder pin (7 mm);\n  - ENC_SW6 into its through-hole encoder pin (11 mm).\n\n**Channel under the XIAO (B.Cu).** Seven traces run under the module between its edge pads and its\ncentre pads: the 4 ADC SPI lines, +3.3V, 5V_LED (0.6 mm) and LED_DATA. Reason: display and ADC signals are\ninterleaved on the XIAO's left pads. Taking SPI out under the module lets the display lines (DC, SCL,\nSDA) run straight west on B.Cu with no vias. Clearance to the module's bottom pads is ≥ 0.4 mm.\n\n**Analog (hall → ADC).**\n- All four hall outputs are on B.Cu from sensor to ADC, with no vias.\n- H1/H2 enter under the SOIC from its north end and reach pins 2/4 from the inside; H5/H6 come up the\n  outside. The ADC pin order is the opposite of the key order, and this was the only way to avoid\n  crossing analog lines. The 3V3A feed runs under the body between the hall lines and the SPI pins.\n- Each RC cell (R, C in line between the two pin rows) is at the ADC pins; every cap has its own ground via.\n- The ferrite and 10 µF sit at the LDO. ADC decoupling is at pins 15/16; AGND/DGND each have a via\n  beside the pin.\n\n**Power.**\n- 5V_AUX: U1003 → around the west side of the display header → display pin 2 → on to the LDO. This is\n  long (about 70 mm to the LDO, 0.5 mm wide, roughly 70 mΩ) but needs no vias and cuts nothing; the load\n  is tens of mA.\n- 5V_LED for the keys: 0.8 mm rail around the same corner, down the west edge, then one trunk per key\n  row (a comb). Fed from the west so it never crosses the hall lines.\n- 5V_LED for the encoder LEDs and U1001: through the channel (0.6 mm).\n- Track widths: +5V 0.5, 5V_LED 0.8 / 0.6, 5V_AUX 0.5, 3V3A 0.5 / 0.3, +3.3V 0.3 (a few mA only).\n\n**LED chain.** D31 → D36 → D22 → D21 → D26 → D25 as in the schematic. Only KEYS_LED_DATA_IN changes layer.\n\n**Ground.**\n- GND zones on both layers, 0.25 mm clearance, thermal reliefs on pads.\n- 212 ground vias: one at essentially every SMD ground pad (two at the XIAO GND pin), one in each\n  isolated B.Cu pour island so it stays as a grounded guard between traces, and a ~3.5 mm stitching grid.\n- No vias under the XIAO, inside courtyards or under silkscreen text.\n\n**Silkscreen.** The design shows part *values* on B.Silkscreen with references hidden. I repositioned the\nvalue text of every placed part so it clears pads, vias, other silk and the locked \"LED\" / \"Hall\" labels.\n\n## Project file changes\n\n- New net class `Power` (0.5 mm nominal width) for +5V, +5V_AUX, +5V_LED, +3.3V, +3.3VA and the LDO\n  output. Clearance is unchanged at 0.2 mm.\n- Board minimum clearance and minimum track width raised from 0.1 to 0.127 mm, so DRC checks against\n  what JLCPCB's standard 2-layer process can make. The board itself uses 0.2 / 0.2.\n\n## Not finished / not ideal\n\n- **Traces under the XIAO module.** This assumes the module underside has exposed copper only where the\n  footprint has pads. If your module revision has other exposed test points on the bottom, check them\n  against the seven channel traces (x 68.3–72.0 mm) before ordering.\n- **Three value labels are hidden** because there was no clean spot: R1001 (220), R2003 and R2004 (1k,\n  in the ADC filter array; their neighbours R2002/R2005 are labelled). The long part-number labels\n  (TPS22810DBV, MCP23017…) are legible but lie across traces. Label positions were placed by script and\n  not hand-tuned.\n- **C1007** (10 µF, row-2 LED rail) is in the middle of that rail, about 13 mm from each row-2 LED, not\n  at its end. The end position would have covered the locked \"LED\" silkscreen label at D26001.\n- **5V rails over the F.Cu band.** In the top-left corner the 5V_LED and 5V_AUX rails on B.Cu run above\n  the F.Cu band for about 20 mm, so there they sit over signal traces, not ground. These are DC rails\n  and static/slow signals, so I accepted it.\n- **Hall lines under the ADC and near LED data.** H1/H2 run under the ADC body within about 1.5 mm of\n  the SPI pins (with the 3V3A trace between them). H1/H2 also run parallel to one LED-data link for\n  about 12 mm at 1.3 mm spacing, with ground pour between. Both are filtered by the 1 k / 100 nF RC,\n  but the unfiltered ADC channels (CH1/3/5/7) see whatever couples.\n- **Long LED data runs.** LED_DATA (3.3 V, XIAO → U1001) is 62 mm, E_LED_DATA_IN (R1001 → first LED)\n  42 mm, and KEYS_LED_DATA_IN (encoder LEDs → key LEDs) 59 mm. Fine for 800 kHz SK6812 data with\n  220 Ω at the source; not simulated. The ADC SPI lines are about 63 mm.\n- No teardrops were added.\n- The pre-existing DRC items listed under \"Result\" were not touched.\n- Nothing was verified electrically beyond DRC and connectivity. Current and voltage-drop figures above\n  are hand estimates.\n- The placement/routing scripts are not included in `/work`; the board file is the deliverable.\n"
+ }
+}

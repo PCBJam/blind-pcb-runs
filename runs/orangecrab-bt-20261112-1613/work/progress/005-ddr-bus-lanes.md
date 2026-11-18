@@ -1,0 +1,3 @@
+# 005 – DDR3, third try: every escape via placed by hand, ordered-lane bus router
+All FPGA escape vias placed from a per-ball site table (interstitial sites, vacant-ball sites, vias in the gap for outer-row balls). A small script (tools/bus.py) assigns ordered lanes through the DDR via columns and asks `bt route` only for single-layer via-to-via links on In2 or B.Cu.
+Picture: In2 (green) and B.Cu (blue). The DDR side is now regular; 25-27 of 41 links route, the rest are real ordering conflicts on the FPGA side (two layers are a planar partition problem). Next: randomised layer preference to find a full assignment.

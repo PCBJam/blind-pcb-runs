@@ -1,0 +1,2 @@
+
+Progress log: keep a visual log of how the board develops in /work/progress/. Each time you reach a step worth seeing (a placement attempt, a routing stage, a DRC round, a change of plan), save a numbered pair: a picture of the board (or of the area you worked on) as NNN-<short-name>.png and a short NNN-<short-name>.md with what you did, why, and what the result was. Number them in order (001, 002, ...). Keep the attempts that failed or that you threw away too, and say in their note why they failed. Aim for one entry every few minutes of work, not for every command.

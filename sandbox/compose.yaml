@@ -1,0 +1,31 @@
+# docker compose -p routing-sandbox run --rm agent ...  (run.sh drives it)
+# The agent sits on an internal network with no route out; the only way out is the proxy.
+services:
+  proxy:
+    image: ubuntu/squid:6.10-24.10_beta
+    volumes:
+      - ./squid.conf:/etc/squid/squid.conf:ro
+      - ${SANDBOX_LOGS:-./logs}:/var/log/squid
+    networks: [inside, outside]
+  agent:
+    build: .
+    image: ${SANDBOX_IMAGE:-blind-pcb-sandbox:latest}
+    platform: linux/amd64
+    depends_on: [proxy]
+    networks: [inside]
+    environment:
+      HTTP_PROXY: http://proxy:3128
+      HTTPS_PROXY: http://proxy:3128
+      http_proxy: http://proxy:3128
+      https_proxy: http://proxy:3128
+      NO_PROXY: ""
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      CLAUDE_CODE_OAUTH_TOKEN: ${CLAUDE_CODE_OAUTH_TOKEN:-}
+    volumes:
+      - ${SANDBOX_WORK:?SANDBOX_WORK}:/work
+      # The agent's Claude Code config (sessions), kept in the run dir so a run can be resumed and asked questions.
+      - ${SANDBOX_CLAUDE:-./logs/claude}:/home/kicad/.claude-sandbox
+networks:
+  inside:
+    internal: true
+  outside: {}

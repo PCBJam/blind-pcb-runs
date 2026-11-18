@@ -1,0 +1,2078 @@
+{
+ "board": "redboard-place-bt-20261116-1017",
+ "seconds": 17088,
+ "drcErrors": {},
+ "unconnected": {},
+ "totalTrackMm": 3814,
+ "totalVias": 422,
+ "roles": {},
+ "placement": {
+  "footprints": 286,
+  "moved": [
+   {
+    "ref": "R46|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 162.535,
+     "y": 166.1216,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.4,
+     "y": 94.54,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R16|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 142.585,
+     "y": 161.2116,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 134,
+     "y": 105,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C42|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 148.135,
+     "y": 147.905,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 147.3,
+     "y": 98.6,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D6|SparkFun-LED:LED_0603_1608Metric_Red",
+    "from": {
+     "x": 146.9166,
+     "y": 154.2216,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.8,
+     "y": 87.88,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C1|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 127.385,
+     "y": 143.035,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 143.3,
+     "y": 111.9,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U6|SparkFun-Semiconductor-Standard:SOT23-5",
+    "from": {
+     "x": 197.8514,
+     "y": 181.4768,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 165.7,
+     "y": 116.9,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R12|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 242.0914,
+     "y": 154.4216,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 170.95,
+     "y": 91.9,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R20|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 163.915,
+     "y": 161.6716,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 154.85,
+     "y": 94.78,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D8|SparkFun-Semiconductor-Standard:SOD-323",
+    "from": {
+     "x": 159.5432,
+     "y": 154.2916,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137.3,
+     "y": 83.55,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U8|SparkFun-Semiconductor-Standard:DFN-8_2x2mm_P0.5mm_EP1.2x0.8mm",
+    "from": {
+     "x": 204.49664,
+     "y": 181.14535,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140.7,
+     "y": 114.1,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C36|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 238.785,
+     "y": 142.585,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 162.9,
+     "y": 102.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R28|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 197.215,
+     "y": 161.2116,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 161.3,
+     "y": 118.45,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C6|SparkFun-Capacitor:C_0603_1608Metric",
+    "from": {
+     "x": 219.235,
+     "y": 148.475,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.45,
+     "y": 111.96,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C29|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 202.975,
+     "y": 143.035,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.7,
+     "y": 107.07,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R23|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 175.885,
+     "y": 161.6716,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 150.1,
+     "y": 94.78,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C2|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 158.775,
+     "y": 143.035,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 163.05,
+     "y": 113.3,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U2|SparkFun-Semiconductor-Standard:SOT23-5",
+    "from": {
+     "x": 144.525,
+     "y": 181.4768,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 165.7,
+     "y": 113.6,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C22|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 172.485,
+     "y": 143.035,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 162.9,
+     "y": 103.23,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C8|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 229.485,
+     "y": 147.905,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 154.85,
+     "y": 116.2,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C19|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 154.355,
+     "y": 142.585,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 159.5,
+     "y": 112.75,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C37|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 243.655,
+     "y": 142.585,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164.75,
+     "y": 102.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U4|SparkFun-Semiconductor-Standard:WDFN-8_6x5mm-SkinnyCenterPad",
+    "from": {
+     "x": 183.625,
+     "y": 183.0016,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164.45,
+     "y": 97.95,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R36|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 238.645,
+     "y": 161.2116,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 138.5,
+     "y": 69.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R43|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 154.095,
+     "y": 166.5816,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 143.3,
+     "y": 110.9,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R3|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 207.035,
+     "y": 161.2116,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.4,
+     "y": 95.64,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C25|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 185.745,
+     "y": 142.585,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.6,
+     "y": 103.9,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C20|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 163.195,
+     "y": 142.585,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.6,
+     "y": 104.95,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C41|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 144.165,
+     "y": 147.905,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 151.8,
+     "y": 99.5,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U10|SparkFun-Semiconductor-Standard:SOT-223-3_TabPin2",
+    "from": {
+     "x": 130.425,
+     "y": 183.9516,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137.5,
+     "y": 101,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "JP6|SparkFun-Jumper:Jumper_2_NC_Trace",
+    "from": {
+     "x": 186.8542,
+     "y": 154.5588,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.2,
+     "y": 88.5,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C54|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 211.025,
+     "y": 147.905,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 145.2,
+     "y": 90.2,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U9|SparkFun-Semiconductor-Standard:SOT23-5",
+    "from": {
+     "x": 210.78414,
+     "y": 181.4768,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142,
+     "y": 117.7,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C18|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 149.485,
+     "y": 142.585,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 157.575,
+     "y": 112.9,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "JP3|SparkFun-Jumper:Jumper_2_NC_Trace",
+    "from": {
+     "x": 171.0978,
+     "y": 154.762,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 130.199999,
+     "y": 94,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "JP5|SparkFun-Jumper:Jumper_2_NC_Trace",
+    "from": {
+     "x": 181.4666,
+     "y": 154.762,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 154.94,
+     "y": 123.2,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U5|SparkFun-Semiconductor-Standard:SOT23-5",
+    "from": {
+     "x": 191.2502,
+     "y": 181.8016,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.2,
+     "y": 114.85,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C43|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 152.555,
+     "y": 147.455,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.6,
+     "y": 109.7,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C30|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 211.365,
+     "y": 142.585,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.6,
+     "y": 106,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C31|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 216.235,
+     "y": 142.585,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.7,
+     "y": 108.12,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R38|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 127.855,
+     "y": 166.1216,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 145.2,
+     "y": 88.2,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C32|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 220.655,
+     "y": 143.035,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.6,
+     "y": 107.6,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R49|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 167.445,
+     "y": 166.1216,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 171.4,
+     "y": 86.6,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C47|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 172.035,
+     "y": 147.455,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 165.9,
+     "y": 111.4,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R50|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 177.265,
+     "y": 166.1216,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 174.5,
+     "y": 86.6,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C52|SparkFun-Capacitor:C_0603_1608Metric",
+    "from": {
+     "x": 200.025,
+     "y": 147.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 135.9,
+     "y": 96.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "Q2|SparkFun-Semiconductor-Standard:SOT23-3",
+    "from": {
+     "x": 211.3814,
+     "y": 154.9916,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 174.9,
+     "y": 89.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R22|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 171.895,
+     "y": 161.6716,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 151.05,
+     "y": 94.78,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R1|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 229.6614,
+     "y": 153.9616,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.4,
+     "y": 102.24,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C24|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 180.875,
+     "y": 142.585,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164.9,
+     "y": 107.6,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R14|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 132.765,
+     "y": 161.2116,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 179.3,
+     "y": 92.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R29|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 202.125,
+     "y": 161.2116,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 145.2,
+     "y": 86.2,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R9|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 194.605,
+     "y": 166.5816,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 174.76,
+     "y": 91.9,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "JP2|SparkFun-Jumper:Jumper_2_NC_Trace",
+    "from": {
+     "x": 165.7102,
+     "y": 154.5588,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.2,
+     "y": 86,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R6|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 182.175,
+     "y": 166.1216,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.4,
+     "y": 101.14,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R25|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 183.865,
+     "y": 161.6716,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 152.95,
+     "y": 94.78,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R13|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 127.855,
+     "y": 161.2116,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 166.65,
+     "y": 101.8,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R26|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 187.855,
+     "y": 161.6716,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 163.9,
+     "y": 111.4,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R42|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 149.645,
+     "y": 166.1216,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 139.38,
+     "y": 117.9,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C21|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 168.065,
+     "y": 142.585,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 162.9,
+     "y": 107.6,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R10|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 234.1114,
+     "y": 154.4216,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 173.49,
+     "y": 91.9,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R11|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 238.1014,
+     "y": 154.4216,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 172.22,
+     "y": 91.9,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP2|SparkFun-Connector:TestPoint-1.0mm",
+    "from": {
+     "x": 202.872055,
+     "y": 166.217285,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137.5,
+     "y": 86.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP7|SparkFun-Connector:TestPoint-1.0mm",
+    "from": {
+     "x": 223.778905,
+     "y": 166.217285,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137.5,
+     "y": 79.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "Q4|SparkFun-Semiconductor-Standard:SOT23-3",
+    "from": {
+     "x": 224.0814,
+     "y": 154.9916,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 178.4,
+     "y": 89.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C26|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 190.165,
+     "y": 143.035,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 155.27,
+     "y": 98.85,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C13|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 145.065,
+     "y": 143.035,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 143.6,
+     "y": 114.8,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C23|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 176.455,
+     "y": 143.035,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.8,
+     "y": 107.6,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R30|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 211.945,
+     "y": 161.2116,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.7,
+     "y": 103.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U3|SparkFun-RF:ESP32-C5-WROOM-1",
+    "from": {
+     "x": 163.7,
+     "y": 189.1766,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 181.7,
+     "y": 102.6,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C44|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 157.425,
+     "y": 147.455,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.6,
+     "y": 110.75,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R32|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 220.385,
+     "y": 161.6716,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 152.3,
+     "y": 97.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R24|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 179.875,
+     "y": 161.6716,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 152,
+     "y": 94.78,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP5|SparkFun-Connector:TestPoint-1.0mm",
+    "from": {
+     "x": 215.416165,
+     "y": 166.217285,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.6,
+     "y": 81.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C51|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 195.035,
+     "y": 147.905,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 160.9,
+     "y": 95.6,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U1|SparkFun-Semiconductor-Standard:QFN-104-1EP_10x10mm_P0.35mm_EP7.5x7.5mm",
+    "from": {
+     "x": 232.89459,
+     "y": 171.1516,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 156,
+     "y": 106,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C35|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 234.365,
+     "y": 143.035,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 155.825,
+     "y": 112.9,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R4|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 136.755,
+     "y": 166.1216,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.4,
+     "y": 96.74,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C12|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 140.645,
+     "y": 142.585,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.6,
+     "y": 102.3,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "JP7|SparkFun-Jumper:Jumper_3_NC-2_Trace",
+    "from": {
+     "x": 192.953,
+     "y": 154.5588,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.3,
+     "y": 80.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "Y1|SparkFun-Clock:Crystal_SMD_2.5x2.0mm",
+    "from": {
+     "x": 217.61074,
+     "y": 181.0782,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 157.4,
+     "y": 115.4,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP4|SparkFun-Connector:TestPoint-1.0mm",
+    "from": {
+     "x": 211.234795,
+     "y": 166.217285,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137.5,
+     "y": 72.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C7|SparkFun-Capacitor:C_0603_1608Metric",
+    "from": {
+     "x": 224.495,
+     "y": 147.725,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 151.4,
+     "y": 115.4,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C56|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 214.995,
+     "y": 147.905,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 168.3,
+     "y": 116.6,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C49|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 181.775,
+     "y": 147.455,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.4,
+     "y": 97.84,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D5|SparkFun-LED:WS2812_2020",
+    "from": {
+     "x": 140.9866,
+     "y": 154.6916,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.8,
+     "y": 89.95,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D2|SparkFun-Semiconductor-Standard:SOT23-6",
+    "from": {
+     "x": 128.3762,
+     "y": 155.5916,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137.2,
+     "y": 80.6,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R35|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 233.735,
+     "y": 161.2116,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 134.4,
+     "y": 85.3,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U11|SparkFun-Semiconductor-Standard:SOT-583-8",
+    "from": {
+     "x": 138.175,
+     "y": 181.0766,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 161.3,
+     "y": 116.6,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C40|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 140.195,
+     "y": 147.905,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 150.4,
+     "y": 97.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C48|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 176.905,
+     "y": 147.455,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.4,
+     "y": 100.04,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R2|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 159.465,
+     "y": 161.2116,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.4,
+     "y": 103.34,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R17|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 147.035,
+     "y": 161.6716,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 132.4,
+     "y": 102.15,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R7|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 186.625,
+     "y": 166.5816,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 177.3,
+     "y": 91.9,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C11|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 136.225,
+     "y": 143.035,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 163.05,
+     "y": 116.6,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D10|SparkFun-Semiconductor-Standard:SOD-323",
+    "from": {
+     "x": 245.015,
+     "y": 148.595,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140.5,
+     "y": 96.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R41|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 145.195,
+     "y": 166.5816,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.2,
+     "y": 82,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C46|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 167.165,
+     "y": 147.455,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 150.3,
+     "y": 112.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "JP4|SparkFun-Jumper:Jumper_2_NC_Trace",
+    "from": {
+     "x": 176.2822,
+     "y": 154.762,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 130,
+     "y": 80.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C38|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 127.385,
+     "y": 147.905,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 153.725,
+     "y": 112.9,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C50|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 190.615,
+     "y": 147.455,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 161.6,
+     "y": 112.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C33|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 225.075,
+     "y": 142.585,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 160.9,
+     "y": 97.5,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R8|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 190.615,
+     "y": 166.5816,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 176.03,
+     "y": 91.9,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "L1|SparkFun-Coil:0806",
+    "from": {
+     "x": 199.1814,
+     "y": 154.4916,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 149,
+     "y": 115.95,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C3|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 206.945,
+     "y": 143.035,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140.6,
+     "y": 115.8,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R40|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 141.205,
+     "y": 166.5816,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.2,
+     "y": 78.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C4|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 136.225,
+     "y": 147.905,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 143.6,
+     "y": 115.8,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C27|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 194.135,
+     "y": 143.035,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.6,
+     "y": 108.65,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C45|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 162.295,
+     "y": 147.455,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.8,
+     "y": 109.7,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R33|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 224.375,
+     "y": 161.6716,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 158.25,
+     "y": 99,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C53|SparkFun-Capacitor:C_0603_1608Metric",
+    "from": {
+     "x": 206.035,
+     "y": 147.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140.6,
+     "y": 105.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C39|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 131.805,
+     "y": 147.455,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.7,
+     "y": 109.17,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R27|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 192.305,
+     "y": 161.2116,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.7,
+     "y": 101.6,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP3|SparkFun-Connector:TestPoint-1.0mm",
+    "from": {
+     "x": 207.053425,
+     "y": 166.217285,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137.5,
+     "y": 74.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP1|SparkFun-Connector:TestPoint-1.0mm",
+    "from": {
+     "x": 198.690685,
+     "y": 166.217285,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137.5,
+     "y": 88.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D1|SparkFun-Semiconductor-Standard:SOT23-6",
+    "from": {
+     "x": 239.065,
+     "y": 148.7702,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 136.4,
+     "y": 87.65,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R21|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 167.905,
+     "y": 161.6716,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 153.9,
+     "y": 94.78,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C9|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 233.455,
+     "y": 147.905,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 160.25,
+     "y": 114.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R15|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 137.675,
+     "y": 161.2116,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 178.5,
+     "y": 86.6,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "Q1|SparkFun-Semiconductor-Standard:SOT23-3",
+    "from": {
+     "x": 205.1314,
+     "y": 155.0916,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140.6,
+     "y": 111.15,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R31|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 216.395,
+     "y": 161.6716,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 165.4,
+     "y": 108.7,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R37|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 243.555,
+     "y": 161.2116,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 136.5,
+     "y": 69.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C28|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 198.555,
+     "y": 142.585,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.8,
+     "y": 108.65,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D4|SparkFun-LED:LED_0603_1608Metric_Yellow",
+    "from": {
+     "x": 134.6814,
+     "y": 154.2216,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.8,
+     "y": 86.36,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C34|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 229.945,
+     "y": 142.585,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.7,
+     "y": 110.22,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D7|SparkFun-Semiconductor-Standard:SOD-323",
+    "from": {
+     "x": 153.0466,
+     "y": 154.2916,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137.05,
+     "y": 85.4,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R39|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 132.305,
+     "y": 166.5816,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.2,
+     "y": 77.7,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R18|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 151.025,
+     "y": 161.6716,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 143.6,
+     "y": 113.85,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R5|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 172.355,
+     "y": 166.1216,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.4,
+     "y": 98.94,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C10|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 131.805,
+     "y": 142.585,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 179.3,
+     "y": 91.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP6|SparkFun-Connector:TestPoint-1.0mm",
+    "from": {
+     "x": 219.597535,
+     "y": 166.217285,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 137.5,
+     "y": 81.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R44|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 158.085,
+     "y": 166.5816,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 176.5,
+     "y": 86.6,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R19|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 155.015,
+     "y": 161.6716,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 143.6,
+     "y": 112.9,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C5|SparkFun-Capacitor:C_0402_1005Metric",
+    "from": {
+     "x": 186.195,
+     "y": 147.905,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 168.3,
+     "y": 113.3,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R34|SparkFun-Resistor:R_0402_1005Metric",
+    "from": {
+     "x": 228.825,
+     "y": 161.2116,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 134.4,
+     "y": 90.2,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "Q3|SparkFun-Semiconductor-Standard:SOT23-3",
+    "from": {
+     "x": 217.6314,
+     "y": 154.9916,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 171.4,
+     "y": 89.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   }
+  ]
+ },
+ "place": {
+  "footprints": 286,
+  "keptMoved": [],
+  "missing": [],
+  "added": [],
+  "offBoard": [
+   "U3"
+  ],
+  "wrongSide": [],
+  "placedSides": {
+   "F": 116,
+   "B": 19
+  },
+  "outlineMm": [
+   68.78,
+   58.62
+  ],
+  "areaMm2": 3947.6,
+  "outlineClosed": true
+ },
+ "agent": {
+  "model": "claude-fable-5-2",
+  "costUsd": 44.866832200000005,
+  "turns": 140,
+  "subtype": "success",
+  "isError": false,
+  "tools": {
+   "Bash": 196,
+   "Read": 17,
+   "Write": 2
+  },
+  "web": [],
+  "hosts": {
+   "api.anthropic.com": 35,
+   "http-intake.logs.us5.datadoghq.com": 181
+  },
+  "denied": {},
+  "notes": "# IoT RedBoard ESP32-P4 + ESP32-C5 – layout notes\n\n## State of the delivered board\n\n`SparkFun_IoT_RedBoard-ESP32-P4_WiFi_BLE.kicad_pcb` is placed and fully routed.\nKiCad 10 DRC on the delivered file: **0 unconnected, 0 clearance/short errors, 0 schematic-parity issues.**\nLeft over: 10 `track_dangling` warnings (dead-end stubs, 0.04–2.5 mm), and 7 courtyard overlaps + 4 silk-edge warnings that are between locked parts and existed before I started.\nLocked parts are untouched (`bt same`: nothing locked moved, no parts added/removed, pad nets unchanged). The `.kicad_pro` is byte-identical to the original.\n\n**I would not order this board as it is.** It is electrically complete and DRC-clean, but the power layer and part of the low-speed routing are not at the standard the brief asked for. The section \"Not good\" below says exactly what, most serious first.\n\n## Placement\n\n- **ESP32-P4 (U1)** at 156/106, rotated so pins 27–52 (flash, MIPI DSI/CSI, USB) face north to the FPC connectors and USB, pins 1–26 (SDIO, GPIO) face east to the C5 module and headers.\n- **ESP32-C5 module (U3)** on the right edge between the two standoffs, antenna end flush with the board edge, antenna keep-out over the edge strip. This is also what the locked \"ESP32-C5\" silk bracket implies.\n- **Flash (U4)** at the NE corner of U1, oriented so D/CLK/HOLD/VDD go round its north side and WP/Q/CS enter the channel between pad row and centre pad: no vias on any flash line (12–16 mm).\n- **MIPI CSI series resistors** in one row between U1 and the J5/J6 corridor, in pin order.\n- **Decoupling** in a ring round U1, each supply pin running straight to its own capacitor; the west side (LDO outputs, VDD_LDO, VDD_DCDC) has two columns. C26 sits directly at VDD_MIPI pin 41, C41 at the USB-PHY pin 51.\n- **Buck converter** (U5, L1, C6, C7) at the SW corner next to the DCDC/FB/EN pins; input loop C6–U5 and L1–C7 are short and wide; the feedback divider is on the far side from the switch node.\n- **Crystal** 3 mm south of pins 99/100 with its load caps beside it.\n- **LDOs + power mux** SE of U1 next to the 5V/3V3 header pins; **charger and fuel gauge** next to the LiPo connector.\n- **SD pull-ups** in a column right at the card pads; **USB ESD arrays, CC resistors, VBUS diodes** at the two USB-C connectors; **LEDs** beside their silk labels; **C5 reset/boot transistors and SDIO pull-ups** in the C5 bracket area.\n- **Bottom side**: test points and solder jumpers beside their bottom-silk labels (that is what the labels are for), and the LM1117 block (U10, C52, C53, R16, R17, D10) under the SD socket. A SOT-223 does not fit on top without covering silk or taking the power corner; on the bottom its tab has a copper pour.\n- **JP5 (LED_DO)** is *not* at the top of its label: it sits at the lower end of the label next to the header pin, because at the upper end it collided with VIN and SD_CMD on the bottom layer.\n\n## Layer stack use\n\n| Layer | Use |\n|---|---|\n| F.Cu | components, all controlled-impedance pairs, flash, SDIO bus, GND pour |\n| In1.Cu | solid GND plane, nothing else on it |\n| In2.Cu | 3.3V plane, 1.1V island under U1 fed by the buck – **and, against my plan, 428 mm of tracks** (see below) |\n| B.Cu | GPIO/low-speed routing, power trunks, test points, jumpers, GND pour |\n\nStack is 0.1 mm prepreg outer / 1.24 mm core, so F.Cu is tightly coupled to the GND plane. Pair geometry used: MIPI 0.127 mm track at 0.35 mm pitch (≈100 Ω by the usual microstrip formula, not field-solved), USB 0.15 mm at 0.35 mm pitch (≈90 Ω).\nNet classes and design rules are unchanged.\n\n## Routing approach\n\n- Critical nets were drawn by script with explicit coordinates (`scripts/esc_n.py`, `esc_n2.py`, `esc_wse.py`, `usb_ser.py`) and checked before writing: all MIPI lanes, both USB pairs, flash, crystal, the P4 pad escape, the buck loop.\n- **MIPI DSI**: the pin order of U1 and J6 cannot be joined in one layer (I worked the planar order through). CLK goes up the west side of J6, D1 the east side, both entirely on F.Cu; D0 hops 5 mm on B.Cu and comes up between the pad columns.\n- **MIPI CSI**: same problem at J5; D0 and D1 stay on F.Cu, CLK hops on B.Cu after its series resistors.\n- **USB HS (OTG)**: F.Cu from U1 to the ESD array, then 11 mm on B.Cu past TP3/TP4 to J11. 49.9 / 51.5 mm, 2 vias each.\n- **USB serial/JTAG**: all on F.Cu, with 1 mm bottom stubs to TP1/TP2.\n- **P4 escape**: 0.35 mm pitch leaves no room between pads, so alternate signal pins have a via inside the pad ring (between pad row and thermal pad) and the others a via just outside. 1.1V pins have in-ring vias into the island.\n- **SDIO to the C5**: six lines on F.Cu, no vias, 18.6–23.3 mm.\n- **SD card**: stub and via between each card pad and its pull-up, then B.Cu, 21–28 mm.\n- Everything else was routed by `bt route` in stages with the hand-routed nets held fixed (`scripts/rt.sh`).\n- 5V, 3.3V_P, VIN, VBATT, VRAW are 0.4–0.6 mm; 5V_BAR has a pour under the regulator tab.\n\n## Not good – most serious first\n\n1. **The In2 power layer is cut up.** It carries 428 mm of track, including GPIO (CAM_IO 37 mm, UART0 RX 25 mm, SCK 21 mm, IO7 15 mm, analog lines) and supply links. After the first complete route KiCad found 1.1V in 4 pieces and 3.3V in 6. I removed the three worst cuts and joined the rest with explicit tracks, so DRC is clean, but:\n   - parts of the 3.3V and 1.1V distribution near U1 now depend on narrow link tracks (some 3.3V links are 0.127–0.2 mm) instead of plane copper;\n   - bottom-layer signals that reference In2 cross slots in it.\n   I did not measure plane resistance or check decoupling loops after this. This is the main reason I would not order the board.\n2. **The cause is my P4 escape.** In-ring vias at 0.7 mm pitch plus a second row just outside the pads act as a fence on B.Cu: a bottom-layer track cannot pass between them. Two signal layers were then not enough, and the router went to In2. A proper fix is a redone fan-out (staggered rows at 1.4 mm pitch, or a different via pattern per side) – that means re-routing most of the low-speed nets.\n3. **MIPI pairs are not length-matched.** Intra-pair skew: DSI CLK 3.6 mm, DSI D1 3.7 mm, DSI D0 0.5 mm, CSI CLK 4.0 mm, CSI D1 2.7 mm, CSI D0 2.0 mm (≈15–27 ps). Lane-to-lane lengths differ as well (DSI 13–20 mm). No tuning was done. USB HS skew is 1.6 mm.\n4. **Long, via-heavy low-speed nets**: SD_PWR 98 mm with 6+ vias, UART0 TX/RX 69/63 mm, the LED data-out net ~55 mm, SD_D2 with 5 vias, VDD_SD rail assembled from many thin segments. They work electrically but are not how one would draw them.\n5. **Thin supply bits**: VDD_SD and VDD_FLASH links are 0.127–0.2 mm; a few track necks are 0.122 mm (the board minimum is 0.12192 mm); the 5V entry into the power mux is 0.25 mm for ~1 mm via a via under the IC.\n6. **Via-in-pad** at J6 pin 22 and C40 pad 2 (both GND), because no other spot was free. One 1.1V via connects the buck output to the island; a second did not fit.\n7. **Not done at all**: GND stitching vias and return vias beside the pair layer changes, teardrops, any 3D/mechanical check, any thermal estimate for the LM1117 beyond giving its tab a pour, tidy-up of the 10 dangling stubs.\n8. **Things a reviewer may question**: SDIO runs on F.Cu under the west end of the C5 module; the VIN trunk passes on B.Cu under the buck converter area; the USB test points sit in line (HS) or on 1 mm stubs (serial).\n\n## Files\n\n- `scripts/` – placement table (`place.py`), the hand-routing scripts, `rt.sh` (router wrapper with the fixed-net list), `check.py` (real KiCad DRC with refill), `mode.py`.\n- `scripts/mode.py` matters if anyone re-runs `bt` on this board: the outline lives inside footprint H1, which `bt` cannot read. While working I kept H1's outline lines on the Margin layer plus a board-level copy; the delivered file has been converted back (H1's nine Edge.Cuts lines restored, the copy removed).\n- `progress/` – numbered pictures and notes, including the two approaches that were thrown away.\n- `BT-REVIEW.md` – review of the `bt` tool.\n"
+ }
+}

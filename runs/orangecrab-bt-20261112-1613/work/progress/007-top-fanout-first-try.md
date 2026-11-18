@@ -1,0 +1,5 @@
+# 007 – FPGA power vias, decoupling, IO "highway", first try at the top-side fan-out
+- FPGA centre: 16 GND vias on a 1 mm grid (each takes 4 balls), rail vias at the ring balls, 0201 caps on the bottom in the 0.5 mm strips between the GND via rows (two caps share one rail via).
+- The eight balls in the middle of the DDR side (IO_5..IO_11, SCL/SDA, REF_CLK) are boxed in by the address and data bundles on In2/B.Cu, so they leave on F.Cu and run north through the FPGA-DDR gap as a 7-track "highway" (hand-drawn), oscillator placed at the top of it.
+- Picture: first try at the top-side escape. The pull-up/series resistors I had put directly above the BGA and the 1.1 V buck on the bottom under the same strip left no place for through vias (a through via needs both sides free). Autoroute gave 79/107 with most top-block nets "boxed in".
+- Change of plan: 1.1 V buck moved to the bottom under the JST connector, SD pull-ups moved to the bottom strip below the card socket (next to the 3V3 pin), only USB and ADC parts stay above the FPGA, one row higher. That frees a fan-out field above the BGA on both sides.

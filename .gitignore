@@ -1,0 +1,25 @@
+runs-local/
+dist/
+.env
+sandbox/.env
+*.kicad_prl
+.DS_Store
+# Runs: only the summary side is committed; the full run folders go into the release archives (tools/pack.sh).
+runs/*/*
+!runs/*/SUMMARY.md
+!runs/*/brief.md
+!runs/*/report.json
+!runs/*/img.tracks.png
+!runs/*/img.before.png
+!runs/*/img.all.png
+!runs/*/img.In*.png
+!runs/*/work/
+runs/*/work/*
+!runs/*/work/NOTES.md
+!runs/*/work/BT-REVIEW.md
+!runs/*/work/progress/
+runs/*/work/progress/*
+!runs/*/work/progress/*.md
+!runs/*/ask/
+runs/*/ask/*
+!runs/*/ask/ANSWER.md

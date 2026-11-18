@@ -1,0 +1,1 @@
+{"usb":"^(/USB_D[+-]|Net-\\(U103-USB_D[MP]\\)|Net-\\(J101-CC\\d\\))$","power":"^(Net-\\(F101-Pad1\\)|\\+5V)$","supply":"^(\\+3V3|\\+1V1)$","qspi":"^/QSPI_\\w+$","keys":"^/KEY\\d$","data":"^(/QSPI_\\w+|Net-\\(U103-X(IN|OUT)\\)|Net-\\(C113-Pad1\\)|/KEY\\d|/LED_EN|/LED_DIN(_3V3)?|/Key\\d/D(IN|OUT))$","ledpower":"^\\+5V_LED$"}
