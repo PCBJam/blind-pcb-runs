@@ -1,0 +1,1 @@
+The fixed placement has a compact RP2040, flash and USB section on the left and a two-row switch and reverse-mount LED array on the right. The initial board has no copper connections. I mapped the six LED windows, bypass capacitors on the underside of the MCU and the two switch rows before allocating routing space.

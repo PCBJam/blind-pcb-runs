@@ -1,0 +1,1 @@
+Three targeted vias connected the MCU ground island, C115 and the first LED. Moving two digital routes opened the required ground paths. The level-shifter output now reaches the first LED in 12 mm on the back without a via. After refilling, the board has zero airwires.

@@ -1,0 +1,1 @@
+The ATmega2560 sits between the analog headers and the USB/power section with a resonator at its oscillator side. The USB bridge faces both the Type-C data pins and the fixed crystal. The jack diode, two bulk capacitors, regulators and power selector occupy the lower left. JP1 is the original underside jumper. I used the existing LED legends to position the four indicators.

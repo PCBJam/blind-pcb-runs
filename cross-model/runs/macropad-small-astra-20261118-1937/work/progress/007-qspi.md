@@ -1,0 +1,1 @@
+Replaced the first flash routing attempt after its reported 12.17 mm SD0 route measured 37.45 mm of installed copper. The revised fanout uses staggered escapes, deliberate clock and data runs to the SOIC, and a back-side chip-select connection to BOOTSEL. All six nets now connect. The clock and four data nets each measure 11.0–14.8 mm of installed copper.

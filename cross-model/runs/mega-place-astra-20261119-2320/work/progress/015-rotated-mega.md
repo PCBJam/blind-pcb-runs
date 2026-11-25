@@ -1,0 +1,1 @@
+This placement trial rotates the Mega together with its clock, reset, analog filter and bypass capacitors. The PL pins face the far header in matching order. The jack and USB section stay in place. The earlier orientation subsequently achieved complete signal routing, so I kept it as the working layout and concentrated on its supply distribution.

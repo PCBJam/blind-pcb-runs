@@ -1,0 +1,1 @@
+This is an intermediate signal-routing pass. I imported a session checkpoint into a copy, restored the project rules beside it, refilled the zones and ran KiCad DRC. KiCad counted 331 missing connections. The check also identified a test land too close to the USB shell and a few undersized imported track segments. These need correction before release.

@@ -1,0 +1,1 @@
+The flash exposed pad covered several FPGA escape sites, including the USB data breakout. I moved the flash to the right end on the back and relocated its nearby parts. With that change the plane tool reported ground access for 245 of 264 candidate pads. I applied the checked stubs, refilled the planes, and added the upper DDR3 strobe on In3.Cu with about 0.05 mm of planar skew.

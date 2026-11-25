@@ -1,0 +1,1 @@
+First geometry trial, shown around lane 3. Probing found 96 failing segments or vias out of 282 items. The inside offsets on the diagonal bends squeezed the pair, and the transition fan-in approached the other signal via too soon. I discarded this geometry before applying signal copper to the working board.

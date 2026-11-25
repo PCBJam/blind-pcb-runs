@@ -1,0 +1,1 @@
+In the first floorplan the memory cleared the FPGA and both Feather rows, but left too little space for the switch between the memory, exposed front copper logo, fiducials and button legend. I moved the FPGA toward the USB end and above the JTAG legend, then reserved the switch area before fitting the DDR3 package.

@@ -1,0 +1,1 @@
+This signal-routing pass used the finished 5 V and ground tracks as obstacles. The headers now have most of their connections. KiCad found 22 open connections, concentrated around the large MCU, the bridge and the resistor arrays. I saved this version before letting the router move selected signal traces and lower-current power branches.

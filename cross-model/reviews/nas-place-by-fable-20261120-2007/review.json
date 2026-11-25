@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "A": {
+      "emi": 8,
+      "si": 7,
+      "power": 7,
+      "placement": 8,
+      "routing": 7,
+      "overall": 8,
+      "summary": "Complete single-sided board with solid GND plane, 802 stitching vias, return vias at every pair via and textbook buck layouts. Faults are local: PCIe_RX_3 has 8.4 mm skew, CM4 +5V runs through single 0.45/0.2 vias on an 82 mm 0.8 mm track, zone fills are stale and copper is 0.198 mm from the edge."
+    },
+    "B": {
+      "emi": 7,
+      "si": 8,
+      "power": 8,
+      "placement": 7,
+      "routing": 6,
+      "overall": 7,
+      "summary": "Short, fully matched PCIe/Ethernet over continuous GND, planes and multiple vias for every rail, tight decoupling. Not orderable as is: 7 tracks are 0.05-0.11 mm from non-plated holes and plane copper touches those holes; return vias are 2-5 mm from pair vias and 109 parts are on the back."
+    },
+    "C": {
+      "emi": 3,
+      "si": 2,
+      "power": 2,
+      "placement": 3,
+      "routing": 1,
+      "overall": 2,
+      "summary": "Unfinished: 147 unconnected items on 77 nets including +12V to five bucks, +3.3VSTB, +3V3 and the 1.2 V feedback. Differential pairs are routed as separate 0.4 mm tracks with up to 20 mm skew, and inner planes run to the board edge."
+    },
+    "D": {
+      "emi": 7,
+      "si": 7,
+      "power": 7,
+      "placement": 5,
+      "routing": 5,
+      "overall": 6,
+      "summary": "Best PCIe geometry (22-71 mm, matched, defined stackup) and closest decoupling, DRC clean under tightened rules. Held back by 32 vias in SMD pads including M.2 and CM4 connector pads, all 16 LEDs and 185 parts on the bottom, a fragmented In2 plane and an asymmetric Ethernet pair."
+    }
+  },
+  "ranking": ["A", "B", "D", "C"],
+  "human_guess": {
+    "board": "A",
+    "confidence": 92,
+    "why": "Only Module1 is locked in A while B, C and D all carry the 38 locked parts of the task's starting file, so A was not built from it. A keeps all parts on the top side, uses 84 arc tracks, via fences, 44 keep-out areas and many small hand-drawn power polygons, has no net classes, and its saved zone fills predate KiCad 10. Its errors are human ones (a tuning meander on the wrong side of one pair, test points crowding caps), unlike the script-like regularity of the other three."
+  }
+}

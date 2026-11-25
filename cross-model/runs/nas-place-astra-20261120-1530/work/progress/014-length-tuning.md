@@ -1,0 +1,1 @@
+I rerouted the switch-to-C49 leg beside its partner on the front, removing two unequal layer changes. The PCIe tuning pass includes both segments on channels with series capacitors. Port 4 needed the largest correction. On Ethernet pair 3, reversing the lane order along the shared route let both conductors stay on the front and eliminated four unnecessary transition vias.

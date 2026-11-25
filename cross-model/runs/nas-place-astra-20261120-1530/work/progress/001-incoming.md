@@ -1,0 +1,1 @@
+The incoming panel of loose parts sits below the locked sockets, headers and module. The 147.4 × 91 mm outline has a cutout. There are 254 footprints and no copper routes or pours. The drawing records the initial state for the placement and locked-part comparison.

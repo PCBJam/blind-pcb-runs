@@ -1,0 +1,1 @@
+In1 carries the full ground reference. In2 has a second ground region beneath the reverse-side expansion pairs and a shaped 3.3 V supply region serving the FX2 and both translator banks. The rest of In2 is available for breakout and local signals. I added short ground and 3.3 V pad-to-plane connections before the general routing pass and filled the zones.

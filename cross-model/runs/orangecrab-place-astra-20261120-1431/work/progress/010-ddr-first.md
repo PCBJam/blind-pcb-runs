@@ -1,0 +1,1 @@
+I tried routing DDR3 before the bulk of the ground and supply escapes. On a fresh copy of the same placement, the first memory, clock and USB pass found 45 of 54 requested links. This freed space in the 0.5 mm ball field that had been blocked by otherwise legal power vias. I retained the earlier result for comparison.

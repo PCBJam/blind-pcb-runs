@@ -1,0 +1,1 @@
+I added local distribution copper for the 1.1 V core, 1.35 V bank supply, VSYS and separately filtered DDR3 VDD and VDDQ. The 3.3 V region uses the residual In3 copper. Ground remains on the two dedicated layers, with additional pours on the faces. On this intermediate route KiCad finds 153 open connections. The supply regions still need more drops from BGA balls and decouplers.

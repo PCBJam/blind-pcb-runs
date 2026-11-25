@@ -1,0 +1,1 @@
+The supplied revC3 board has 272 footprints and no routing or zones. The ratsnest shows the densest connections between the FX2, FPGA, and level translators. The USB-C connector and its protection device sit close to the FX2 on the left. I saved the input for independent footprint and DRC comparisons.

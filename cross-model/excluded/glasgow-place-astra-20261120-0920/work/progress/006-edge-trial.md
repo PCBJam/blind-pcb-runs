@@ -1,0 +1,1 @@
+I tested a 0.30 mm copper setback at the routed board edge. Refilling trimmed the shield and plane edges. Moving the reset switch 0.15 mm inward and shifting its two outer shield vias cleared the outline, but the reset contact then came too close to the +5 V feed on In2.Cu. I retained this trial view to show where the feed needs adjustment.

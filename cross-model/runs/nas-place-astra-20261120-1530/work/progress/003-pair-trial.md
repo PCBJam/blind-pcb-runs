@@ -1,0 +1,1 @@
+A trial of bt pair for port 2 reported zero track-length skew. Inspection showed one conductor on the top layer and its partner on the underside for nearly the entire link. I discarded this trial and switched to routing each long pair from a common centerline.

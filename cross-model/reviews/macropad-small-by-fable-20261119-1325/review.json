@@ -1,0 +1,32 @@
+{
+  "scores": {
+    "A": {
+      "emi": 4,
+      "si": 6,
+      "power": 5,
+      "placement": 7,
+      "routing": 7,
+      "overall": 5,
+      "summary": "Best USB section and cleanest fabrication detail, but the RP2040's only ground goes through one via (119.8,117.05) into an isolated 30 mm2 F.Cu island, and F.Cu is unfilled under the QSPI bus. That must be fixed before ordering; the board is also 13% larger than B."
+    },
+    "B": {
+      "emi": 6,
+      "si": 6,
+      "power": 7,
+      "placement": 7,
+      "routing": 6,
+      "overall": 6,
+      "summary": "Smallest board with the soundest ground (5 vias under the MCU, unbroken F.Cu, 94 GND vias) and close decoupling. Held back by a 60.8 mm QSPI_SS branch to a mid-board BOOTSEL, QSPI/+5V/LED-data copper 0.35-1.2 mm from the edges, a 13.6 mm crystal run and four vias in small pads."
+    },
+    "C": {
+      "emi": 3,
+      "si": 4,
+      "power": 4,
+      "placement": 3,
+      "routing": 5,
+      "overall": 3,
+      "summary": "Largest board; the USB-C connector faces the front edge in a recess, 0.63 mm behind the board edge with the key block 5.75 mm from its centre, so plugs are likely to foul. Ground is F.Cu only, with holes under the crystal, MCU and USB, and the LED supply and LED data are routed under the flash, MCU and USB lines."
+    }
+  },
+  "ranking": ["B", "A", "C"]
+}

@@ -1,0 +1,1 @@
+All 144 movable footprints now fit on the board. KiCad reports the same violation counts as on the input, with no new courtyard overlaps. The placement review showed that two buck inductors landed opposite their regulators and that the oscillator ended up beyond the memory. I am revising those positions before routing.

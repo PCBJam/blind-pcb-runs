@@ -1,0 +1,1 @@
+All signal and supply nets are connected. A small lateral move of the KEY3 fanout via opened a direct back-side route from the MCU to KEY4. For LED enable, routing from an explicit front-side escape around the MCU cleared a blocked exit. The remaining ratsnest consists of ground connections, before adding pours.

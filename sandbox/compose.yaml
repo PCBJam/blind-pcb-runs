@@ -25,6 +25,8 @@ services:
       - ${SANDBOX_WORK:?SANDBOX_WORK}:/work
       # The agent's Claude Code config (sessions), kept in the run dir so a run can be resumed and asked questions.
       - ${SANDBOX_CLAUDE:-./logs/claude}:/home/kicad/.claude-sandbox
+      # Same for Codex (AGENT=codex): its home with the login copy and the session rollouts.
+      - ${SANDBOX_CODEX:-./logs/codex}:/home/kicad/.codex-sandbox
 networks:
   inside:
     internal: true

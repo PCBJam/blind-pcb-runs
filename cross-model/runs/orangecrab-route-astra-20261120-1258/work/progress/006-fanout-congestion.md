@@ -1,0 +1,3 @@
+# Whole-board routing and via-field congestion
+
+The first board-wide native-geometry search reduced the KiCad open count from 256 to 114. Correcting how the search recognised existing via exits reduced it to 77. A finer pass reached 54 with no new clearance or short-circuit violations. The trial whole-board Freerouting runs spent several minutes on fanout or a first pass and yielded no better verified layout. I retained the geometry-based candidate. A trial moving the power polygons onto In3.Cu made a second ground plane possible but split some supply islands. Those connections need to be repaired before retaining that stack.

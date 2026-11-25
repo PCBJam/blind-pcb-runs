@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "A": {
+      "emi": 8,
+      "si": 8,
+      "power": 9,
+      "placement": 8,
+      "routing": 7,
+      "overall": 8,
+      "summary": "A is fully connected with a continuous main ground reference, closely bypassed loads, wide supply distribution and through-drilled vias. Resolve drill spacing, edge clearance, USB stackup and tight assembly envelopes before ordering."
+    },
+    "B": {
+      "emi": 7,
+      "si": 7,
+      "power": 2,
+      "placement": 8,
+      "routing": 2,
+      "overall": 3,
+      "summary": "A compact crystal loop and well-coupled primary USB route sit on a sensible floorplan. Two shorts, including +1V2 to GND at C14, and 15 missing connections block power-up."
+    },
+    "C": {
+      "emi": 5,
+      "si": 7,
+      "power": 5,
+      "placement": 8,
+      "routing": 4,
+      "overall": 6,
+      "summary": "C connects the circuit and matches the expansion pairs closely, but inner-layer signal routing interrupts return paths and the +5V feed is long and narrow. Its 113 laser microvias, 44 buried vias and stacked drill locations require an HDI process."
+    },
+    "D": {
+      "emi": 3,
+      "si": 2,
+      "power": 1,
+      "placement": 3,
+      "routing": 1,
+      "overall": 1,
+      "summary": "D has 321 missing connections across 138 nets, including the main and bank supplies, crystal and interface clocks. Long USB probe branches and distant FPGA decoupling compound the incomplete routing."
+    }
+  },
+  "ranking": ["A", "C", "B", "D"],
+  "human_guess": {
+    "board": "A",
+    "confidence": 97,
+    "why": "A uses wide local copper for regulators and shunts, puts individual bypass capacitors behind switching loads, integrates USB probe pads into crossover vias, and tunes the expansion lanes on a through-drilled board. That combination of circuit-specific decisions is the strongest evidence of human authorship."
+  }
+}

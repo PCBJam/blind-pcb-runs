@@ -1,0 +1,1 @@
+KiCad reports zero missing connections for the first time. The last signal, ADC_MUX1, needed a short In1 escape to a staggered buried via. I rerouted the displaced ADC_CTRL1 and LED_B copper. Two trace-clearance violations, one hole-spacing warning and dangling routing remnants still need correction.

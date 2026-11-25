@@ -1,0 +1,1 @@
+After freeing the central routing corridors and allowing the existing signals to move, the global signal route completed. KiCad confirmed every connector I/O and USB-bridge signal. The remaining opens were five on GND, 25 on +5V, three on AREF and one on VIN's protected VCC net. The ADC reference, regulator feeds and ground islands now need individual connections.

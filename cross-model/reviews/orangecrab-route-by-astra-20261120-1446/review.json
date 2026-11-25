@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "A": {
+      "emi": 9,
+      "si": 9,
+      "power": 9,
+      "placement": null,
+      "routing": 6,
+      "overall": 7,
+      "summary": "Two continuous ground references, tightly grouped DDR3 lengths and compact regulator loops make A the best starting point for a through-drilled order. Repair the zone identifiers and duplicate pour, then resolve the remaining copper and drill-clearance findings before release."
+    },
+    "B": {
+      "emi": 2,
+      "si": 1,
+      "power": 1,
+      "placement": null,
+      "routing": 1,
+      "overall": 1,
+      "summary": "There are 120 missing connections, including 44 on ground and opens on USB, both DDR clock legs, the flash clock and the power rails. The design also requires 75 blind microvias and contains overlapping drills."
+    },
+    "C": {
+      "emi": 7,
+      "si": 7,
+      "power": 8,
+      "placement": null,
+      "routing": 4,
+      "overall": 6,
+      "summary": "C refills with zero opens and has compact regulator loops and closely matched DDR clock paths to the receiver. Its 385 microvias and 114 buried vias require HDI fabrication, and its DDR data spread and clock reference gap deserve timing review."
+    },
+    "D": {
+      "emi": 5,
+      "si": 3,
+      "power": 5,
+      "placement": null,
+      "routing": 3,
+      "overall": 3,
+      "summary": "D has a continuous top-side ground reference, local power copper and only through vias. Its 29 opens include USB negative and RAM reset, and a bottom-layer DDR strobe crosses four supply regions."
+    }
+  },
+  "ranking": ["A", "C", "D", "B"],
+  "human_guess": {
+    "board": "A",
+    "confidence": 96,
+    "why": "All sixteen DDR data nets use two vias and tightly grouped lengths, each byte has a consistent principal layer, and all three regulators have individually shaped local copper on both sides of their input capacitors. A achieves this with through drills and no drill centers on either BGA's ball lands."
+  }
+}

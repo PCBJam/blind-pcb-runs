@@ -1,0 +1,1 @@
+KiCad’s top and bottom views of the final board. Only models available in this installation can appear. The final drill export contains 917 plated and 27 nonplated holes. Both masks, paste layers, silkscreens, all four copper layers and Edge.Cuts plotted successfully. The input footprint and schematic findings and the circuit release holds are recorded in NOTES.md.

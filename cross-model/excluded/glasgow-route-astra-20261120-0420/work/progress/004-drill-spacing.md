@@ -1,0 +1,1 @@
+The inner-layer detail shows two groups of four +5 V vias at the bank regulators. KiCad measured 0.20 mm of material between adjacent 0.30 mm drills in these groups. The project asks for 0.25 mm. I chose to spread the vias and adjust the feeding tracks so the regulators keep all four current paths.

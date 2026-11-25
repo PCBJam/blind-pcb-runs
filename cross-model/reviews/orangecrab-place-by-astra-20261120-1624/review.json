@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "A": {
+      "emi": 2,
+      "si": 1,
+      "power": 2,
+      "placement": 1,
+      "routing": 1,
+      "overall": 1,
+      "summary": "KiCad reports 210 unconnected items across 76 nets, including USB, DDR clocks and the power path. U5 occupies the underside microSD shell area and two resistors occupy the FPGA package area."
+    },
+    "B": {
+      "emi": 5,
+      "si": 6,
+      "power": 5,
+      "placement": 7,
+      "routing": 5,
+      "overall": 6,
+      "summary": "All nets connect, and the main USB trunk and DDR strobe pairs are closely matched. Fragmented references, thin power routing, a 51.4 mm flash clock path and 227 blind or buried vias complicate release on a standard six-layer process."
+    },
+    "C": {
+      "emi": 4,
+      "si": 5,
+      "power": 3,
+      "placement": 7,
+      "routing": 3,
+      "overall": 3,
+      "summary": "Short regulator loops and close FPGA and DDR decoupling are undermined by 27 unconnected items on ground, supply and reference nets. Back-side clock and memory routes cross several power-plane boundaries."
+    },
+    "D": {
+      "emi": 8,
+      "si": 9,
+      "power": 8,
+      "placement": 8,
+      "routing": 5,
+      "overall": 7,
+      "summary": "D has the best DDR timing geometry, ground continuity and local power copper, using only through-vias. Hold fabrication until the zone refill, residual copper clearance, assembly overlaps and fine-feature CAM review are resolved."
+    }
+  },
+  "ranking": ["D", "B", "C", "A"],
+  "human_guess": {
+    "board": "D",
+    "confidence": 98,
+    "why": "The DDR byte groups, strobes and layer choices were coordinated, the regulator switch nodes have compact shaped copper, and the indicators and oscillator were placed with their physical use in mind."
+  }
+}

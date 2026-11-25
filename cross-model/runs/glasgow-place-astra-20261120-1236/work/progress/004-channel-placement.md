@@ -1,0 +1,1 @@
+I placed all 243 movable footprints. The shifters now follow the printed A0–A7 and B0–B7 channel positions, the ten LEDs form two aligned banks, and the reset switch faces the edge. I moved the ESD arrays to the reverse side near the headers. The FPGA and FX2 sit between the USB and I/O connectors.

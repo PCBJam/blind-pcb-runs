@@ -1,0 +1,1 @@
+I removed the open drill from the USB controller's exposed ground pad. Removing it alone disconnected U4 pins 3, 28 and 33. Two 0.30 mm return drills now sit between the exposed land and the two ground leads. Short top copper joins each lead to the exposed pad. KiCad confirms all pads are connected and the new geometry introduces no DRC findings.

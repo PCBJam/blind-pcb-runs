@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "A": {
+      "emi": 8,
+      "si": 8,
+      "power": 8,
+      "placement": 8,
+      "routing": 7,
+      "overall": 8,
+      "summary": "Complete connectivity, credible USB and PCIe geometry on the stated stack, and broad power distribution make A the best release candidate. Ethernet P0 has 4.64 mm of skew and asymmetric vias, and drilled M.2 solder lands need an assembly decision."
+    },
+    "B": {
+      "emi": 2,
+      "si": 2,
+      "power": 1,
+      "placement": 2,
+      "routing": 1,
+      "overall": 1,
+      "summary": "B has 147 missing connections, including power, ground, reset and the RP2040 USB D+ path. C5 and C51 physically overlap U3 on the front side."
+    },
+    "C": {
+      "emi": 7,
+      "si": 6,
+      "power": 7,
+      "placement": 8,
+      "routing": 6,
+      "overall": 7,
+      "summary": "C has complete connectivity, consistently paired Ethernet and PCIe, and well-grouped drive regulators. The stated stack misses the USB impedance target, and tracks pass only 0.0501 mm from an RJ45 locating hole."
+    },
+    "D": {
+      "emi": 6,
+      "si": 5,
+      "power": 8,
+      "placement": 7,
+      "routing": 5,
+      "overall": 6,
+      "summary": "D combines strong power copper, local return stitching and one-sided assembly with zero opens. A PCIe receive pair has 8.79 mm of skew, and a refill changes edge clearance while leaving 19 same-net zone intersections."
+    }
+  },
+  "ranking": ["A", "C", "D", "B"],
+  "human_guess": {
+    "board": "D",
+    "confidence": 97,
+    "why": "The one-sided assembly, individually shaped converter copper, local thermal and return vias, visible indicators and selective arc-based tuning suggest a human balancing assembly, power and routing tradeoffs."
+  }
+}

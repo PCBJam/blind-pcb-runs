@@ -1,0 +1,1 @@
+Both LED row rails and all three supply voltages are connected. Five key inputs, both CC pull-downs, and the LED data chain are routed. The first signal pass left KEY4 and the LED load-switch enable open at the RP2040. These need local escapes before the ground fills can be finalized.

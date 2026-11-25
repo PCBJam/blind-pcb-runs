@@ -1,0 +1,2297 @@
+{
+ "board": "orangecrab-place-haiku-20261119-2221",
+ "seconds": 4313,
+ "drcErrors": {
+  "malformed_courtyard": 1,
+  "courtyards_overlap": 1,
+  "copper_edge_clearance": 84
+ },
+ "unconnected": {
+  "/DRAM/RAM_VDDQ": 2,
+  "GND": 18,
+  "/DRAM/RAM_VDD": 15,
+  "RAM_D14": 1,
+  "RAM_D10": 1,
+  "RAM_LDM": 1,
+  "RAM_D2": 1,
+  "RAM_D3": 1,
+  "RAM_D6": 1,
+  "ECP5_VREF": 14,
+  "RAM_D7": 1,
+  "RAM_D5": 1,
+  "RAM_CK+": 2,
+  "RAM_CAS#": 1,
+  "RAM_CK-": 2,
+  "RAM_WE#": 1,
+  "RAM_A10": 1,
+  "/DRAM/RAM_ZQ": 1,
+  "RAM_BA0": 1,
+  "RAM_A5": 1,
+  "RAM_A2": 1,
+  "RAM_A1": 1,
+  "RAM_A9": 1,
+  "IO_11": 1,
+  "REF_CLK": 1,
+  "IO_10": 1,
+  "IO_6": 1,
+  "IO_5": 1,
+  "P1.35V": 1,
+  "IO_9": 1,
+  "IO_SCL": 1,
+  "IO_SDA": 1,
+  "P3.3V": 30,
+  "P1.1V": 17,
+  "P2.5V": 6,
+  "ADC_MUX1": 1,
+  "ADC_MUX0": 1,
+  "ADC_CTRL0": 1,
+  "ADC_SENSE_LO": 2,
+  "IO_A4": 1,
+  "ADC_MUX3": 1,
+  "IO_12": 1,
+  "ADC_SENSE_HI": 2,
+  "IO_A3": 1,
+  "SD0_DAT0": 1,
+  "USER_BUTTON": 3,
+  "SD0_CLK": 1,
+  "SD0_CMD": 1,
+  "SD0_DAT1": 1,
+  "LED_R": 1,
+  "SD0_DAT2": 1,
+  "IO_A0": 1,
+  "SD0_DAT3": 1,
+  "USB_D-": 1,
+  "USB_D+": 2,
+  "USB_PULLUP": 1,
+  "IO_A2": 1,
+  "IO_MISO": 1,
+  "JTAG_TDI": 1,
+  "FPGA_RESET": 3,
+  "IO_A5": 1,
+  "SPI_CONFIG_MISO": 1,
+  "JTAG_TCK": 2,
+  "SPI_CONFIG_SCK": 2,
+  "SPI_CONFIG_SS": 2,
+  "EN": 7,
+  "PUSB_VBUS": 4,
+  "/IO/A0": 1,
+  "/IO/A1": 2,
+  "/IO/A2": 1,
+  "Net-(D1-Pad3)": 1,
+  "Net-(D1-Pad4)": 1,
+  "VSYS": 13,
+  "/IO/_USB_D_P": 3,
+  "/IO/_USB_D_N": 3,
+  "Net-(R32-Pad2)": 2
+ },
+ "totalTrackMm": 1096,
+ "totalVias": 222,
+ "roles": {},
+ "placement": {
+  "footprints": 163,
+  "moved": [
+   {
+    "ref": "U4|Package_BGA:BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm",
+    "from": {
+     "x": 139.385,
+     "y": 170.335,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 161.5,
+     "y": 102.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U5|Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm",
+    "from": {
+     "x": 149.435,
+     "y": 165.385,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 147.67,
+     "y": 99.88,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C13|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 152.275,
+     "y": 130.385,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.4725,
+     "y": 99.88,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C12|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 147.825,
+     "y": 129.925,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 143.75,
+     "y": 110.415,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C21|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 194.165,
+     "y": 129.925,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 151.6325,
+     "y": 100.63,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C22|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 199.075,
+     "y": 129.925,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 158.05,
+     "y": 96.985,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C23|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 204.535,
+     "y": 130.185,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 176.2,
+     "y": 99.2,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C24|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 210.545,
+     "y": 130.185,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 158.3,
+     "y": 99.6375,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "FB2|Inductor_SMD:L_0402_1005Metric",
+    "from": {
+     "x": 193.875,
+     "y": 140.205,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 157.365,
+     "y": 103.95,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "FB3|Inductor_SMD:L_0402_1005Metric",
+    "from": {
+     "x": 198.325,
+     "y": 139.745,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 157.05,
+     "y": 99.585,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R19|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 148.765,
+     "y": 146.155,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 163.9,
+     "y": 104.015,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U3|gkl_housings_bga:csBGA285",
+    "from": {
+     "x": 246.495,
+     "y": 155.185,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 171.5,
+     "y": 102.5,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C1|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 134.835,
+     "y": 130.155,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 166,
+     "y": 105.6,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C4|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 152.635,
+     "y": 135.065,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 157.48,
+     "y": 103.1,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C19|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 180.585,
+     "y": 129.805,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164.22,
+     "y": 105.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C20|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 189.485,
+     "y": 129.805,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 165.5,
+     "y": 110.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C25|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 215.425,
+     "y": 130.155,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 166,
+     "y": 104.2,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C26|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 219.175,
+     "y": 130.155,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 167,
+     "y": 110.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C15|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 161.635,
+     "y": 129.925,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 151.0725,
+     "y": 110.4,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C49|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 168.115,
+     "y": 135.065,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 177.57,
+     "y": 109.655,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C51|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 180.065,
+     "y": 135.065,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 176.82,
+     "y": 109.655,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C52|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 184.165,
+     "y": 134.715,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 169.2,
+     "y": 109.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C53|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 188.265,
+     "y": 135.065,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 178.32,
+     "y": 109.655,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C54|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 192.365,
+     "y": 134.715,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 170.8,
+     "y": 109.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C56|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 201.265,
+     "y": 134.715,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 165.6,
+     "y": 95,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C57|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 205.365,
+     "y": 135.065,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 167.2,
+     "y": 95,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C58|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 209.115,
+     "y": 135.065,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 172.4,
+     "y": 109.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C60|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 222.575,
+     "y": 134.715,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 175.6,
+     "y": 109.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R7|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 177.135,
+     "y": 150.485,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 149.24,
+     "y": 97.4175,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R8|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 181.235,
+     "y": 150.835,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 150.1325,
+     "y": 98.81,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C62|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 230.425,
+     "y": 135.065,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 166.8,
+     "y": 110.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C63|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 234.525,
+     "y": 134.715,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 168.4,
+     "y": 110.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C64|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 238.975,
+     "y": 134.715,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 170,
+     "y": 110.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C66|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 247.525,
+     "y": 135.065,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 168.8,
+     "y": 95,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C68|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 135.185,
+     "y": 139.625,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 170.4,
+     "y": 95,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C69|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 139.285,
+     "y": 139.975,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 174.8,
+     "y": 110.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C30|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 239.675,
+     "y": 129.805,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 158.3,
+     "y": 105.78,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C31|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 243.775,
+     "y": 130.155,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 157.8,
+     "y": 101.82,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C32|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 247.525,
+     "y": 130.155,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 158.3,
+     "y": 107.38,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C33|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 251.625,
+     "y": 129.805,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 176.2,
+     "y": 101.9,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C34|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 134.955,
+     "y": 135.295,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164.215,
+     "y": 98.9,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C35|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 139.405,
+     "y": 134.835,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164.215,
+     "y": 99.95,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C36|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 143.855,
+     "y": 135.295,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 176.2,
+     "y": 103.7,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C37|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 148.305,
+     "y": 134.835,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 176.2,
+     "y": 106,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R20|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 157.895,
+     "y": 146.035,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.445,
+     "y": 103.52,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C46|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 156.505,
+     "y": 135.295,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 177.945,
+     "y": 110.975,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C47|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 160.495,
+     "y": 135.295,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 176.085,
+     "y": 110.975,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R10|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 231.025,
+     "y": 139.625,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 147.92,
+     "y": 102.9125,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R11|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 235.475,
+     "y": 139.625,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 150.1325,
+     "y": 100.95,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R12|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 239.925,
+     "y": 139.625,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 145.42,
+     "y": 102.9125,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R9|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 185.335,
+     "y": 150.485,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 147.17,
+     "y": 102.9125,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C70|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 147.025,
+     "y": 139.975,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140.368,
+     "y": 102,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C17|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 171.455,
+     "y": 129.925,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 151.0725,
+     "y": 109.4,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C48|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 164.365,
+     "y": 135.065,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 166,
+     "y": 109.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C50|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 176.315,
+     "y": 135.065,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 167.6,
+     "y": 109.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D1|gkl_led:0404LED_RGB",
+    "from": {
+     "x": 181.265,
+     "y": 140.225,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 171.75,
+     "y": 108.5,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R23|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 171.245,
+     "y": 146.035,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 170.675,
+     "y": 108.505,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R24|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 175.695,
+     "y": 146.035,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 169.605,
+     "y": 108.175,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C74|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 155.225,
+     "y": 139.975,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 162.5,
+     "y": 110.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C75|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 159.325,
+     "y": 139.625,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164,
+     "y": 110.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "OSC1|gkl_time:Oscilator_2.5x2.0",
+    "from": {
+     "x": 221.35,
+     "y": 140.85,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 168.025,
+     "y": 107.725,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C76|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 163.775,
+     "y": 139.625,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 177.07,
+     "y": 97.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R4|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 245.745,
+     "y": 146.035,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 175.75,
+     "y": 97.82,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "SW1|gkl_misc:PTS_810_SMT_Switch",
+    "from": {
+     "x": 190.735,
+     "y": 152.71,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 177.575,
+     "y": 99.575,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R22|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 166.795,
+     "y": 146.035,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 172.825,
+     "y": 108.505,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D2|gkl_led:0404LED_RGB",
+    "from": {
+     "x": 185.765,
+     "y": 140.225,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 149.235,
+     "y": 96.3425,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R25|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 179.795,
+     "y": 146.385,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.25,
+     "y": 105.18,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP26|gkl_misc:TestPoint_Pad_D0.5mm",
+    "from": {
+     "x": 203.16,
+     "y": 150.86,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 143.805,
+     "y": 102.45,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP27|gkl_misc:TestPoint_Pad_D0.5mm",
+    "from": {
+     "x": 207.66,
+     "y": 150.86,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 145.305,
+     "y": 104.7,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP29|gkl_misc:TestPoint_Pad_D0.5mm",
+    "from": {
+     "x": 211.66,
+     "y": 150.36,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 149.3375,
+     "y": 105.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP30|gkl_misc:TestPoint_Pad_D0.5mm",
+    "from": {
+     "x": 215.16,
+     "y": 150.36,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 170.5,
+     "y": 102,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP32|gkl_misc:TestPoint_Pad_D0.5mm",
+    "from": {
+     "x": 222.16,
+     "y": 150.36,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164.6,
+     "y": 110.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R26|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 183.895,
+     "y": 146.035,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.2075,
+     "y": 102.7,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C77|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 168.455,
+     "y": 139.745,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.92,
+     "y": 103.0775,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R27|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 188.345,
+     "y": 146.035,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 161.5,
+     "y": 107.5,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R28|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 192.795,
+     "y": 146.035,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.998,
+     "y": 96.675,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C61|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 226.675,
+     "y": 135.065,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 177.2,
+     "y": 109.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C55|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 196.815,
+     "y": 134.715,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 176.07,
+     "y": 109.655,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP19|gkl_misc:TestPoint_Pad_D0.5mm",
+    "from": {
+     "x": 195.66,
+     "y": 150.36,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 172.75,
+     "y": 97.5,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP20|gkl_misc:TestPoint_Pad_D0.5mm",
+    "from": {
+     "x": 199.16,
+     "y": 150.36,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 171.75,
+     "y": 97.5,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R21|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 162.345,
+     "y": 146.035,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.625,
+     "y": 102.45,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R29|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 197.245,
+     "y": 146.035,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 145.625,
+     "y": 102.7,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U9|Package_DFN_QFN:Texas_RGY_R-PVQFN-N24_EP2.05x3.1mm",
+    "from": {
+     "x": 173.477605,
+     "y": 165.665,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.9,
+     "y": 109.4,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U6|Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm",
+    "from": {
+     "x": 158.497605,
+     "y": 166.035,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 181,
+     "y": 103.8,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U10|Package_SON:Texas_X2SON-4_1x1mm_P0.65mm",
+    "from": {
+     "x": 231.595,
+     "y": 150.885,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 178,
+     "y": 110.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C65|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 243.425,
+     "y": 134.715,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 171.6,
+     "y": 110.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C28|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 226.675,
+     "y": 130.155,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 166,
+     "y": 102.8,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C29|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 230.545,
+     "y": 130.385,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140.368,
+     "y": 103.805,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "FB1|Inductor_SMD:L_0402_1005Metric",
+    "from": {
+     "x": 189.885,
+     "y": 140.205,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 141.853,
+     "y": 103.07,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R3|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 201.345,
+     "y": 146.385,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 163.72,
+     "y": 111.79,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R6|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 173.035,
+     "y": 150.835,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 161.93,
+     "y": 112.04,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R30|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 205.445,
+     "y": 146.035,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 177.2,
+     "y": 94.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C67|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 251.625,
+     "y": 134.715,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 173.2,
+     "y": 110.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C71|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 151.125,
+     "y": 139.625,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 156.02,
+     "y": 110.79,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R31|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 209.545,
+     "y": 146.385,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 174.2475,
+     "y": 100.055,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R32|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 213.295,
+     "y": 146.385,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 145.2075,
+     "y": 101.45,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R33|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 217.045,
+     "y": 146.385,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.7075,
+     "y": 98.88,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C59|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 213.215,
+     "y": 134.715,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 174,
+     "y": 109.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R35|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 224.545,
+     "y": 146.385,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 141.25,
+     "y": 109.07,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C2|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 185.035,
+     "y": 129.805,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 172,
+     "y": 95,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C3|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 234.995,
+     "y": 129.925,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 175,
+     "y": 95,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C5|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 172.215,
+     "y": 134.715,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.75,
+     "y": 109.58,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C6|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 217.895,
+     "y": 134.835,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140.765,
+     "y": 110.65,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C7|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 143.155,
+     "y": 140.205,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 143.75,
+     "y": 108.015,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C8|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 172.905,
+     "y": 140.205,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 151.0725,
+     "y": 108.25,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C9|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 176.895,
+     "y": 140.205,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 151.0725,
+     "y": 107.25,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C10|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 138.585,
+     "y": 130.155,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.75,
+     "y": 107.18,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C11|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 142.915,
+     "y": 129.925,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 145.985,
+     "y": 103.65,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C14|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 156.725,
+     "y": 129.925,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 151.0725,
+     "y": 105.65,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C16|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 166.545,
+     "y": 129.925,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 151.0725,
+     "y": 104.65,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C18|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 176.135,
+     "y": 129.805,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.32,
+     "y": 103.9,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "L1|Inductor_SMD:L_0805_2012Metric",
+    "from": {
+     "x": 203.985,
+     "y": 140.225,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.4,
+     "y": 110.4,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "L2|Inductor_SMD:L_0805_2012Metric",
+    "from": {
+     "x": 209.665,
+     "y": 140.955,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.4,
+     "y": 108,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "L3|Inductor_SMD:L_0805_2012Metric",
+    "from": {
+     "x": 215.345,
+     "y": 140.225,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 148.4,
+     "y": 105.4,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R5|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 161.435,
+     "y": 150.485,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 163.42,
+     "y": 102.65,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R13|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 244.375,
+     "y": 139.625,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 162.53,
+     "y": 103.7,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R14|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 248.825,
+     "y": 139.625,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 140.305,
+     "y": 109.02,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R15|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 252.925,
+     "y": 139.975,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142,
+     "y": 109.33,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R16|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 135.185,
+     "y": 146.035,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 139.735,
+     "y": 97.2,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R17|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 139.635,
+     "y": 146.035,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.43,
+     "y": 110.65,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R18|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 144.085,
+     "y": 146.035,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.25,
+     "y": 110.08,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R34|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 220.795,
+     "y": 146.385,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 146.25,
+     "y": 107.18,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R36|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 228.645,
+     "y": 146.035,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.5,
+     "y": 102.83,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R37|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 233.095,
+     "y": 146.035,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 143.25,
+     "y": 103.58,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R38|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 237.195,
+     "y": 146.385,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.75,
+     "y": 105.22,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U1|Package_TO_SOT_SMD:SOT-563",
+    "from": {
+     "x": 226.535,
+     "y": 151.485,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.5,
+     "y": 110.4,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U2|Package_TO_SOT_SMD:SOT-563",
+    "from": {
+     "x": 237.045,
+     "y": 151.235,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.5,
+     "y": 108,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U7|Package_TO_SOT_SMD:SOT-563",
+    "from": {
+     "x": 165.947605,
+     "y": 164.635,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 144.5,
+     "y": 105.4,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R39|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 241.295,
+     "y": 146.035,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 174.25,
+     "y": 97.18,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R2|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 153.445,
+     "y": 146.035,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 157.05,
+     "y": 101.28,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R1|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 226.575,
+     "y": 139.625,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 156.73,
+     "y": 102.35,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C27|gkl_dipol:C_0201_0603Metric",
+    "from": {
+     "x": 222.925,
+     "y": 130.155,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 162.35,
+     "y": 102.65,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP31|gkl_misc:TestPoint_Pad_D0.5mm",
+    "from": {
+     "x": 218.66,
+     "y": 150.36,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 164.8,
+     "y": 108,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R40|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 249.845,
+     "y": 146.385,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 142.038,
+     "y": 107.42,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R41|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 253.595,
+     "y": 146.385,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 141.938,
+     "y": 106.37,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R42|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 134.835,
+     "y": 150.835,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 141.938,
+     "y": 101.97,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R43|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 138.585,
+     "y": 150.835,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 141.938,
+     "y": 99.77,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R44|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 142.335,
+     "y": 150.835,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 157.135,
+     "y": 110.315,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R45|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 146.085,
+     "y": 150.835,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 156.565,
+     "y": 109.565,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R46|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 149.835,
+     "y": 150.835,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 166,
+     "y": 101.4,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R48|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 153.585,
+     "y": 150.835,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 160.2,
+     "y": 110.1,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R50|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 165.535,
+     "y": 150.835,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 157.17,
+     "y": 111.11,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R51|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 169.285,
+     "y": 150.835,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 159.39,
+     "y": 112.04,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R49|gkl_dipol:R_0201_0603Metric",
+    "from": {
+     "x": 157.335,
+     "y": 150.835,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 157.13,
+     "y": 111.86,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   }
+  ]
+ },
+ "place": {
+  "footprints": 163,
+  "keptMoved": [],
+  "missing": [],
+  "added": [],
+  "offBoard": [],
+  "wrongSide": [],
+  "placedSides": {
+   "F": 51,
+   "B": 93
+  },
+  "outlineMm": [
+   50.9,
+   22.96
+  ],
+  "areaMm2": 1155.7,
+  "outlineClosed": true
+ },
+ "agent": {
+  "model": "claude-haiku-5-5",
+  "costUsd": 16.02142202999998,
+  "turns": 1,
+  "subtype": "success",
+  "isError": false,
+  "tools": {
+   "Bash": 272,
+   "Read": 13,
+   "Agent": 1,
+   "Write": 4,
+   "Edit": 4,
+   "ToolSearch": 2,
+   "Monitor": 168,
+   "TaskStop": 8
+  },
+  "web": [],
+  "hosts": {
+   "api.anthropic.com": 10,
+   "http-intake.logs.us5.datadoghq.com": 187
+  },
+  "denied": {},
+  "notes": "# OrangeCrab 6-layer layout: notes (work in progress)\n\nStatus is updated at the end of the session. See the \"Not finished\" section before ordering anything.\n\n## Placement\n\n- Locked parts (headers J1/J2, USB-C J3, microSD J4 on back, battery J5, JTAG J6, mounting holes, fiducials, logos) were not touched. `bt same` confirms this.\n- FPGA U3 at (171.5, 102.5), rotation 90, front. Rotation 90 puts the DDR banks (balls A-D on the FPGA's west edge) facing the DDR3. Scored the four rotations by wire length to the fixed connectors and the DDR3 (`/home/kicad/work-notes/scripts/orientscore.py`); rotation 90 was best.\n- DDR3 U4 at (161.5, 102.5), rotation 0, front. Its signal columns 2-3 and 7-8 face the middle channel and the FPGA.\n- Charger U5 (BQ24232) on the back under the battery connector, programming resistors next to its pins.\n- Three TLV62569 bucks U7 (3.3 V), U2 (1.35 V), U1 (1.1 V) with inductors in a column on the front-left, below the battery connector. Feedback dividers and 10 pF feed-forward caps next to each FB pin. LDO U10 on the back, near the FPGA's 2.5 V pins.\n- QSPI flash U6 on the back at the FPGA's north-east corner, next to its configuration balls.\n- Analog mux U9 on the back at the bottom-left, next to the analog header pins (moved from a short with J2's pads and the microSD mounting pad).\n- Crystal OSC1 on the back under the FPGA's west edge, 4 mm from ball A9 (REF_CLK).\n- RGB status LED D1 with its three resistors on the front in the bottom band, near the FPGA's LED balls. Charger status LED D2 on the back.\n- Button SW1 on the front-right strip, with its debounce and pull-up beside it.\n- Decoupling: DDR3 VDD/VDDQ caps on the back, on the two outer ball columns only. Interior-column caps moved out, because a cap under an interior ball takes that ball's via site. FPGA core, IO and VCCAUX caps moved from under the FPGA to the front band above the FPGA's north edge, the back strip below the FPGA, and the front bottom-right beside the LDO. Front-band caps were moved to the back, because they sat in the north escape lanes.\n- Lesson: decaps placed under a 0.5 mm BGA's interior balls remove via sites needed for the planes and escape. `bt fan` could only via 129 of 233 pads until they moved.\n\n## Layer stack used\n\n- F.Cu: components, short signal escapes, and a GND pour (full outline, solid pad connection, clearance 0.089) so that the FPGA and DDR3 ground balls connect without a via each.\n- In1.Cu: GND plane, full outline, clearance 0.2.\n- In2.Cu: signal routing (DDR3 and FPGA escapes), plus a small P2.5V island in the FPGA's interior.\n- In3.Cu: signal routing, plus a P3.3V island in the FPGA's interior.\n- In4.Cu: P1.1V (FPGA core) island over the FPGA.\n- B.Cu: signal routing and components, plus a P1.35V pour over the FPGA interior.\n- Power balls: each of the 36 FPGA power balls gets a through via-in-pad (0.28/0.15) to its own plane. Adjacent balls of different nets are at 0.5 mm pitch and the via clearance check passes for each. Each plane has holes at other nets' vias, and the planes can split into islands in the FPGA interior. Check the islands with `bt islands`.\n- Ground balls get no vias. The front GND pour and the GND plane carry them. The escape planner's ground vias were dropped (100 of them), because they would have cut every interior power plane.\n\n## Routing\n\n- FPGA and DDR3 escapes: `bt fan` on each BGA. For the DDR3, the fan ran with ground and both DRAM power nets as planes. For the FPGA, it ran with the default planes, and only the signal tracks and vias were kept (the ground vias were dropped). About 19 FPGA signal vias and 102 tracks were applied; the DDR3 fan applied 108 tracks and 50 vias.\n- DDR3 data and address routing with `bt route --nets \"RAM_*\"`, on F.Cu, In2.Cu, In3.Cu and B.Cu, with 0.089 mm tracks and 0.28/0.15 vias, which are the class widths.\n- Net classes changed: DDR3 DQS0/DQS1 vias 0.6/0.4 to 0.28/0.15 (the 0.6 mm vias do not fit the 0.8 mm DDR3 field next to the FPGA's escapes). New \"Power\" class (0.5 mm tracks, 0.6/0.3 vias, clearance 0.0889) for the P-rails, VSYS, VBATT, PUSB_VBUS, DRAM VDD/VDDQ and ECP5_VREF. New \"USB\" class (0.2 mm tracks, 0.2/0.15 differential pair, clearance 0.0889). RAM_CK+/- in the DDR_CLK class.\n\n## Schematic and circuit issues found (not changed; the netlist is not ours to change)\n\nThese came from the schematic brief written by a helper reading the .sch files. Verify them against the datasheets before ordering.\n\n1. DDR3 data mask lanes look crossed: RAM_LDM lands on FPGA ball G16 (bank 6, upper-lane group) and RAM_UDM on D16 (bank 7). Verify and consider swapping the FPGA pins.\n2. DDR3 strobe names look swapped against the Micron ball names: RAM_LDQS+/- land on the DRAM's UDQS balls (C7/B7) and RAM_UDQS+/- on the LDQS balls (F3/G3). Each strobe still sits in its own FPGA data lane, but check that the lower byte's strobe is what the lower byte uses.\n3. FPGA_RESET (Feather J2 pin 1) reaches two FPGA balls, T15 (PROGRAMN) and V17 (CSON/config). Check V17.\n4. U7 (3.3 V buck) feedback R37 360 k / R38 82 k gives about 3.23 V, not 3.3 V. For 3.3 V, about 80 k on R38.\n5. Charger: the note says charge current is set by ILIM, but ISET (pin 16, R12) is the charge-current pin by name. TS (pin 1) is tied to GND through R26 10 k with no thermistor. Check the datasheet.\n6. Bank voltage labels on banks 2/6/7 read \"1V5\", but the nets are P1.35V.\n7. Several P1.35V balls (C6, B18, D17, K15, K16, K17) have no documented purpose.\n8. Oscillator OSC1 is a 48 MHz part, but the symbol says 32 MHz. No load caps.\n9. Feather J2 pin 16 is GND; its note says I/O.\n\n## Known DRC issues not from the layout\n\n- Edge clearance errors (84): the locked Feather header pads (J1 at y 91.39, J2 at y 114.51) extend past the board outline. These are locked footprints.\n- Courtyard overlap H4 vs FID6 (both locked).\n- J5 courtyard is malformed (locked footprint).\n- Library footprint warnings for `gkl_housings_bga` and `Package_BGA` (the footprints in the file do not match the library copies).\n\n## Not finished (state at the end of this session)\n\n**The board is not ready to order.** Routing and plane connections are incomplete. What is on the board is placed and mostly checked, but many nets are open.\n\n- DRC (`bt check`, fills refreshed): 86 errors, which is exactly the original locked board's count: 84 edge-clearance errors from the locked Feather header pads (J1 and J2 extend past the outline), one malformed courtyard on the locked J5, and one courtyard overlap of the locked H4 with FID6. Everything else KiCad reports is unconnected copper: 210 unconnected items, 114 nets not fully connected, about 1,250 mm of ratsnest, and 65 dangling-track and 9 dangling-via warnings.\n- DDR3: 38 of the 56 `RAM_*` nets are routed; 18 are open. Still open: RAM_D14, RAM_D10, RAM_LDM, RAM_D2, RAM_D3, RAM_D6, RAM_D7, RAM_D5, RAM_CK+, RAM_CK-, RAM_CAS#, RAM_WE#, RAM_A10, RAM_BA0, RAM_A5, RAM_A2, RAM_A1, RAM_A9. The blockers are the DDR3 field itself (routed neighbours, the back-side parts R19, R5, R13, C27 and the reference-voltage caps C1, C25, C28, R46 in the escape channel) and the fan's escape vias on the FPGA's west edge.\n- Feather signals and FPGA IO: about 40 of 76 routed. Open include IO_11, IO_10, IO_6, IO_5, IO_9, IO_SCL, IO_SDA, IO_12, IO_13, IO_1, IO_A0 to IO_A5, the ADC_* nets, the SD0_* nets, JTAG_TCK/TDI/TMS/TDO, SPI_CONFIG_*, the QSPI nets, USB_D+/USB_D-/USB_PULLUP and their series resistor nets, REF_CLK, USER_BUTTON, LED_R and two LED nets, and FPGA_RESET. Most are blocked at the FPGA's north and south-west edges, where DDR3 tracks now run.\n- Power: the 1.1 V joins (98 items, probed clear) were refused by the checked apply on the second write, so the P1.1V pour islands are still split (17 pads). P3.3V has 30 unconnected pads (one LED pad is boxed in). The 1.35 V and 2.5 V joins are applied. VSYS (13), EN (7), PUSB_VBUS (4) and the DRAM VDD/VDDQ networks (15 pads each) need routing; the DRAM networks also need the ferrites FB2/FB3 connected. ECP5_VREF has 14 open pads.\n- Ground: 18 GND pads are not joined (two are the locked Feather pads that hang over the edge).\n- Not done: `bt islands --fix` for P1.1V, P3.3V and the ground pieces, and any length tuning or DDR3 length matching.\n\n**What I would do next, in order**\n1. Move the reference-voltage caps and the four parts in the channel (C1, C25, C28, R46) and the DDR3 back-side parts (R19, R5, R13, C27) off the DDR3 field, and re-run the DDR3 escape with the ground pins left to the pour. That is the blocker for most of the DDR3 nets.\n2. Consider rotating or moving the FPGA by 1 mm to widen the channel, or accept a two-row escape on the north edge. Re-plan the north escapes before routing the Feather IO nets.\n3. Route the USB and SD nets as pairs with `bt pair`/`bt route` on the front layer, after the north and south-west corners are clear.\n4. Finish the power joins with `bt islands --fix` and check the P1.1V and P3.3V pieces with the same probed-then-apply step.\n5. Settle the schematic questions above (DM and strobe lanes, FPGA_RESET on two balls, U7 feedback), because some of them change routing.\n\n**Files:** progress images and notes are in `/work/progress/` (001 to 008). `/work/.bt-undo/` holds bt's own board backups; delete it with `bt undo --clean` if you do not want them. The scratch scripts and intermediate items files are in `/home/kicad/work-notes/` (outside /work). `/work/BT-REVIEW.md` has the bt review.\n"
+ }
+}

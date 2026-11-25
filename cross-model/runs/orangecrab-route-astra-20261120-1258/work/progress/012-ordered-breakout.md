@@ -1,0 +1,1 @@
+The north edge of U3 now escapes in pin order on the first three layers. This required two sequential laser build-up layers. KiCad found four remaining opens after refill. Two belonged to severed ground tracks, one to the DDR D4 connection and one to the microSD DAT0 connection. The new mask route reached the memory without disturbing the coupled strobes.

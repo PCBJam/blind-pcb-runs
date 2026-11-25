@@ -1,0 +1,1 @@
+Added 0.60 mm back-side distribution traces along the LED rows, with local branches to the pixel capacitors, plus the straight inter-pixel data runs. The lower rail bends between the switch center holes and LED windows. A trial straight line crossed the window clearance; the revised path passed the copper probe.

@@ -1,0 +1,1 @@
+The first path-length audit traced each Ethernet conductor from the CM4 to the magnetics, including through-via travel. Pair 0 differed by 8.79 mm. I tested a shorter escape between the ESD arrays and the jack. The proposed four-pair replacement could not clear the existing pads and other pairs, so I kept the verified copper and used the endpoint measurements to guide tuning.

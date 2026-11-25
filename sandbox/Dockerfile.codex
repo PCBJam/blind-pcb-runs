@@ -1,0 +1,11 @@
+# The sandbox image + OpenAI's Codex CLI, so Astra runs on exactly the same image as the Claude runs. The
+# cross-model runs built it on the image with bt (not in this repo): BASE=blind-pcb-sandbox gives the plain one.
+# Build: docker build --platform linux/amd64 -f Dockerfile.codex --build-arg BASE=blind-pcb-sandbox -t blind-pcb-sandbox-codex .
+ARG BASE=blind-pcb-sandbox
+FROM ${BASE}
+USER root
+ARG CODEX_VERSION=0.170.0
+RUN npm install -g @openai/codex@${CODEX_VERSION} && npm cache clean --force
+USER kicad
+# Empty Codex home (mounted per run): no AGENTS.md, no memory, no plugins.
+ENV CODEX_HOME=/home/kicad/.codex-sandbox

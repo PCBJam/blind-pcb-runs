@@ -1,0 +1,1 @@
+I reversed the expansion of the two constrained rows. Every power and ground via in the affected arrays kept its original diameter and drill. I removed the unused via in the R40 address-strap pad. With the actual project rules restored beside the scratch board, KiCad reported zero missing connections and zero routing violations.

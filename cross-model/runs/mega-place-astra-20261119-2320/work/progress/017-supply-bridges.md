@@ -1,0 +1,1 @@
+The component side now has a broad 5 V pour, with ground on the back and in the remaining front-side area. I traced each disconnected island to the nearest reachable copper and used checked tracks and vias to bridge it. This closed the protected jack supply, restored the main power-header feeds and brought the ratsnest down to five links on +5V, four on GND and one on AREF.

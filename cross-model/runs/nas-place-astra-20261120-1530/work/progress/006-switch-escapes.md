@@ -1,0 +1,1 @@
+Switch detail after the revised capacitor placement. The through vias at the differential launches and the ground and supply taps are now present. With the inner pours filled, KiCad reported 250 remaining connections and the same violation categories and counts as the incoming board. This was the starting point for the low-speed and local interconnect routing.

@@ -1,0 +1,1 @@
+The first common-centerline pass routed PCIe, Ethernet and USB pairs with both conductors following the same bends. It also connected the switch to its AC-coupling capacitors. Several launches were obstructed by earlier pairs or by backside bypass capacitors. I kept this checkpoint for comparison while testing other escape orders.

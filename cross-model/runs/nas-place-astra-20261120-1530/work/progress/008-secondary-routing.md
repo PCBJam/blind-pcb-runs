@@ -1,0 +1,1 @@
+The batch signal pass added 718 segments and 95 vias. KiCad now reports 107 missing connections with the return-path copper included. The pass did well on short local links. Several RP2040, compute-module and switch power pins still need escapes. The next pass will take its starting and ending copper groups from KiCad connectivity.

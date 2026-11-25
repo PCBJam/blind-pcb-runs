@@ -1,0 +1,1 @@
+The 80 × 49 mm outline, 29 locked footprints, board legends and fiducials establish the mechanical constraints. The remaining parts are staged below the outline. The board identifies itself as Glasgow rev C3 and contains 272 footprints, four copper layers and no routed copper. This view includes the staging area.

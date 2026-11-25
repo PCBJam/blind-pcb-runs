@@ -1,0 +1,1 @@
+The three TLV62569 regulators, their input capacitors and the switch-node inductors now share the back side. The oscillator is back-side mounted alongside the FPGA. I reserved In1.Cu and In4.Cu for ground so the surface and internal signal layers each have an adjacent reference. The board still needs its power connections and BGA escapes.

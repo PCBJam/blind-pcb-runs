@@ -1,0 +1,1 @@
+I exported the placed board, the reference plane and the pre-routed copper to a local Specctra router. This snapshot has 1,734 track and via objects. The general pass is still connecting the two I/O banks, FPGA signals and supply branches. I am checking intermediate session imports in KiCad against the project rules.

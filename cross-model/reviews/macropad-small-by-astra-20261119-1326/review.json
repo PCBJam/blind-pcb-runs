@@ -1,0 +1,32 @@
+{
+  "scores": {
+    "A": {
+      "emi": 7,
+      "si": 7,
+      "power": 8,
+      "placement": 8,
+      "routing": 9,
+      "overall": 8,
+      "summary": "A is the prototype choice, with short via-free USB routes, a wide single-layer LED supply, and via drills clear of exposed SMD lands. Its flash clock return and RP2040 core-regulator bypass need improvement, and all three designs share a BOOTSEL contention risk."
+    },
+    "B": {
+      "emi": 7,
+      "si": 6,
+      "power": 7,
+      "placement": 7,
+      "routing": 6,
+      "overall": 7,
+      "summary": "B has the smallest outline, strong ground stitching, and short local regulator bypasses. A 49.94 mm flash-select branch, remote input bulk capacitor, and unfilled via drills in the RP2040 and other solder lands reduce its order readiness."
+    },
+    "C": {
+      "emi": 4,
+      "si": 5,
+      "power": 6,
+      "placement": 6,
+      "routing": 6,
+      "overall": 5,
+      "summary": "C has a 4.32 mm flash clock and a 0.50 mm LED supply, but cuts its only ground pour with signal routes and gives several fast signals poor return paths. Long regulator-capacitor returns, a recessed USB mating face, and in-pad drills add further risk."
+    }
+  },
+  "ranking": ["A", "B", "C"]
+}

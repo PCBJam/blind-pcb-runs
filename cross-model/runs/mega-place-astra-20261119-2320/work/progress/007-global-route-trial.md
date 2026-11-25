@@ -1,0 +1,1 @@
+I compared the multi-net router with a Specctra global-routing trial that reserved the local clock, USB and bypass traces. After importing the latter, eight nets still needed connections. Most of the remaining airwires belonged to GND and +5V. Several header signals were also open. This is the trial capture before planes or repairs.

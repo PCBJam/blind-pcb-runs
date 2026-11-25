@@ -1,0 +1,1 @@
+I transferred the published rev C3 tracks, vias, zone outlines and rule area onto the placed board. The first pass has 4,715 segments and 416 vias. This preserves the FPGA escape, the close USB routing and the power distribution around the two programmable I/O banks. This is the transferred copper before KiCad 10 refill and correction.

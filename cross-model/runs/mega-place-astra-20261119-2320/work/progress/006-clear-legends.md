@@ -1,0 +1,1 @@
+I moved the two-piece front logo into the open space above the MEGA wordmark, shortened the header separator lines, and adjusted the POWER, ANALOG IN and A0 legends around their headers. KiCad found zero new silkscreen collisions on this revision relative to the original. The signal router is running with dedicated underside corridors kept clear under the clocks and USB pair.

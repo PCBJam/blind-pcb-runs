@@ -1,0 +1,1 @@
+C5 now has a ground return from the AREF bypass to the surrounding copper. The 0.15 mm section passes two corners of its neighboring rounded pad. The bt probe flagged those corners using a more conservative clearance envelope. I checked the actual land pattern in KiCad with a fresh fill. DRC found no new rule violations and four remaining supply links.

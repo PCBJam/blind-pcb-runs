@@ -1,0 +1,3 @@
+# Plane review and rejected routing trial
+
+The first bank-B fanout trial found zero usable supply-via sites. The saved bank-B pour was only 1.92 mm² because isolated-island removal had discarded the main region before it had any via anchors. Retaining the region temporarily allowed 30 of 31 SMD pads to acquire a local connection. Restored island removal and refilled. An initial external-routing trial also treated the 3.3 V background and the higher-priority supply outlines as overlapping planes. Discarded that trial and clipped the background in the router input. KiCad DRC at this stage showed 369 opens and the same violation counts as the untouched board.

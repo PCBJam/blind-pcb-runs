@@ -5,6 +5,13 @@ copper stripped (and, in placement runs, most parts moved off the board) and has
 in a sandbox that can't reach the original design. Everything the agent saw and everything it produced is here,
 so the runs can be checked, reproduced or extended.
 
+**Follow-up, cross-model study:** [`cross-model/`](cross-model/README.md) has the later runs of Fable 5.2,
+GPT-6.2-Astra and Haiku 5.5 on the same eleven jobs, and the blind AI reviews of every result
+([blog post](https://www.pcbjam.com/blog/cross-model-pcb-layout/)). Its raw folders are on the `cross-model-2026-11`
+release. The sandbox below runs both studies: `AGENT=codex` runs OpenAI's Codex CLI instead of Claude Code
+(`sandbox/Dockerfile.codex`), `sandbox/review.sh` builds a blind review, and `sandbox/resume.sh` continues a run that
+stopped on a plan usage limit.
+
 ## What's here
 
 | Folder | Contents |
@@ -14,7 +21,8 @@ so the runs can be checked, reproduced or extended.
 | `launch/` | The launch scripts of the later runs, as they were used (paths made relative). |
 | `boards/` | The original, human-routed board projects the runs start from, each under its own license. See `boards/README.md`. |
 | `runs/` | One folder per run. Start at `runs/INDEX.md` (the table) and each run's `SUMMARY.md`. |
-| `tools/` | `collect.sh` (copy finished runs in, write their summaries and the index), `summary.cjs`, `index.cjs`, `pack.sh` (build the release archives). |
+| `tools/` | `collect.sh` (copy finished runs in, write their summaries and the index), `summary.cjs`, `index.cjs`, `xm-index.cjs` (the cross-model index and review summaries), `pack.sh` (build the release archives). |
+| `cross-model/` | The cross-model study: runs, reviews and excluded runs, same split between git and release. See `cross-model/README.md`. |
 
 ### What's in git and what's in the release
 
@@ -51,7 +59,7 @@ whole session.
 ## The sandbox
 
 - **Image:** `kicad/kicad:10.0` (amd64, runs under Rosetta on Apple silicon) plus Node, Python and Claude Code 2.1.322. No sudo. The Claude config directory starts empty: no memory, no CLAUDE.md, no MCP servers, no plugins.
-- **Network:** the agent's container sits on an internal Docker network; its only way out is a Squid proxy (`sandbox/squid.conf`). The proxy refuses GitHub and its mirrors and caches, arduino.cc, Kitspace and archive.org, so the agent can't download the original design, and logs every host it allows. Everything else, including PyPI and npm, is open. The rule blocking anything containing `pcbjam` is from the original setup, where the boards also lived on pcbjam.com.
+- **Network:** the agent's container sits on an internal Docker network; its only way out is a Squid proxy (`sandbox/squid.conf`). The proxy refuses GitHub and its mirrors and caches, arduino.cc, Kitspace and archive.org, so the agent can't download the original design, and logs every host it allows. Everything else, including PyPI and npm, was open for the runs in `runs/`. The rule blocking anything containing `pcbjam` is from the original setup, where the boards also lived on pcbjam.com. On 20 Nov, during the cross-model runs, the proxy became an allowlist (model APIs, package registries, JDK downloads, chip makers' and fabs' sites), which is what `sandbox/squid.conf` holds now; the blocklist is in its git history.
 - **Run:** `claude -p "<brief>" --model fable --dangerously-skip-permissions --output-format stream-json`, under `timeout` (3, 4 or 6 hours depending on the run).
 - **Prep:** `strip.cjs` copies the project without tracks, vias and zones. For placement runs, `place-prep.py` locks the parts that match `KEEP` and moves every other part into a grid below the board (`FLIP=front` also puts them all on the top side; `NOEDGE=1` removes the outline too).
 

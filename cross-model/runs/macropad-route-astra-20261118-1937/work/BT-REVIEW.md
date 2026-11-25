@@ -1,0 +1,23 @@
+# Board-tools review
+
+I used bt throughout this layout, primarily to check hand-drawn copper and keep the board, fills and KiCad rules in agreement. I used its router for three LED control/data connections. Invocation counts below are approximate where I iterated on geometry.
+
+| Commands | Use on this board |
+| --- | --- |
+| `help`, `board`, `rules`, `part` | Several help lookups, two successful board inventories, one rules read and about five pad inspections. The first inventory gave me the two layer names, six cutouts, overrides and complete pad-to-net mapping in one pass. The pad bounding boxes were especially valuable for the USB connector. |
+| `probe`, `apply --checked` | Roughly a dozen probe runs and more than twenty checked applications, including rejected trials. These were the biggest time savers. I could change a whole switch row or QFN fanout in Python and get collision coordinates in about a second. One revised design checked 484 proposed items together. The all-or-nothing write avoided fixing a half-applied trial. |
+| `route --batch` | Two runs with three requests each. The first took about two seconds and completed two signals. The second took three seconds and completed all three after I supplied a pair of QFN escapes. I retained the level-shifter output route and revised the controller-side paths to improve the ground beneath the flash. |
+| `render`, `ratsnest`, `length` | Around a dozen renders, several connectivity reads and two length reports. The separate-layer renders made the flash return-path issue visible after connectivity was already complete. The length output explicitly counts branches, which matters on BOOTSEL and the duplicated USB contacts. |
+| `zone`, `fill`, `islands`, `cleanup` | Four zone creations across two layout versions, several refills, one island diagnosis and one cleanup trial. The zone commands preserved the project settings. The cleanup trial proposed zero edits. |
+| `check`, `drc`, `same`, `query` | Several full checks, a baseline comparison, an additional via-centering check, two placement checks and one track/via query. The baseline separated an existing QFN library warning from routing defects. The final check included courtyards and via centering. |
+
+## Where I used another method
+
+- With `bt route --batch`, the first successful pin-9 escape occupied the only practical exit for pin 8. The failure report named the obstructing via. Placing both escapes together solved the problem. A batch look-ahead that reserves an adjacent requested pin’s exit would have saved one pass.
+- `bt islands ... --net GND` identified the right two isolated areas. It proposed 12.29 mm of track and three vias for the flash-area group. A short stub from the flash ground land to the opposite pour provided a much better local return. I would try a same-net via to an overlapping filled zone before searching for a track to another component.
+- After the first pour, `bt ratsnest` printed “4 nets not fully connected” while its details listed only GND, in three pieces. KiCad reported two missing ground joins. A header with separate counts for affected net names, copper groups and missing joins would make the result easier to interpret.
+- Ordinary copper probing allows a same-net via at a solder land. Two candidate ground stitches passed clearance inside hot-swap lands. I audited drill disks against SMD bounding boxes on both faces with pcbnew and moved the stitches. A probe option for minimum via-drill-to-exposed-land distance would help with ordinary tented-via assembly.
+- `bt query` displayed both a track end and its via at 122.188 mm; the saved coordinates were 122.1880 and 122.1875 mm. I had rounded the endpoint while revising an auto-routed path. KiCad’s optional centering check found the difference. I read the exact coordinates from the PCB file, corrected the endpoint and repeated the checks. I would print full stored coordinates on request and include the centering check by default in `bt check`.
+- I used Python to specify the USB orientation joins, crystal paths, flash fanout, repeated LED feeds and switch-row lanes. Those choices depend on signal topology, solder access and return current. I also compared full footprint serializations with pcbnew, because `bt same` checks movement of locked parts and this project fixes every placement by instruction. An all-footprints mode would remove that extra step.
+
+KiCad CLI handled the independent schematic-parity DRC and production plots. I checked contour closure and drill counts on the exported files. I would keep the fast geometry feedback and the KiCad-backed final check as separate commands. They caught different problems on this board.

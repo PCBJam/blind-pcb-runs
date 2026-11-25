@@ -1,0 +1,78 @@
+# RaspberryPiNVMeNAS – routing notes
+
+State: every net is routed. KiCad 10 DRC on the saved file gives 0 errors and 0 warnings that were not already in the board as received, and 0 unconnected items. No footprint was moved, rotated, flipped, added or removed (checked against the original with pcbnew: 254 footprints, positions, angles and pad nets identical).
+
+Final copper: 2708 track segments, 756 vias, 20 copper zones, 5 small pour keep-outs.
+
+## What I changed outside the copper
+
+| Item | Was | Now | Why |
+|---|---|---|---|
+| Stackup (in the .kicad_pcb) | 3 × 0.48 mm placeholder | 35 µm / 0.0994 mm prepreg (εr 4.1) / In1 / 1.265 mm core / In2 / 0.0994 mm / 35 µm, 1.6 mm, impedance-controlled flag set, finish ENIG | The pair geometry is designed for this build. **The board must be ordered with ~0.1 mm prepreg** (JLC04161H-3313 or equivalent). On a 0.2 mm (7628) build the same pairs come out near 110 Ω. |
+| Net classes | one class, 0.127 mm everything | Default 0.2/0.15, Power 0.4, PCIe 0.15/0.15 pair, USB 0.15/0.15, ETH 0.127/0.2 | Widths and pair gaps per signal type. |
+| Board minimums | via 0.4, edge clearance 0, hole clearance 0 | via 0.45/0.2, annular 0.1, edge 0.3, hole clearance 0.15 | Normal fab limits. Hole clearance is 0.15 and not 0.2 because the USB-C footprints themselves have 0.165 mm between a pad and their own locating hole. |
+
+Impedance numbers come from my own 2-D field solver, not from a fab calculator: 0.15/0.15 mm over 0.1 mm prepreg ≈ 88 Ω differential (PCIe 85 Ω, USB 90 Ω), 0.127/0.2 ≈ 100 Ω (Ethernet). Ask the fab to confirm or adjust widths.
+
+## Layer use
+
+- **F.Cu** – parts, short connections, power pours, the CM4 uplink pairs, Ethernet, USB, and the slow nets that have to cross the M.2 PCIe lanes. GND pour elsewhere.
+- **In1.Cu** – unbroken GND plane. Reference for everything on F.Cu.
+- **In2.Cu** – GND plane, the reference for the B.Cu pairs, with three islands placed only where no pair runs on B.Cu: +5V (5 V buck → CM4 supply pins), +1V2 (under the PCIe switch), +3.3VSTB (under the RP2040).
+- **B.Cu** – the twelve M.2 PCIe pairs, 12 V taps to the two central bucks, +3.3VA pour under the switch, the CM4→RP2040 control bus, fan 5 V, hops. GND pour elsewhere.
+
+I did not make In2 a classic split power plane. Twelve pairs run 55–105 mm on B.Cu and converge on U12 from four sides; any 12 V or 5 V strip on In2 would have been crossed by them. The big rails are F.Cu pours instead.
+
+## PCIe (routed first, by generated coordinates)
+
+- The M.2 pairs are on the outer pad row, so each drops through two 0.45/0.2 vias under the connector body and runs on B.Cu beneath the inner pad row. GND pins 39/45/51/57 have their own via beside the signal vias.
+- RX and TX have P/N in the opposite order at the socket and at the switch. The two vias of those pairs are placed in tandem so the pair leaves mirrored, with equal length by symmetry.
+- At every socket the REFCLK pair is on the wrong side of RX/TX for the switch pinout. It crosses them where they are on the other layer, so no pair has more than two vias. CM4 CLK and TX have none; CM4 RX takes one 4 mm B.Cu hop under CM4 TX (the pin order forces one crossing).
+- Every pair returns to F.Cu outside the ring of decoupling caps round U12, so nothing runs on B.Cu under the switch.
+- Lanes: 0.15/0.15, 1.05 mm pair pitch (0.6 mm between pairs of one slot), 45° bends only, 0.25 mm to the pours.
+- Lengths 48–111 mm. Intra-pair skew after tuning ≤ 0.17 mm on all 15 pairs (AC-cap halves included).
+
+| Slot | RX | TX | CLK |
+|---|---|---|---|
+| CM4 uplink | 62 mm | 56 mm | 48 mm |
+| J2 | 72 | 74 | 69 |
+| J3 | 65 | 64 | 69 |
+| J4 | 84 | 81 | 83 |
+| J5 | 103 | 111 | 111 |
+
+## Power
+
+- +12P jack → TVS → TPS2420 and the +12V output as F.Cu pours; a 2.1 mm +12V bus along y≈82.5 with a pour tab into the input caps of each M.2 buck. The two central bucks (U2, U15) are fed by 0.8 mm B.Cu taps with two vias each end, which keeps an F.Cu corridor (y 84–91) open for east-west nets.
+- Each M.2 3.3 V rail is one F.Cu pour from inductor and output caps to pins 70–74 and along the connector to pins 2–18.
+- +5V: pour at L1, four vias into the In2 island, three vias up between the two pad rows of the CM4 connector into its six 5 V pins. A 0.6 mm F.Cu track feeds the fan headers and the RP2040 LDO.
+- U12: +1V2 arrives on a 2.2 mm F.Cu strip into the In2 island, +3.3VA on a 2.4 mm B.Cu strip into the B.Cu pour. Every supply pin goes pin → via → its own cap on F.Cu; every cap ground has its own via; 3×3 vias in the exposed pad.
+- Bucks (SOT-563): switch node to inductor at pin width, boot and feedback nets short on F.Cu. Every GND pad that could take one has its own via to In1.
+- GND: 164 pad vias, 300 stitching vias on a 4 mm grid, extra return vias beside the PCIe layer changes where there was room.
+
+## Other routing
+
+- Ethernet: 100 Ω pairs on F.Cu from the CM4 through the flow-through ESD arrays to the RJ45 pins; skew tuned to 0. Lanes keep the 1.7 mm clearance of the CM4 mounting hole.
+- USB2: CM4 → common-mode choke → USB-C on F.Cu, skew 0.
+- PERST# to the sockets: F.Cu chain under the four connector bodies entering pin 50 from the body side, one trunk south of the 12 V bus, B.Cu for the feed from U12 and for three hops under the bus.
+- CM4 left connector, RP2040 fan-out, SD card, QSPI, crystal: by hand from the pin order. Long slow nets across open board: router, with the power pours as keep-outs.
+
+## Known weak points and things not done
+
+1. **Impedance is not fab-verified** and depends on the stackup above. This is the first thing to check before ordering.
+2. **Spacing between the pairs of one slot is 0.6 mm (4× width)** over 50–100 mm. Fine for Gen 2 over a 0.1 mm dielectric by my judgment, but I did not simulate crosstalk. More spacing was possible on J4 and J5.
+3. **J5's pairs are long (103–111 mm)**, about 15 mm longer than the shortest possible path, and pass on B.Cu under the RP2040 crystal and its load cap (two ground planes between).
+4. **Router-made slow nets are not tidy**: TSENSE_0 has 7 vias, M2PWR_EN 8, fan 4 PWM/tacho 5 each, LED_V+ wanders. Some run on F.Cu directly above a B.Cu pair for 10–15 mm. Electrically harmless, not what I would hand in after a layout review.
+5. **Buck input loops are only as good as the placement allows**: each buck's GND pin is on the opposite side from the input-cap ground pads, so the hot loop closes through vias and In1. The boot-cap trace of each buck runs under the IC body at 0.2 mm; U1's is 8 mm long and passes between the 5 V output caps.
+6. **Feedback-divider ground of U10, U11 and U13** has no via of its own (PCIe pairs are underneath). It is tied by a 0.2 mm F.Cu track to the output-cap ground.
+7. **SMD pads are connected solid to the pours** (thermal reliefs on through-hole pads only). Good electrically; an assembler may prefer reliefs on 0402 parts sitting in large copper.
+8. **Five pour keep-outs** (four header GND pins on B.Cu, one RJ45 GND pin on F.Cu) remove a starved single-spoke connection. Those pins are connected on both inner planes.
+9. **Slow nets on B.Cu over the +5V island** (I2C, SD_CMD hop, +3V3) reference 5 V there instead of ground.
+10. **No current-density or voltage-drop calculation** beyond rough estimates (12 V bus ≈ 3.5 A, M.2 rail strip ≈ 6 mΩ to the far pins). Fan 5 V is a 0.6 mm track, good for about 1 A in total.
+11. No teardrops. Silkscreen was not touched; reference texts may sit on new vias (tented).
+12. USB-C shell pads are tied only to each other, as the schematic has them.
+
+## Not caused by the routing, left alone
+
+KiCad still reports, as it did on the board as received: 215 schematic-parity items (the board's net names are older than the schematic's, e.g. `+3V3` vs `+3.3V`, `Net-(C9-Pad1)` vs `Net-(U1-BST)`), 196 library-footprint mismatches, 199 text-height and 6 silk-edge warnings, 17 footprint-type mismatches. The project file switches off the courtyard and silk-overlap checks.
+
+`bt check` and `bt drc --refill` crashed on this board ("Maximum call stack size exceeded"), so the fill freshness was checked separately: a fresh pcbnew refill of the saved file changes no zone area.

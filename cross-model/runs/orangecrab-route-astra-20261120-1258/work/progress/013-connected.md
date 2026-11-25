@@ -1,0 +1,1 @@
+All 499 original ratsnest links are closed in a fresh KiCad DRC. The final DDR D4 and microSD DAT0 routes crossed short sections of RAM_D2 and IO_11. Cutting just those sections left space to reconnect both. The resulting board has no shorts, two copper clearances below 0.089 mm, three drill spacings below 0.25 mm and two incomplete thermals at top-side ground pads.

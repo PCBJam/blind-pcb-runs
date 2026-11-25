@@ -1,0 +1,1 @@
+KiCad found 16 drill-spacing warnings in closely spaced pairs and rows of power vias. A first trial expanded each row about its center while keeping the 0.30 mm drills. It cleared the drill warnings and maintained connectivity, but the end vias approached nearby copper in four places. This view is the VIOB row beside RN3. I rejected the centered spacing in those four groups.

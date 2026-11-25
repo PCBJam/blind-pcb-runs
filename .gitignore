@@ -23,3 +23,21 @@ runs/*/work/progress/*
 !runs/*/ask/
 runs/*/ask/*
 !runs/*/ask/ANSWER.md
+sandbox/.codex-auth.json
+sandbox/codex-login/
+# Cross-model study: the same split (tools/xm-index.cjs writes the review summaries and cross-model/INDEX.md).
+cross-model/*/*/*
+!cross-model/*/*/SUMMARY.md
+!cross-model/*/*/brief.md
+!cross-model/*/*/report.json
+!cross-model/*/*/img.tracks.png
+!cross-model/*/*/REVIEW.md
+!cross-model/*/*/review.json
+!cross-model/*/*/key.json
+!cross-model/*/*/work/
+cross-model/*/*/work/*
+!cross-model/*/*/work/NOTES.md
+!cross-model/*/*/work/BT-REVIEW.md
+!cross-model/*/*/work/progress/
+cross-model/*/*/work/progress/*
+!cross-model/*/*/work/progress/*.md

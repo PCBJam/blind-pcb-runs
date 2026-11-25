@@ -1,0 +1,1 @@
+The supplied M.2 edge fingers are on opposite faces. All nine PCIe pairs start on the back, while the x4 socket divides them between its A and B rows. The board starts with 98 open connections in KiCad and 20 library lookup warnings. The inner layers are empty. I will use two ground references and keep power distribution out of the space directly under the pairs.

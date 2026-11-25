@@ -1,0 +1,1 @@
+The first ground fills and local return vias connect most of the board. The MCU exposed pad, the C115 ground and the first LED ground still need inspection. KEY3 has been moved away from the crystal body, making space for the crystal ground connections.

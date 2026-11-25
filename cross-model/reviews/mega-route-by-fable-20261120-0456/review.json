@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "A": {
+      "emi": 7,
+      "si": 7,
+      "power": 6,
+      "placement": null,
+      "routing": 8,
+      "overall": 7,
+      "summary": "Clean on every DRC pass with the only single-piece ground plane, lowest ground detours and a guarded resonator pair. Two local flaws: a +5V trunk under U3's ADC pin row makes the AVCC cap ground return 38.6 mm, and the regulator tab has no heat-spreading copper."
+    },
+    "B": {
+      "emi": 1,
+      "si": 2,
+      "power": 1,
+      "placement": null,
+      "routing": 1,
+      "overall": 1,
+      "summary": "Unfinished: 88 unconnected items across 41 nets, with GND in 36 pieces, +5V in 30 pieces and 24 signal nets open. It cannot work and cannot be ordered."
+    },
+    "C": {
+      "emi": 5,
+      "si": 5,
+      "power": 7,
+      "placement": null,
+      "routing": 7,
+      "overall": 6,
+      "summary": "DRC-clean and orderable with the tightest decoupling loops, but the ground is in 65 pieces with detours up to x27 (J12.6 is 222 mm from U3.62). The 16 MHz resonator crosses ADC lines and +5V reaches the MCU through 0.35 mm tracks."
+    },
+    "D": {
+      "emi": 6,
+      "si": 6,
+      "power": 6,
+      "placement": null,
+      "routing": 5,
+      "overall": 5.5,
+      "summary": "Best MCU ground and supply ring and best regulator copper, but the saved file fails its own DRC (515 errors from stale fills, 4 after refill) and has ten 0.119 mm gaps. There is no ground under the USB connector and the regulator output capacitor is 75 mm away through 0.4 mm necks."
+    }
+  },
+  "ranking": ["A", "C", "D", "B"],
+  "human_guess": {
+    "board": "D",
+    "confidence": 88,
+    "why": "Legacy imperial dimensions (0.254/0.813/1.27 mm tracks, 0.914/0.406 and 1.118/0.61 mm vias), hand-drawn zone outlines running past the board edge, purpose-drawn XVCC and +5V pours, a +5V ring under the MCU and a staggered ADC via farm. It also carries the mess of a long-lived converted project: stale fills, minimum clearance set to 0, a 0.0003 mm leftover stub. A, B and C use uniform metric widths and 0.6/0.3 mm vias; A has a regular stitching grid, C has algorithmic widths, and B is abandoned mid-route with length-tuned serpentines on a 7 mm USB stub."
+  }
+}

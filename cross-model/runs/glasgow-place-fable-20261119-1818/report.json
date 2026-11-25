@@ -1,0 +1,3718 @@
+{
+ "board": "glasgow-place-fable-20261119-1818",
+ "seconds": 21329,
+ "drcErrors": {
+  "shorting_items": 2,
+  "clearance": 2,
+  "hole_clearance": 1,
+  "footprint_type_mismatch": 4,
+  "solder_mask_bridge": 2
+ },
+ "unconnected": {
+  "/SCL": 1,
+  "/~{CY_RESET}": 1,
+  "/IO_Banks/DA2": 1,
+  "Net-(R10-Pad1)": 2,
+  "/GNDPLL1": 2,
+  "/VCCPLL1": 3,
+  "/IO_Banks/DA0": 1,
+  "/IO_Banks/DA1": 1,
+  "+1V2": 1,
+  "Net-(D13-Pad1)": 1,
+  "Net-(R45-Pad1)": 1
+ },
+ "totalTrackMm": 4082,
+ "totalVias": 476,
+ "roles": {},
+ "placement": {
+  "footprints": 269,
+  "moved": [
+   {
+    "ref": "TP5|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 50.975,
+     "y": 187.35,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 78.4,
+     "y": 104.7,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP4|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 167.575,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 78.4,
+     "y": 102.6,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C23|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 123.595,
+     "y": 135.545,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 84.9,
+     "y": 98,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C77|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 134.105,
+     "y": 146.925,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 80.9,
+     "y": 104.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C48|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 117.045,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 99.45,
+     "y": 93.5,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C49|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 121.035,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 86.45,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C52|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 137.915,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 94.85,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C64|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 75.305,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 97.65,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C40|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 83.285,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 92.05,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C68|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 91.265,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 99.45,
+     "y": 96.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C30|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 160.875,
+     "y": 136.005,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 123.6,
+     "y": 96.9,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C69|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 95.255,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 99.45,
+     "y": 99.1,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C70|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 104.155,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 99.45,
+     "y": 101.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C71|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 108.145,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 99.45,
+     "y": 104.7,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C72|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 112.135,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 97.65,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C73|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 116.125,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 100.45,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C74|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 120.115,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 103.25,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C18|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 94.875,
+     "y": 135.545,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 84.05,
+     "y": 94.2,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C33|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 50.905,
+     "y": 141.555,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 89.1,
+     "y": 91.2,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C78|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 138.555,
+     "y": 146.465,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 81.3,
+     "y": 95.5,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R22|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 75.305,
+     "y": 168.735,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 58.98,
+     "y": 108,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R31|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 116.585,
+     "y": 168.275,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 79.3,
+     "y": 92.85,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R23|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 79.295,
+     "y": 168.735,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 58.98,
+     "y": 110,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C76|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 129.105,
+     "y": 146.725,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 79.3,
+     "y": 95.5,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C24|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 128.505,
+     "y": 135.545,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 83.9,
+     "y": 96.5,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C7|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 99.705,
+     "y": 146.465,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 74.25,
+     "y": 97.25,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C6|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 54.895,
+     "y": 146.465,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 72.75,
+     "y": 99.8,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C9|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 85.985,
+     "y": 152.935,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 73,
+     "y": 91.2,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C10|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 56.915,
+     "y": 135.545,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 67.25,
+     "y": 91.2,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C5|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 125.485,
+     "y": 141.555,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 67.75,
+     "y": 99.8,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP6|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 56.025,
+     "y": 187.35,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 76.8,
+     "y": 90.7,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C1|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 51.455,
+     "y": 135.805,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 63.6,
+     "y": 100.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C2|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 105.335,
+     "y": 136.005,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 65.75,
+     "y": 93.25,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C3|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 156.885,
+     "y": 136.005,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 65.75,
+     "y": 95.05,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C4|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 79.295,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 65.75,
+     "y": 97.25,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R9|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 146.584949,
+     "y": 173.704949,
+     "rot": 45,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 76.3,
+     "y": 99.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C81|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 156.415,
+     "y": 146.925,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 87.7,
+     "y": 100.6,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R32|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 121.035,
+     "y": 168.735,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 89.3,
+     "y": 96.75,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U1|Package_DFN_QFN:Cypress_QFN-56-1EP_8x8mm_P0.5mm_EP6.22x6.22mm_ThermalVias",
+    "from": {
+     "x": 79.7,
+     "y": 190.825,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 70,
+     "y": 95.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R33|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 125.025,
+     "y": 168.735,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 124.5,
+     "y": 94.8,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D6|LED_SMD:LED_0603_1608Metric",
+    "from": {
+     "x": 110.345,
+     "y": 162.925,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 56.55,
+     "y": 102,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D8|LED_SMD:LED_0603_1608Metric",
+    "from": {
+     "x": 122.445,
+     "y": 162.925,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 56.55,
+     "y": 106,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D5|LED_SMD:LED_0603_1608Metric",
+    "from": {
+     "x": 104.295,
+     "y": 162.925,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 56.55,
+     "y": 89,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D4|LED_SMD:LED_0603_1608Metric",
+    "from": {
+     "x": 98.245,
+     "y": 162.925,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 56.55,
+     "y": 87,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D3|LED_SMD:LED_0603_1608Metric",
+    "from": {
+     "x": 92.195,
+     "y": 162.925,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 56.55,
+     "y": 85,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D2|LED_SMD:LED_0603_1608Metric",
+    "from": {
+     "x": 51.495,
+     "y": 162.925,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 56.55,
+     "y": 83,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R14|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 159.275,
+     "y": 163.085,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 58.98,
+     "y": 85,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R15|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 163.265,
+     "y": 163.085,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 58.98,
+     "y": 87,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R20|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 67.325,
+     "y": 168.735,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 58.98,
+     "y": 104,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U27|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 92.235,
+     "y": 199.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 99.7,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U26|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 85.985,
+     "y": 199.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 96.9,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U17|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 137.535,
+     "y": 187.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 91.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U10|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 88.825,
+     "y": 187.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 94.1,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U9|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 64.175,
+     "y": 213.8,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 91.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U6|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 168.035,
+     "y": 199.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 88.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C38|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 71.315,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 86.45,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C34|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 55.355,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 95.6,
+     "y": 85.1,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U22|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 60.985,
+     "y": 199.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 96.9,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U24|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 73.485,
+     "y": 199.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 102.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U25|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 79.735,
+     "y": 199.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 105.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C60|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 59.345,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 95.6,
+     "y": 96.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C65|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 79.295,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 100.45,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C61|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 63.335,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 95.6,
+     "y": 99.1,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C62|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 67.325,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 95.6,
+     "y": 101.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C66|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 83.285,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 103.25,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C63|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 71.315,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 95.6,
+     "y": 104.7,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C67|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 87.275,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 106.05,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C35|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 59.345,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 95.6,
+     "y": 87.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C37|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 67.325,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 95.6,
+     "y": 93.5,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C36|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 63.335,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 95.6,
+     "y": 90.7,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C57|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 161.265,
+     "y": 141.555,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.7,
+     "y": 82.7,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D1|LED_SMD:LED_0603_1608Metric",
+    "from": {
+     "x": 104.975,
+     "y": 152.775,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 56.55,
+     "y": 81.53,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C25|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 132.955,
+     "y": 136.005,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 85.9,
+     "y": 96.5,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C42|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 91.265,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 99.45,
+     "y": 85.1,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C43|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 95.255,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 99.45,
+     "y": 87.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C47|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 113.055,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 99.45,
+     "y": 90.7,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C41|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 87.275,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 94.85,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C82|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 160.665,
+     "y": 147.475,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 119.4,
+     "y": 88,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C31|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 165.125,
+     "y": 136.555,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 119.4,
+     "y": 100.9,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C53|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 142.915,
+     "y": 141.815,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 128.5,
+     "y": 100.6,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R28|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 99.245,
+     "y": 168.735,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 123.5,
+     "y": 103.9,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R27|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 95.255,
+     "y": 168.735,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 123.4,
+     "y": 103,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C59|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 50.445,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 119.4,
+     "y": 90.5,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R34|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 129.015,
+     "y": 168.735,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.5,
+     "y": 92.9,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C12|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 66.275,
+     "y": 136.005,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 59.9,
+     "y": 94.4,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R16|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 167.255,
+     "y": 163.085,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 58.98,
+     "y": 89,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R17|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 50.905,
+     "y": 168.275,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 72.1,
+     "y": 104.45,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R12|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 151.295,
+     "y": 163.085,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 58.98,
+     "y": 81.53,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R13|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 155.285,
+     "y": 163.085,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 58.98,
+     "y": 83,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "Y1|Glasgow:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+    "from": {
+     "x": 70.925,
+     "y": 214.1,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 61.9,
+     "y": 92.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U30|Package_BGA:BGA-121_9.0x9.0mm_Layout11x11_P0.8mm_Ball0.4mm_Pad0.35mm_NSMD",
+    "from": {
+     "x": 121.435,
+     "y": 203.85,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 84.9,
+     "y": 95.5,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C13|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 70.725,
+     "y": 135.545,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 57.7,
+     "y": 91.2,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U16|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 131.285,
+     "y": 187.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 88.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U11|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 95.075,
+     "y": 187.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 85.7,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R21|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 71.315,
+     "y": 168.735,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 58.98,
+     "y": 106,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D9|LED_SMD:LED_0603_1608Metric",
+    "from": {
+     "x": 128.495,
+     "y": 162.925,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 56.55,
+     "y": 108,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R11|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 147.305,
+     "y": 163.085,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 58.98,
+     "y": 102,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D7|LED_SMD:LED_0603_1608Metric",
+    "from": {
+     "x": 116.395,
+     "y": 162.925,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 56.55,
+     "y": 104,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D10|LED_SMD:LED_0603_1608Metric",
+    "from": {
+     "x": 111.025,
+     "y": 152.775,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 56.55,
+     "y": 110,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R18|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 55.355,
+     "y": 168.735,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 121.3,
+     "y": 90.6,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U14|Glasgow:SOT-23-5",
+    "from": {
+     "x": 117.885,
+     "y": 188.15,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 122.3,
+     "y": 101.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C29|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 152.435,
+     "y": 135.545,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 108.3,
+     "y": 100.6,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C46|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 108.605,
+     "y": 141.555,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 127.3,
+     "y": 106.2,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R19|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 59.345,
+     "y": 168.735,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 121.3,
+     "y": 99.9,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U18|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 143.785,
+     "y": 187.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 94.1,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R40|Glasgow:R_0402_1005Metric_DNP",
+    "from": {
+     "x": 157.865,
+     "y": 168.735,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 70.6,
+     "y": 113.75,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U19|Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+    "from": {
+     "x": 152.285,
+     "y": 189.12,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 112.75,
+     "y": 92.65,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C19|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 100.335,
+     "y": 135.805,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 90.3,
+     "y": 105.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP12|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 117.075,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 83,
+     "y": 111.05,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP11|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 112.025,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 83,
+     "y": 113.55,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP10|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 106.975,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 83,
+     "y": 116.05,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP8|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 66.125,
+     "y": 187.35,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 81,
+     "y": 116.05,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP9|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 71.175,
+     "y": 187.35,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 81,
+     "y": 111.05,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R39|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 149.885,
+     "y": 168.735,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 91.2,
+     "y": 99.2,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R43|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 50.445,
+     "y": 173.645,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 91.2,
+     "y": 100.3,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U28|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 98.485,
+     "y": 199.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 102.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U23|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 67.235,
+     "y": 199.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 99.7,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C22|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 118.685,
+     "y": 135.545,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 117.15,
+     "y": 100.6,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R44|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 54.435,
+     "y": 173.645,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 85.2,
+     "y": 103.1,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R36|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 137.455,
+     "y": 168.275,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 117.15,
+     "y": 98.7,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R41|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 162.315,
+     "y": 168.275,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 127.3,
+     "y": 104,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP13|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 122.125,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 55.7,
+     "y": 94.2,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C84|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 50.445,
+     "y": 152.935,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 108.3,
+     "y": 90.4,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP14|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 127.175,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 57.7,
+     "y": 96.65,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C45|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 104.155,
+     "y": 142.015,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 119.4,
+     "y": 103.4,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP16|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 137.275,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 57.7,
+     "y": 94.7,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP15|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 132.225,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 55.7,
+     "y": 96.3,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U5|Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+    "from": {
+     "x": 159.535,
+     "y": 201.12,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 112.75,
+     "y": 98.35,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R42|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 167.225,
+     "y": 168.275,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.7,
+     "y": 84.95,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R35|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 133.005,
+     "y": 168.735,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 125.3,
+     "y": 92.9,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R29|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 103.235,
+     "y": 168.735,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 121.5,
+     "y": 103.9,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R10|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 142.855,
+     "y": 162.625,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 86.45,
+     "y": 104.6,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP3|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 162.525,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 91.5,
+     "y": 108.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP1|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 101.925,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 89.3,
+     "y": 108.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R2|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 63.335,
+     "y": 168.735,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 74.3,
+     "y": 104.45,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D12|Glasgow:D_SOD-523",
+    "from": {
+     "x": 120.705,
+     "y": 153.255,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 107.95,
+     "y": 97.45,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C80|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 152.165,
+     "y": 147.475,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 90,
+     "y": 94.7,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R45|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 58.885,
+     "y": 173.185,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 89.3,
+     "y": 107.4,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C85|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 54.435,
+     "y": 152.935,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 88.6,
+     "y": 106.9,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C21|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 114.235,
+     "y": 136.005,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 85.9,
+     "y": 94.9,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C79|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 143.005,
+     "y": 146.925,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 88.5,
+     "y": 95.5,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP17|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 142.325,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 73.6,
+     "y": 112.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C83|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 165.925,
+     "y": 146.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.7,
+     "y": 86.4,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D15|LED_SMD:LED_0603_1608Metric",
+    "from": {
+     "x": 136.435,
+     "y": 152.775,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 124.3,
+     "y": 81.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C55|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 152.825,
+     "y": 142.015,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 123.6,
+     "y": 93.1,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R46|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 63.795,
+     "y": 173.185,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 127,
+     "y": 109.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R48|Resistor_SMD:R_0603_1608Metric",
+    "from": {
+     "x": 73.415,
+     "y": 174.195,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.7,
+     "y": 101.2,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R47|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 68.705,
+     "y": 173.185,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 127,
+     "y": 81.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP2|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 157.475,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 76.2,
+     "y": 104.4,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D14|LED_SMD:LED_0603_1608Metric",
+    "from": {
+     "x": 130.385,
+     "y": 152.775,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 124.3,
+     "y": 109.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U31|Glasgow:SOT-23-5",
+    "from": {
+     "x": 131.885,
+     "y": 200.15,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 122.3,
+     "y": 89,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D11|Glasgow:D_SOD-523",
+    "from": {
+     "x": 116.255,
+     "y": 153.255,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 82.8,
+     "y": 104.2,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R1|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 138.405,
+     "y": 163.085,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 73.2,
+     "y": 104.45,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R49|Resistor_SMD:R_0603_1608Metric",
+    "from": {
+     "x": 77.925,
+     "y": 174.195,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.7,
+     "y": 88.9,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "TP18|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 147.375,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 125.35,
+     "y": 103.7,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP19|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 152.425,
+     "y": 179.725,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 124.9,
+     "y": 91.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "RN3|Glasgow:R_Array_Convex_4x0402",
+    "from": {
+     "x": 56.275,
+     "y": 179.725,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 103.9,
+     "y": 101.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "RN4|Glasgow:R_Array_Convex_4x0402",
+    "from": {
+     "x": 61.825,
+     "y": 179.725,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 103.9,
+     "y": 103.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "RN5|Glasgow:R_Array_Convex_4x0402",
+    "from": {
+     "x": 67.375,
+     "y": 179.725,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 114.8,
+     "y": 105.96,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "RN6|Glasgow:R_Array_Convex_4x0402",
+    "from": {
+     "x": 72.925,
+     "y": 179.725,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 110.95,
+     "y": 105.96,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "RN7|Glasgow:R_Array_Convex_4x0402",
+    "from": {
+     "x": 78.225,
+     "y": 179.975,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 92,
+     "y": 88.4,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "RN8|Glasgow:R_Array_Convex_4x0402",
+    "from": {
+     "x": 83.275,
+     "y": 179.975,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 92,
+     "y": 94,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "RN10|Glasgow:R_Array_Convex_4x0402",
+    "from": {
+     "x": 156.924898,
+     "y": 173.715,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 103.9,
+     "y": 89.85,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "RN11|Glasgow:R_Array_Convex_4x0402",
+    "from": {
+     "x": 162.474898,
+     "y": 173.715,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 110.9,
+     "y": 85.05,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "RN12|Glasgow:R_Array_Convex_4x0402",
+    "from": {
+     "x": 168.024898,
+     "y": 173.715,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 114.8,
+     "y": 85.05,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U4|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 151.035,
+     "y": 199.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 85.7,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U32|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 138.435,
+     "y": 199.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 88.6,
+     "y": 105,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C75|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 124.105,
+     "y": 146.925,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 106.05,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C51|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 133.925,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 92.05,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U29|Glasgow:SOT-363_SC-70-6",
+    "from": {
+     "x": 104.735,
+     "y": 199.75,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 105.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D13|Glasgow:D_SOD-523",
+    "from": {
+     "x": 125.155,
+     "y": 153.255,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 107.95,
+     "y": 94.85,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "RN2|Glasgow:R_Array_Convex_4x0402",
+    "from": {
+     "x": 50.975,
+     "y": 179.975,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 92,
+     "y": 105.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "RN1|Glasgow:R_Array_Convex_4x0402",
+    "from": {
+     "x": 151.624898,
+     "y": 173.965,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 92,
+     "y": 99.6,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R37|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 141.905,
+     "y": 168.735,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 108.3,
+     "y": 92.3,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C11|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 61.825,
+     "y": 135.545,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 62.7,
+     "y": 89.95,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R53|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 100.095,
+     "y": 173.645,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 58.7,
+     "y": 91.5,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C39|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 75.305,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.45,
+     "y": 89.25,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C50|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 129.935,
+     "y": 142.015,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.3,
+     "y": 89.25,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C8|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 147.455,
+     "y": 146.465,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 61.2,
+     "y": 100.5,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "FB1|Inductor_SMD:L_0402_1005Metric",
+    "from": {
+     "x": 133.955,
+     "y": 162.625,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 58.6,
+     "y": 99.6,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U15|Glasgow:SOT-23-6",
+    "from": {
+     "x": 124.735,
+     "y": 188.15,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 61,
+     "y": 98.1,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R52|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 95.645,
+     "y": 173.185,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 58.7,
+     "y": 97.6,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C44|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 99.705,
+     "y": 141.555,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 125.7,
+     "y": 106,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C58|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 166.175,
+     "y": 141.555,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 125.8,
+     "y": 83.5,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D16|Glasgow:D_SOD-323",
+    "from": {
+     "x": 142.705,
+     "y": 152.955,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 125.8,
+     "y": 109.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D17|Glasgow:D_SOD-323",
+    "from": {
+     "x": 149.325,
+     "y": 152.955,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.3,
+     "y": 82.6,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D18|Glasgow:SOT-323_SC-70",
+    "from": {
+     "x": 155.775,
+     "y": 153.305,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 121.6,
+     "y": 108.9,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D19|Glasgow:SOT-323_SC-70",
+    "from": {
+     "x": 162.225,
+     "y": 153.305,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 121.6,
+     "y": 86.6,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R25|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 87.275,
+     "y": 168.735,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.9,
+     "y": 107.65,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R26|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 91.265,
+     "y": 168.735,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 121.3,
+     "y": 101.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R54|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 104.085,
+     "y": 173.645,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.85,
+     "y": 85.3,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U12|Glasgow:VSSOP-10_3x3mm_P0.5mm",
+    "from": {
+     "x": 102.905,
+     "y": 188.1,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 121.9,
+     "y": 106.65,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D21|Glasgow:UDFN-14_3.5x1.35mm_P0.5mm",
+    "from": {
+     "x": 65.075,
+     "y": 163.23,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.65,
+     "y": 108.5,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D23|Glasgow:UDFN-14_3.5x1.35mm_P0.5mm",
+    "from": {
+     "x": 79.175,
+     "y": 163.23,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 104.65,
+     "y": 82.5,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C16|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 85.055,
+     "y": 135.545,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 61,
+     "y": 113.3,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C88|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 77.085,
+     "y": 152.935,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 75.3,
+     "y": 91.6,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D24|Glasgow:SOT-323_SC-70",
+    "from": {
+     "x": 85.925,
+     "y": 163.455,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 61.2,
+     "y": 115.65,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R4|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 153.875,
+     "y": 168.735,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 60,
+     "y": 116.5,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R5|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 82.175,
+     "y": 173.645,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 61.1,
+     "y": 116.5,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R6|Glasgow:R_0603_1608Metric_DNP",
+    "from": {
+     "x": 128.805,
+     "y": 174.195,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 125.1,
+     "y": 101.2,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R7|Resistor_SMD:R_0603_1608Metric",
+    "from": {
+     "x": 137.305,
+     "y": 174.195,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 125.1,
+     "y": 101.2,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R8|Glasgow:R_0603_1608Metric_DNP",
+    "from": {
+     "x": 141.815,
+     "y": 174.195,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 125.1,
+     "y": 88.9,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R56|Resistor_SMD:R_0603_1608Metric",
+    "from": {
+     "x": 112.325,
+     "y": 174.195,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 125.1,
+     "y": 88.9,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R57|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 116.575,
+     "y": 173.645,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 127.3,
+     "y": 105.1,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R58|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 120.565,
+     "y": 173.645,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.7,
+     "y": 83.85,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R38|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 145.895,
+     "y": 168.735,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 87.3,
+     "y": 103.1,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R3|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 107.685,
+     "y": 168.275,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 57.75,
+     "y": 99.5,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "TP7|TestPoint:TestPoint_Pad_D1.0mm",
+    "from": {
+     "x": 61.075,
+     "y": 187.35,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 64,
+     "y": 99.2,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C87|Capacitor_SMD:CP_Elec_6.3x5.9",
+    "from": {
+     "x": 68.765,
+     "y": 155.555,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 66.5,
+     "y": 104.05,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C17|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 89.965,
+     "y": 135.545,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 72.6,
+     "y": 105.9,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U2|Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+    "from": {
+     "x": 160.935,
+     "y": 190.2,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 76.45,
+     "y": 110.75,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U3|Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+    "from": {
+     "x": 111.135,
+     "y": 202.2,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 72.95,
+     "y": 110.75,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C15|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 80.145,
+     "y": 135.545,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 76.1,
+     "y": 105.9,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U8|Glasgow:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias",
+    "from": {
+     "x": 57.875,
+     "y": 213.65,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 66.7,
+     "y": 115.6,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U36|Glasgow:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias",
+    "from": {
+     "x": 144.735,
+     "y": 199.6,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 66.7,
+     "y": 111.1,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C86|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 59.435,
+     "y": 152.735,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 64.3,
+     "y": 111.1,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C26|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 137.955,
+     "y": 135.805,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 64.3,
+     "y": 115.6,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C27|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 143.215,
+     "y": 136.555,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 69.1,
+     "y": 111.1,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C28|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 147.725,
+     "y": 136.555,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 69.1,
+     "y": 115.6,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C20|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 109.785,
+     "y": 135.545,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 84,
+     "y": 95.4,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U7|Glasgow:SOT-143",
+    "from": {
+     "x": 51.575,
+     "y": 214.15,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 61.2,
+     "y": 112.7,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "D20|Glasgow:UDFN-14_3.5x1.35mm_P0.5mm",
+    "from": {
+     "x": 58.025,
+     "y": 163.23,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 104.65,
+     "y": 108.5,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "RN9|Glasgow:R_Array_Convex_4x0402",
+    "from": {
+     "x": 88.575,
+     "y": 179.725,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 103.9,
+     "y": 87.3,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "U21|Glasgow:VSSOP-10_3x3mm_P0.5mm",
+    "from": {
+     "x": 53.155,
+     "y": 200.1,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 121.9,
+     "y": 84.35,
+     "rot": 0,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C14|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 75.435,
+     "y": 136.555,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 78.6,
+     "y": 104.4,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C89|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 81.535,
+     "y": 152.475,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 62.3,
+     "y": 116.2,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R24|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 83.285,
+     "y": 168.735,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.9,
+     "y": 105.75,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R30|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 112.135,
+     "y": 168.735,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.85,
+     "y": 83.4,
+     "rot": 90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C90|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 89.965,
+     "y": 152.915,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 122,
+     "y": 105.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C91|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 93.935,
+     "y": 152.915,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 122,
+     "y": 83.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R59|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 124.555,
+     "y": 173.645,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 124,
+     "y": 105.9,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R60|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 133.055,
+     "y": 173.645,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 124,
+     "y": 83.6,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "D22|Glasgow:UDFN-14_3.5x1.35mm_P0.5mm",
+    "from": {
+     "x": 72.125,
+     "y": 163.23,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.65,
+     "y": 82.5,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C56|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 156.815,
+     "y": 142.015,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 123.4,
+     "y": 86.3,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U20|Glasgow:SOT-23-6",
+    "from": {
+     "x": 167.635,
+     "y": 188.15,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 121,
+     "y": 93.6,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R55|Resistor_SMD:R_0402_1005Metric",
+    "from": {
+     "x": 108.075,
+     "y": 173.645,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 121.3,
+     "y": 89.1,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U13|Glasgow:SOT-23-6",
+    "from": {
+     "x": 111.035,
+     "y": 188.15,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 121,
+     "y": 97.4,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "C32|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 169.375,
+     "y": 136.005,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 123.4,
+     "y": 108.6,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "SW1|Glasgow:SW_Tactile_SPST_Angled_TC-1109DE",
+    "from": {
+     "x": 95.375,
+     "y": 179.925,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 74.6,
+     "y": 117.3,
+     "rot": 180,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R50|Glasgow:R_0603_1608Metric_DNP",
+    "from": {
+     "x": 86.425,
+     "y": 174.195,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.7,
+     "y": 101.2,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C54|Capacitor_SMD:C_0402_1005Metric",
+    "from": {
+     "x": 148.375,
+     "y": 141.555,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 117.15,
+     "y": 90.4,
+     "rot": -90,
+     "layer": "F.Cu"
+    }
+   },
+   {
+    "ref": "R51|Glasgow:R_0603_1608Metric_DNP",
+    "from": {
+     "x": 90.935,
+     "y": 174.195,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 126.7,
+     "y": 88.9,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C92|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 98.925,
+     "y": 152.735,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 90.5,
+     "y": 91.2,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   }
+  ]
+ },
+ "place": {
+  "footprints": 269,
+  "keptMoved": [],
+  "missing": [],
+  "added": [],
+  "offBoard": [
+   "SW1"
+  ],
+  "wrongSide": [],
+  "placedSides": {
+   "F": 136,
+   "B": 107
+  },
+  "outlineMm": [
+   80.1,
+   49.1
+  ],
+  "areaMm2": 3906.2,
+  "outlineClosed": true
+ },
+ "agent": {
+  "model": "claude-fable-5-2",
+  "costUsd": 138.70218640000002,
+  "turns": 232,
+  "subtype": "success",
+  "isError": true,
+  "tools": {
+   "Bash": 193,
+   "Read": 20,
+   "ToolSearch": 2,
+   "TaskStop": 2,
+   "Write": 2
+  },
+  "web": [],
+  "hosts": {
+   "api.anthropic.com": 47,
+   "http-intake.logs.us5.datadoghq.com": 172
+  },
+  "denied": {},
+  "notes": "# Glasgow revC3 – placement and routing notes\n\n(Status section at the end says what is finished and what is not.)\n\n## What the board is\n\nUSB-C → FX2 (CY7C68013A, USB 2.0 HS) → iCE40HX8K (BGA-121, 0.8 mm) → two 8-bit level-shifted I/O\nports (A on J2, B on J3) with ESD arrays, 33 Ω series arrays, selectable 10 k pulls (PCA6408),\nper-port adjustable LDO + DAC + INA233 current/voltage monitor, plus a 13-pair LVDS connector (J5),\nSYNC (J4) and AUX (J10).\n\n## Floorplan – driven by the silkscreen that was already on the board\n\nThe board file still carried its silkscreen (function boxes and labels), a back-side\n\"wave soldering keepout\" drawing around the through-hole connectors, and back-side test point labels.\nI treated these as the mechanical/ID constraints of the product and placed every part in its labelled\nbox, instead of inventing a new arrangement that would make the printed labels wrong:\n\n- status LEDs / user LEDs with their resistors in the two boxes left of the USB connector;\n- FX2 right of the USB-C connector (USB pins facing it), crystal and its caps at the XTAL pins;\n- FPGA right of the FX2, rotated so that: LVDS balls face J5 (north), port-A balls face east,\n  port-B balls face south, FX2 FIFO balls face the FX2 (west). With this rotation the 13 FIFO/flag\n  signals that sit in the outer two ball rows reach the FX2 as one planar fan without a via;\n- level shifters in the 2 x 8 grid the silk prints (A0..B7), ESD arrays right below/above the IDC\n  headers, 10 k pull arrays between the two pin-socket rows, PCA6408s in the PU/PD boxes;\n- INA233 / LDO / DAC per port in the \"ADC / VREG / DAC\" boxes on the east edge;\n- 3V3 and 1V2 LDOs, supervisor, EEPROMs, reset switch in their boxes at the bottom left;\n- back side: only decoupling and small passives, none inside the wave-solder keepout, none on the\n  back-side artwork; rear test points next to their printed labels.\n\nBoth sides carry parts (the board has fiducials on both sides). Back-side parts are: two 100 nF per\nlevel shifter directly under it, FX2 and FPGA decoupling, PLL filters, the passives of the east\nstrip that do not fit in the printed boxes, shield RC, and the rear test points.\n\nA few silkscreen texts were moved by a millimetre or so (or shrunk) to stay readable next to the\nparts they name: CLKIF, 1V2/SDA/SCL, 3V3/5V (test points moved), SYNC, AUX, IO PULL-UP/DOWN,\nESD PROTECTION, FX2, FPGA/iCE40HX8K, and the rear VDAC / test point labels.\n\n## Layer stack use\n\n| layer | use |\n|---|---|\n| F.Cu | parts, most signals, the 7 LVDS pairs of J5's lower row, USB pair |\n| In1.Cu | solid GND, never cut |\n| In2.Cu | +3V3 plane, with islands: VIOA (top right, reaches J2 pin 2), VIOB (bottom right, reaches J3 pin 2), +5V (left column + band along the bottom edge), GND under the LVDS run (so the B.Cu pairs have ground above them). A few short signal tracks under the FX2/FPGA (see below) |\n| B.Cu | decoupling, the 6 LVDS pairs of J5's upper row, connector buses, crossings, GND pour |\n\n+5V goes from the bottom band to the two VIO LDOs as a 0.8 mm B.Cu trunk at x = 118.5 (inside the\nwave keepout, where no part may sit anyway). +1V2 is a routed net (no plane): it has four balls,\neach with its 100 nF.\n\n## Design rules changed (and why)\n\n- Net class clearance 0.15 → 0.127 mm, minimum track 0.15 → 0.127 mm, hole clearance 0.25 → 0.2 mm.\n  Reason: the 0.8 mm BGA. With 0.4/0.2 mm vias a 0.127 mm track passes between two vias (0.1365 mm\n  gap); with 0.15/0.15 rules nothing passes and inner balls cannot be reached on a 4-layer board\n  without blind vias. Outside the BGA and the level-shifter channels the hand-drawn copper keeps\n  0.15 mm or more; autorouted copper may use the 0.127 mm.\n- Vias: 0.4/0.2 mm under the BGA, 0.45/0.2 mm for signals, 0.6/0.3 mm for power feeds. All inside the\n  board's own minimums (0.4 / 0.2).\n\n## Routing decisions\n\n- **USB**: D+/D- leave the A6/A7 pads as a pair (0.19/0.15) and run 8 mm straight into the FX2. The\n  B6/B7 pads are tied in on the back side through the rear D+/D- test points (two small vias per\n  line). The TPD3S014 (ESD + VBUS switch) sits 1.5 mm off the pair on short stubs. Both VBUS pad pairs\n  are joined on the back through the VBUS test point; ferrite, switch and the 150 µF bulk cap are in\n  line before +5V reaches the plane.\n- **FX2 ↔ FPGA**: PKTEND, A0, A1, OE, ALERT, FLAGA-C, D3-D7 on F.Cu, equal pitch, 45° fan, no vias.\n  FLAGD, RD, WR, DONE, RESET on B.Cu. D0-D2, IFCLK and the CLKREF branch to ball D5 run on In2 under\n  the two chips, because B.Cu there holds the decoupling caps; they are short and sit between the\n  GND plane and the caps' ground.\n- **FPGA**: outer two ball rings escape on F.Cu through chosen gaps, so that each bus leaves in the\n  order its target needs (QA/QB/DB in resistor-array order, LVDS pairs side by side). Inner balls on\n  dog-bone vias. Six 100 nF under the BGA (one per 1V2/3V3 centre ball where it fits), the PLL\n  100 nF caps directly at the PLL balls with the 4.7 µF + 100 Ω next to the BGA edge.\n- **LVDS (J5)**: the pinout sorts itself: all pairs for the lower pad row come from the outer ball\n  rows (F.Cu), all pairs for the upper row from inner balls (B.Cu, vias between the two pad rows).\n  Lanes are stacked so no pair crosses another; 0.19/0.15 mm, In2 is GND above the B.Cu pairs.\n  No length matching between pairs was done (see below).\n- **Ports**: IDC pin → ESD array on F.Cu (a few mm), IDC pin → pin-socket row as a B.Cu bus,\n  socket pin → 10 k array → socket pin on F.Cu. Level-shifter cells are identical: 3V3/GND/VIO vias\n  at fixed spots, caps under the part, and the three signals of each shifter in the 1.1 mm channel\n  between rows (three tracks per channel). Direction lines come up through one via column left of\n  the grid.\n- **Power**: every regulator has its input and output cap at the pins; LDO feedback dividers are at\n  the FB pin; the INA233 shunt sense lines are Kelvin tracks from the shunt pads through the 4R7 +\n  100 nF filter.\n\n## Status\n\n(filled in at the end – see bottom of file)\n"
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "A": {
+      "emi": 8,
+      "si": 8,
+      "power": 9,
+      "placement": null,
+      "routing": 6,
+      "overall": 8,
+      "summary": "A combines a track-free L2 ground plane, closely matched FPGA expansion pairs and broad power feeds with local regulator copper. Correct the 0.051 mm zone-to-edge clearance, two 0.150 mm drill-wall gaps and the R40 via issue, then confirm the USB impedance build before ordering."
+    },
+    "B": {
+      "emi": 7,
+      "si": 7,
+      "power": 9,
+      "placement": null,
+      "routing": 7,
+      "overall": 7,
+      "summary": "B has continuous core-power distribution, short regulator loops and zero open connections. Its USB pair makes two transitions per main path, a FIFO trace crosses an L3 void, and 29 vias enter SMD lands with filling and capping disabled."
+    },
+    "C": {
+      "emi": 3,
+      "si": 2,
+      "power": 2,
+      "placement": null,
+      "routing": 1,
+      "overall": 1,
+      "summary": "Refilling clears 534 saved-fill clearance errors but leaves 153 open connections and four intersecting-zone errors. The FIFO clocks, EEPROM bus, expansion pairs and I/O bank regulator circuits have missing connections."
+    },
+    "D": {
+      "emi": 5,
+      "si": 7,
+      "power": 6,
+      "placement": null,
+      "routing": 6,
+      "overall": 6,
+      "summary": "D has the strongest nominal USB cross-section and provides ground beneath much of the expansion routing. Its FIFO D0 uses nine vias, its inner tracks interrupt the ground reference, and its five core-supply patches rely on additional routing."
+    }
+  },
+  "ranking": ["A", "B", "D", "C"],
+  "human_guess": {
+    "board": "A",
+    "confidence": 98,
+    "why": "A tunes the entire expansion bus toward a common length while giving the mirrored regulator and shunt circuits repeated local copper shapes and the USB shell its own shield regions. This circuit-specific treatment is the strongest authorship clue in the four layouts."
+  }
+}

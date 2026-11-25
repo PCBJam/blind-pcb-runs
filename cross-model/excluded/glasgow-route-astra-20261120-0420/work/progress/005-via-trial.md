@@ -1,0 +1,1 @@
+The first spacing pass kept the original 0.30 mm drill size and separated all the flagged holes. Two via arrays grew toward adjacent copper. The outer +5 V via shown here approached SCL on F.Cu and ALERT on B.Cu, and a bank-B via approached RN3. I discarded those two expansions and used the space on the other end of each row.

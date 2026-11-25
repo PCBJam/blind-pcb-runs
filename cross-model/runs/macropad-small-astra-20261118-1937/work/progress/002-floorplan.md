@@ -1,0 +1,1 @@
+First placement trial. The left-facing USB receptacle sits on its footprint edge datum and faces the USB pins of the RP2040. The flash and BOOTSEL switch sit above this path. The narrower outline keeps the key geometry. The trial crowded several capacitor courtyards, especially at the crystal and first LED, so this placement was rejected before routing.

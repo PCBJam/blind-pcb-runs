@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "A": {
+      "emi": 3,
+      "si": 2,
+      "power": 2,
+      "placement": null,
+      "routing": 2,
+      "overall": 2,
+      "summary": "Unfinished: 120 unconnected items (54 nets in pieces) including VBUS and VBATT to the charger, P2.5V to the FPGA, the DDR3 clock, USB D+ and the flash clock. Buck switch nodes are 0.089 mm tracks, the In1 ground plane covers only 38% under the FPGA, and it needs 75 laser microvias."
+    },
+    "B": {
+      "emi": 8,
+      "si": 9,
+      "power": 8,
+      "placement": null,
+      "routing": 7,
+      "overall": 8,
+      "summary": "Complete, through-vias only, two unbroken ground planes, DDR3 length-matched to about 0.5 mm with 2 vias per net, coupled USB pair, pours at the regulators. Needs clean-up (planes 0.15 mm from the edge, 0.10 mm NPTH clearance, duplicate B.Cu zone, zone refill hangs in KiCad 10) and a stackup decision because In2 crosses 108 power-island splits on In3."
+    },
+    "C": {
+      "emi": 5,
+      "si": 3,
+      "power": 6,
+      "placement": null,
+      "routing": 3,
+      "overall": 3,
+      "summary": "Sound stackup, real power islands, very tight decoupling and standard vias, but 29 nets are unrouted including USB D-, JTAG TCK/TMS, FPGA_RESET, SD clock and a USB-C CC resistor, so the board cannot be programmed. DDR3 is unmatched and tracks in the In3 ground plane cut slots under the In2 bus."
+    },
+    "D": {
+      "emi": 6,
+      "si": 5,
+      "power": 6,
+      "placement": null,
+      "routing": 4,
+      "overall": 5,
+      "summary": "Fully connected and DRC-clean with good USB and DQS pairs, but it relies on 499 blind, buried and micro vias with 115 stacked sites, which is a 2nd-order HDI build and not a standard 6-layer order. DDR3 is unmatched with up to 10 vias per net, the ground plane is perforated under the FPGA, and the DDR supply runs partly on 0.127 mm tracks."
+    }
+  },
+  "ranking": ["B", "D", "C", "A"],
+  "human_guess": {
+    "board": "B",
+    "confidence": 92,
+    "why": "B has serpentine length tuning to a 15.0 mm target, thousands of sub-0.05 mm segment fragments from interactive routing, hand-drawn power islands with ad-hoc priorities, per-regulator pours, keepout areas, a duplicated zone and rounding-level DRC leftovers from older KiCad versions. A, C and D show tool-like regularity: uniform fan-out stubs including on unconnected pins (A), grid-regular vias in capacitor pads and unmatched straight buses (C), and a single track width with programmatic stacked-via ladders and a custom DRC rule (D)."
+  }
+}

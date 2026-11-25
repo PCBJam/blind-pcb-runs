@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "A": {
+      "emi": 5,
+      "si": 6,
+      "power": 8,
+      "placement": null,
+      "routing": 4,
+      "overall": 5,
+      "summary": "Broad supply trunks and two-sided regulator copper are strengths. The saved pours create clearance and mask failures, and four copper DRC errors remain after refill."
+    },
+    "B": {
+      "emi": 7,
+      "si": 6,
+      "power": 6,
+      "placement": null,
+      "routing": 7,
+      "overall": 7,
+      "summary": "A continuous rear ground fill and 134 ground vias support a fully connected board. The regulator has little local heat-spreading copper, seven vias are inside solderable lands, and the USB B7 branch spends 5.05 mm on the back."
+    },
+    "C": {
+      "emi": 6,
+      "si": 7,
+      "power": 8,
+      "placement": null,
+      "routing": 8,
+      "overall": 8,
+      "summary": "C is the preferred order candidate, with complete connectivity, two-sided regulator copper and the best-coupled USB receiver pair. The main electrical weakness is the interrupted ground reference under the main oscillator and long header routes."
+    },
+    "D": {
+      "emi": 1,
+      "si": 3,
+      "power": 1,
+      "placement": null,
+      "routing": 1,
+      "overall": 1,
+      "summary": "D has 88 missing connections after refill, including 29 on +5V and 35 on GND. Its matched USB receiver traces cannot compensate for open MCU supplies, oscillator returns and header signals."
+    }
+  },
+  "ranking": ["C", "B", "A", "D"],
+  "human_guess": {
+    "board": "A",
+    "confidence": 85,
+    "why": "The shaped power pours, offset thermal vias, broad shield return and selective neck-downs suggest hand tuning over several passes. The long SPI-clock detour and tiny leftover SCL segment also fit a locally revised layout."
+  }
+}

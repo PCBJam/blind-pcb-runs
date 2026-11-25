@@ -1,0 +1,1 @@
+The input has 163 footprints and 170 named nets on a 50.8 × 22.86 mm outline. The USB and battery connectors share the left end with the reverse-side microSD socket. The FPGA, DDR3 and three buck converters are off-board with the other loose parts. I saved a separate copy of the input for placement and DRC comparisons.

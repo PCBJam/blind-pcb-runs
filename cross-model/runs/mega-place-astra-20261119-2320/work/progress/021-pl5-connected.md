@@ -1,0 +1,1 @@
+KiCad's refilled-board check confirms PL5 is continuous from the Mega to the far shield header. The new trace passes two rounded passive pads without a copper clearance violation. TXD3 is the only remaining open connection; its adjacent RXD3 escape limits the available space under U3.

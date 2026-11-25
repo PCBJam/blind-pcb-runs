@@ -1,0 +1,1 @@
+Both faces now carry ground pours. Smaller, higher-priority 5 V areas spread heat from the regulator tab across four vias. The first fill left three disconnected ground groups and a one-spoke thermal at the ICSP header. KiCad also found small dangling track ends from the routing exchange. I used these results to guide the finishing pass.

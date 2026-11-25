@@ -1,0 +1,1 @@
+The first signal passes encountered congestion where GPIO leaves U3 beside a bypass capacitor or a supply branch. I tried early routes for several boxed-in pins, then reserved staggered via exits on the inner side of selected QFP pads. The other pins still have top-side exits. I am comparing this routing trial against the unescaped version on the same outline.

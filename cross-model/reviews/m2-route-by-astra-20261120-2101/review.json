@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "A": {
+      "emi": 8,
+      "si": 9,
+      "power": 9,
+      "placement": null,
+      "routing": 8,
+      "overall": 9,
+      "summary": "A combines short, closely coupled PCIe routes with a nominal 85 Ω geometry, parallel power pours and local capacitor returns. The retention drill is present, and release depends on confirming the production stackup and edge processing."
+    },
+    "B": {
+      "emi": 9,
+      "si": 8,
+      "power": 6,
+      "placement": null,
+      "routing": 8,
+      "overall": 8,
+      "summary": "Two dedicated GND planes and nearby transition vias give B the strongest return paths. Long 0.25 mm feeds at the 3.3 V slot contacts reduce load margin, and the edge-drilled retention feature needs explicit fabrication treatment."
+    },
+    "C": {
+      "emi": 8,
+      "si": 8,
+      "power": 9,
+      "placement": null,
+      "routing": 5,
+      "overall": 6,
+      "summary": "C has excellent 12 V distribution, matched PCIe pairs and deliberate plane relief at the connector lands. The drill and profile omit the M.2 retention half-hole, a mechanical release blocker despite clean electrical DRC."
+    },
+    "D": {
+      "emi": 2,
+      "si": 2,
+      "power": 4,
+      "placement": null,
+      "routing": 2,
+      "overall": 2,
+      "summary": "Nine missing GND connections isolate connector returns, and several differential mates take different layers or widely separated paths. A long 12 V trace and the missing M.2 retention feature compound the release risk."
+    }
+  },
+  "ranking": ["A", "B", "C", "D"],
+  "human_guess": {
+    "board": "B",
+    "confidence": 93,
+    "why": "Lane-specific rounded tuning, two length targets offset by about one via traversal, locally placed return vias and small residual power-route edits suggest iterative interactive routing."
+  }
+}

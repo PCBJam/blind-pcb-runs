@@ -1,0 +1,1 @@
+All four transmit pairs, all four receive pairs, and REFCLK now reach the socket. The revised matched launches and return vias pass the geometry probe. Signal vias are 0.50/0.25 mm. The A-row pairs change back to the bottom near the socket. The B-row pairs land directly from the top.

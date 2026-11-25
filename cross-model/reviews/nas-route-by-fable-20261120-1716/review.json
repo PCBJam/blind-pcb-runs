@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "A": {
+      "emi": 6,
+      "si": 7,
+      "power": 5,
+      "placement": null,
+      "routing": 5,
+      "overall": 5.5,
+      "summary": "Complete, DRC-clean, with perfectly matched pairs and per-class impedance planning over solid GND. Power pours on the outer layers are fragmented by signals: 4.4 A of 12 V funnels through one via near (147.35, 82.85), U10/U14 input loops go through a via in or beside the VIN pin, and 68 % of the routing is any-angle with via-in-pad on fine-pitch pins."
+    },
+    "B": {
+      "emi": 8,
+      "si": 6,
+      "power": 7,
+      "placement": null,
+      "routing": 6,
+      "overall": 7,
+      "summary": "Best ground system (802 GND vias, return vias and antipads at every pair transition), best regulator layout and clean 45-degree routing. Needs three fixes before ordering: 8.79 mm skew on PCIe_RX_3 from a one-leg meander, the CM4 +5V feed (0.8 mm track through two single 0.2 mm-drill vias, 192 mV at 3 A), and copper running to the board edge on all layers; no stackup is defined for its 0.127 mm pairs."
+    },
+    "C": {
+      "emi": 7,
+      "si": 7,
+      "power": 7,
+      "placement": null,
+      "routing": 5,
+      "overall": 6.5,
+      "summary": "Complete, DRC-clean against its own stricter rules, pairs matched within 0.17 mm on a documented JLC 3313 stackup, no power choke points. Loses to B on return-path detail (no return vias at pair transitions, single-via regulator grounds, no thermal vias under U3) and runs the PCIe RX pairs 0.42 mm from the wall of seven mounting holes on the bottom side."
+    },
+    "D": {
+      "emi": 2,
+      "si": 2,
+      "power": 2,
+      "placement": null,
+      "routing": 1,
+      "overall": 2,
+      "summary": "Unfinished: 23 real open connections including the 1V2 switch node, three feedback-divider grounds and a USB D- line. No ground pours, In2 is power islands only so 66 % of PCIe length has no adjacent GND, pairs are routed up to 17 mm apart, switch nodes are 0.15 mm tracks and a 12 V track sits 0.03 mm from a slot edge."
+    }
+  },
+  "ranking": ["B", "C", "A", "D"],
+  "human_guess": {
+    "board": "B",
+    "confidence": 85,
+    "why": "B uses only the track widths and the single 0.45/0.2 via already preset in the project file and leaves the project's net classes, rules and default stackup untouched, while A, C and D all added net classes and edited rules. It is the only board with arc segments (84, all in rounded KiCad-tuner meanders), 92 % of its vias sit on a 0.05 mm grid and none of its routing is off 0/45/90 degrees. Its errors are human ones (a meander left on one leg of a pair, overlapping same-net zones with equal priority, edge clearance never set), and it shows mechanical awareness the others lack (no tracks near mounting hardware, void under the RJ45). The others carry tool signatures: A's 68 % any-angle routing and eleven via sizes, C's uniform 4 mm via grid, D's unfinished state."
+  }
+}

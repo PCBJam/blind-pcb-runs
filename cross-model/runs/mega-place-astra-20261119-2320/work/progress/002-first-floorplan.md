@@ -1,0 +1,1 @@
+I grouped the USB bridge around the fixed HC49 crystal, the regulator around the jack, and the Mega near the analog headers. The first coordinates failed the grouped placement trial on 30 moves. The crystal courtyard and its load capacitors, the jack-side bulk capacitors, and the USB fuse needed more room. This image records the rejected trial.

@@ -1,0 +1,1 @@
+The supplied board has six locked switch/LED pairs, six LED windows, and 42 loose footprints below the perimeter. The ratsnest includes the RP2040 clock and flash, the USB interface, three logic/power rails and a switched LED supply. This is the placement and connectivity baseline.

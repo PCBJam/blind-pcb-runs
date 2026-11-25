@@ -1,0 +1,1 @@
+I kept the LVDS pair centre lines at 0.340 mm pitch and set the main runs to 0.165 mm width for a 0.175 mm gap. With the selected outer dielectric the modeled uniform section is 99 Ω. I shortened one existing tuning loop on Z0_P and closed a microscopic centre-line gap in its breakout. The largest remaining within-pair track-length difference at J5 is under 0.05 mm.

@@ -1,0 +1,1 @@
+All sixteen analog inputs now escape the north edge of the Mega into staggered rows of vias under the package. The back-layer traces travel south in pin order toward J9 and J10. The first fan pattern put two lanes too close to a mounting hole. I kept fourteen complete lanes and both partial escapes, then worked on the two approaches to J10 separately.

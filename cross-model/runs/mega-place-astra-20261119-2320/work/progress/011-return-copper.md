@@ -1,0 +1,1 @@
+The 5 V and ground pads now have explicit copper paths before any fill is counted. I added ground on both faces and reserved copper at the NCP1117 output tab for heat spreading. The local regulator copper has priority over the ground pours. The USB protection, both MCU clocks and the power circuits are held in place during the remaining signal-routing search.

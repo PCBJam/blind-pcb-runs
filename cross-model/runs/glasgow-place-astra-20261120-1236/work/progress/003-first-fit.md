@@ -1,0 +1,1 @@
+This first fit exposed several problems. A bounding-box search pushed the right-angle reset switch inward, displaced two level shifters from the channel grid and scattered the ESD arrays. I kept this view and revised the placement priorities before routing.

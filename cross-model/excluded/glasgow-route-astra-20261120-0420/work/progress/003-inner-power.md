@@ -1,0 +1,1 @@
+After restoring the zones, I refilled the board under KiCad 10. In2 carries the 3.3 V and 1.2 V distribution and local tracks. In1 supplies the principal ground reference. KiCad found zero missing connections after refill, plus 16 drill-spacing warnings between same-net vias and one dangling via. I kept this round in the log before correcting the copper.

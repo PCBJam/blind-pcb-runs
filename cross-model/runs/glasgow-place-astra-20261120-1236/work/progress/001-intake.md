@@ -1,0 +1,1 @@
+The input has 272 footprints and an 80 × 49 mm outline. The USB receptacle, headers, mounting holes and fiducials define the mechanical datum. All electrical routing is absent. This view records the board before placement.

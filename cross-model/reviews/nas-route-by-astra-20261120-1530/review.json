@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "A": {
+      "emi": 8,
+      "si": 7,
+      "power": 9,
+      "placement": null,
+      "routing": 7,
+      "overall": 7,
+      "summary": "The strongest power distribution and a well-referenced CM4 USB pair make A a close second. Overlapping Ethernet tuning copper hides real path skew, and the flash data routing and USB-C launch add avoidable transitions."
+    },
+    "B": {
+      "emi": 2,
+      "si": 2,
+      "power": 1,
+      "placement": null,
+      "routing": 1,
+      "overall": 1,
+      "summary": "The 29 missing connections include the 1.2 V converter switch node and RP2040 USB data. Bottom-side PCIe routes cross large gaps in the power planes, and the inner ground fill reaches the routed outline."
+    },
+    "C": {
+      "emi": 6,
+      "si": 5,
+      "power": 7,
+      "placement": null,
+      "routing": 5,
+      "overall": 5,
+      "summary": "Local switch-node pours, ground stitching and top-side flash routing are strengths. Lane 3 has substantial receive-pair skew, the saved stack gives poor impedance estimates, and refill leaves 19 zone-intersection errors."
+    },
+    "D": {
+      "emi": 8,
+      "si": 8,
+      "power": 7,
+      "placement": null,
+      "routing": 8,
+      "overall": 8,
+      "summary": "D is the best release candidate, with credible impedance geometry, matched Ethernet paths and short top-side flash routes. The long 0.60 mm fan supply, local return discontinuities and assembly details still need sign-off."
+    }
+  },
+  "ranking": ["D", "A", "C", "B"],
+  "human_guess": {
+    "board": "C",
+    "confidence": 95,
+    "why": "C combines individually shaped switch-node pours, local pad-level fill keepouts, ground stitching and curved skew tuning in particular PCIe corridors. The combination looks like repeated local decisions made in the PCB editor. Authorship remains an inference."
+  }
+}

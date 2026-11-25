@@ -1,0 +1,1 @@
+The first six-net flash routing pass escaped SCLK but obstructed adjacent data pins at the west QFN row. The shove pass recovered SD0 and SD1. SD2 remained open. I kept this view to document the unsuccessful fanout order.

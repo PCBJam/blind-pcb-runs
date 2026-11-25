@@ -1,0 +1,1 @@
+ADC6 and ADC7 now pass the lower mounting hole on the same layer as the rest of the bank. Routing ADC6 alone had taken some of ADC7’s corridor. Moving two corners gave both lanes room, and the complete replacement passed the copper probe. Each analog channel uses one through via. Local ground vias were also added near the bypass capacitors and MCU ground pins.

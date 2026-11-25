@@ -1,0 +1,1 @@
+The published revC3 pad geometry, net names, and placement matched all 272 supplied footprints. This view isolates the published tracks and vias before zone fill. The USB and crystal routes remain local to U1, and the FPGA breakout serves the parallel FIFO and the two level-translator banks. Only board-level routing objects were imported.

@@ -1,0 +1,1 @@
+I filled the reverse side with ground and tried a 5 V pour on the component side to spread heat at U1 and carry current to the expansion headers. The first fills left separate islands on both rails. Ground drops beside SMD pads joined several of them. The bridge supply pins also needed a change to the crystal feedback resistor placement and local routing.

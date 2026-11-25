@@ -1,0 +1,46 @@
+{
+  "scores": {
+    "A": {
+      "emi": 7,
+      "si": 7,
+      "power": 8,
+      "placement": null,
+      "routing": 6,
+      "overall": 7,
+      "summary": "Local ground stitching, single-layer flash routing and wide LED feeds are strengths. The saved fills violate clearance on both faces at a +3V3 via, and five drills under the RP2040 paste apertures add assembly risk."
+    },
+    "B": {
+      "emi": 6,
+      "si": 5,
+      "power": 6,
+      "placement": null,
+      "routing": 5,
+      "overall": 5,
+      "summary": "The back ground pour is continuous across the key field, but key traces interrupt the crystal reference, QSPI_SD1 changes layers twice, and one local core bypass takes 10.56 mm. Several stitch drills land directly in LED or capacitor solder lands."
+    },
+    "C": {
+      "emi": 8,
+      "si": 7,
+      "power": 9,
+      "placement": null,
+      "routing": 9,
+      "overall": 8,
+      "summary": "The continuous back ground, wide LED trunks, short core bypasses and clear solder lands make C the best choice for a standard order. Both USB traces lose their back ground directly between the series resistors and the RP2040."
+    },
+    "D": {
+      "emi": 5,
+      "si": 8,
+      "power": 7,
+      "placement": null,
+      "routing": 6,
+      "overall": 6,
+      "summary": "Compact single-layer QSPI and crystal routing accompany a low-resistance LED feed. Split back copper forces a long LED bypass return, and four drills join the exposed QFN land directly to backside capacitor lands."
+    }
+  },
+  "ranking": ["C", "A", "D", "B"],
+  "human_guess": {
+    "board": "D",
+    "confidence": 85,
+    "why": "The individually staggered key fan-out, front-only VBUS path, selective LED trunk widths and shared QFN-to-capacitor vias look like local decisions made during interactive routing. This inference is independent of the quality scores."
+  }
+}

@@ -1,0 +1,1 @@
+I tested a front-only route for XTALOUT after the whole board was connected. The crystal and load capacitor connected on top, but the route could not leave the FX2 pin without disturbing the adjacent signal escapes. This picture records the discarded trial. The release keeps the connected two-via output path. XTALIN stays on the front.

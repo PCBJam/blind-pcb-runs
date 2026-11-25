@@ -1,0 +1,1 @@
+KiCad now lists six open connections. Five are power or signal connections and one is an isolated ground region. I moved the remaining FPGA escapes to checked laser-via sites and rerouted around them. Local cuts in previously routed copper created short repair gaps. The outstanding clearance violation is 0.0783 mm between SD0_CMD and 3.3 V against the 0.0889 mm project rule.

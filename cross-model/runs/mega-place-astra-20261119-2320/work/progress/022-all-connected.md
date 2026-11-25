@@ -1,0 +1,1 @@
+KiCad reports zero open connections and zero new DRC findings relative to the input. Two short RXD3 fanout shifts gave TXD3 room at the main processor and the power header. I removed an unused AREF via and a dead PL0 branch, completed the J5 ground-pin thermal relief, and added eight vias outside the regulator tab to tie its two copper spreaders together.

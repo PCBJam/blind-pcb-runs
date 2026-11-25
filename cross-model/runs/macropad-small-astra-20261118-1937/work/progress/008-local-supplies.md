@@ -1,0 +1,1 @@
+Routed each RP2040 supply to a nearby bypass or regulator capacitor first. Added direct regulator input/output capacitor connections, LED switch bypass connections, and a local ground via at the ESD array. Eighteen of nineteen prescribed connections completed. IOVDD pin 22 still needed an escape between the oscillator and neighboring QFN pins.

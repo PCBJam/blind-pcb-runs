@@ -1,0 +1,1 @@
+A narrower global thermal setting still left J12 pin 6 with a single front spoke. I restored the original pour settings and added a 0.42 mm front track from the pin to the adjacent ground stitching via. The saved refill now has zero open connections and exactly the original placement and artwork findings. The next check addresses 5 V distribution to the far header.

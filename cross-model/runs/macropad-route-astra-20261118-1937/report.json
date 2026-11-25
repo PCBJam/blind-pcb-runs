@@ -1,0 +1,102 @@
+{
+ "board": "macropad-route-astra-20261118-1937",
+ "seconds": 1229,
+ "drcErrors": {},
+ "unconnected": {},
+ "totalTrackMm": 908,
+ "totalVias": 88,
+ "roles": {
+  "usb": {
+   "mm": 30,
+   "layers": {
+    "F.Cu": 30
+   },
+   "vias": 0,
+   "parallel": 50
+  },
+  "power": {
+   "mm": 53,
+   "layers": {
+    "F.Cu": 22,
+    "B.Cu": 31
+   },
+   "vias": 5,
+   "width": 0.72,
+   "edgeShare": 9,
+   "bendsPer10mm": 3.2,
+   "parallel": 0
+  },
+  "supply": {
+   "mm": 84,
+   "layers": {
+    "F.Cu": 30,
+    "B.Cu": 54
+   },
+   "vias": 12,
+   "parallel": 20
+  },
+  "qspi": {
+   "mm": 89,
+   "layers": {
+    "F.Cu": 89
+   },
+   "vias": 0,
+   "parallel": 85
+  },
+  "keys": {
+   "mm": 274,
+   "layers": {
+    "F.Cu": 218,
+    "B.Cu": 56
+   },
+   "vias": 6,
+   "parallel": 49
+  },
+  "data": {
+   "mm": 169,
+   "layers": {
+    "F.Cu": 45,
+    "B.Cu": 124
+   },
+   "vias": 5,
+   "parallel": 20
+  },
+  "ledpower": {
+   "mm": 163,
+   "layers": {
+    "F.Cu": 118,
+    "B.Cu": 45
+   },
+   "vias": 8,
+   "parallel": 0
+  }
+ },
+ "placement": {
+  "footprints": 54,
+  "moved": []
+ },
+ "place": null,
+ "agent": {
+  "model": "gpt-6.2-astra",
+  "costUsd": 5.8782304000000005,
+  "turns": 104,
+  "subtype": "error",
+  "isError": true,
+  "tools": {
+   "Bash": 98,
+   "web_search": 1
+  },
+  "web": [],
+  "hosts": {
+   "auth.openai.com": 5,
+   "chatgpt.com": 115,
+   "sdmntprwestus3.oaiusercontent.com": 1,
+   "sdmntprcentralus.oaiusercontent.com": 1,
+   "sdmntprsouthcentralus.oaiusercontent.com": 1,
+   "ab.chatgpt.com": 2,
+   "sdmntprwestus.oaiusercontent.com": 1
+  },
+  "denied": {},
+  "notes": "# Macropad top board\n\nThe layout is complete for a standard **two-layer, 1.6 mm FR-4 board with 1 oz copper and tented through vias**. The maximum board dimensions are 89.15 × 38.10 mm. The fabrication archive [macropad-top-JLCPCB.zip](macropad-top-JLCPCB.zip) contains both copper, mask and legend layers, the routed profile, and separate plated and non-plated drill files.\n\n## Routing decisions\n\n| Circuit | Implementation and reason |\n| --- | --- |\n| USB-C | The duplicate USB 2.0 contacts join at J101. Both data lines run on the front through U102 and their 27 Ω resistors to the RP2040, with zero signal vias. The ESD ground pin has a short connection to the back pour. Both orientations have a short path to the protectors. The connector, SOT-23 array and resistors set the local pair spacing. These are short full-speed USB routes with no controlled-impedance claim. |\n| Clock and flash | The crystal, feedback resistor and load capacitors are connected on the front. Each load capacitor has a nearby ground via. All six QSPI nets also stay on the front. The clock is 20.10 mm, and the four data traces range from 6.99 to 23.47 mm. The SOIC pin order accounts for the spread. Chip select reaches the flash before branching to BOOTSEL. |\n| Input and MCU power | Both connector VBUS lands feed the input side of the 0.5 A fuse. Wider tracks on the fused side serve the bulk capacitor, 3.3 V LDO and LED load switch. The MCU supply uses a 0.50 mm feed from the regulator area, with narrower branches to the underside bypass capacitors and 0.20 mm escapes at the 0.4 mm-pitch QFN. The 1.1 V regulator output joins its local capacitor before continuing around the bypass cluster to the opposite side of the MCU. |\n| LEDs | The switched 5 V supply leaves U105 beside C120, passes around the south end of the flash and splits to two 0.80 mm row feeders. Each LED and its adjacent 100 nF capacitor share a local supply connection. The LED data chain follows the physical package order on the back, crossing between rows at the far right. This keeps the wide supply feed out from beneath the flash bus. |\n| Keys | The upper-row GPIOs use the north edge. The lower-row GPIOs use the corridors between the switch bores and the LED windows. Each key input has one layer change. |\n| Ground and assembly | Both sides carry connected ground pours with 0.20 mm clearance, solid SMD connections and thermal reliefs on through-hole pads. Of the 88 vias, 52 are ground vias. They connect the QFN paddle, bypass returns, crystal area, USB area and both sides of the LED windows to the fills. The two paddle vias are outside the exposed land. Every via uses a 0.30 mm drill and a 0.60–0.80 mm copper diameter. |\n\nTrack widths span 0.20–0.80 mm. The supplied net classes and design rules were sufficient. The selected dimensions fit JLCPCB’s published two-layer, 1 oz trace and through-via capabilities. [JLCPCB manufacturing capabilities](https://jlcpcb.com/capabilities/pcb-capabilities)\n\n## Verification and remaining qualification\n\n- KiCad 10.0.8 reported **zero DRC errors, zero unconnected items and zero schematic parity issues**. The saved fills agree with a fresh refill. The courtyard and track-end-to-via-centre checks also passed.\n- The sole warning is the original U103 library-footprint mismatch. The embedded QFN pad positions, sizes and layer assignments agree with the installed library footprint. All 54 complete on-board footprint definitions match the supplied board when serialized by KiCad, including placement, rotation, side, lands and artwork.\n- The Gerber profile resolves to one outer contour and six closed LED windows. The drill outputs contain 88 round plated vias, four plated connector slots and 32 non-plated holes. A separate two-sided check found more than 0.12 mm between each via drill and every SMD land’s bounding box.\n- Physical bring-up is outstanding. USB enumeration in both plug orientations, boot from flash and operation at full LED load have not been bench-tested.\n"
+ }
+}

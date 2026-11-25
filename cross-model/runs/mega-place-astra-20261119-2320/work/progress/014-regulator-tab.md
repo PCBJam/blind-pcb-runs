@@ -1,0 +1,1 @@
+I joined the remaining comparator-sense branch and added five 0.7 mm vias with 0.3 mm drills beside the regulator output tab. The vias fall outside its solderable pad and connect the copper spreaders on the two faces. A reset trace occupies one of the candidate via rows, so I used the clear sites on either side and refilled the board.

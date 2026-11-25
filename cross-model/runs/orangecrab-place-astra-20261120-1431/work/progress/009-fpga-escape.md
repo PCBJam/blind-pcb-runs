@@ -1,0 +1,1 @@
+A geometry-based routing pass added 65 connections using the two outer and two internal signal layers. After refill, KiCad counted 86 opens, with zero copper-clearance, track-width or shorting violations. I removed redundant imported segments that ended inside the Feather castellations. The remaining work is concentrated at the FPGA and in the power-rail drops.

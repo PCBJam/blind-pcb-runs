@@ -1,0 +1,751 @@
+{
+ "board": "macropad-small-haiku-20261118-1937",
+ "seconds": 5241,
+ "drcErrors": {},
+ "unconnected": {},
+ "totalTrackMm": 836,
+ "totalVias": 92,
+ "roles": {
+  "usb": {
+   "mm": 52,
+   "layers": {
+    "B.Cu": 51,
+    "F.Cu": 1
+   },
+   "vias": 2,
+   "parallel": 45
+  },
+  "power": {
+   "mm": 44,
+   "layers": {
+    "F.Cu": 5,
+    "B.Cu": 39
+   },
+   "vias": 2,
+   "width": 0.5,
+   "edgeShare": 0,
+   "bendsPer10mm": 4.8,
+   "parallel": 0
+  },
+  "supply": {
+   "mm": 105,
+   "layers": {
+    "F.Cu": 49,
+    "B.Cu": 56
+   },
+   "vias": 15,
+   "parallel": 7
+  },
+  "qspi": {
+   "mm": 59,
+   "layers": {
+    "F.Cu": 27,
+    "B.Cu": 32
+   },
+   "vias": 6,
+   "parallel": 37
+  },
+  "keys": {
+   "mm": 203,
+   "layers": {
+    "F.Cu": 169,
+    "B.Cu": 34
+   },
+   "vias": 14,
+   "parallel": 24
+  },
+  "data": {
+   "mm": 142,
+   "layers": {
+    "B.Cu": 92,
+    "F.Cu": 51
+   },
+   "vias": 10,
+   "parallel": 4
+  },
+  "ledpower": {
+   "mm": 150,
+   "layers": {
+    "F.Cu": 20,
+    "B.Cu": 130
+   },
+   "vias": 4,
+   "parallel": 0
+  }
+ },
+ "placement": {
+  "footprints": 54,
+  "moved": [
+   {
+    "ref": "C121|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 194.27,
+     "y": 154.63,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.6375,
+     "y": 102.05,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "F101|Fuse:Fuse_1206_3216Metric",
+    "from": {
+     "x": 106.17,
+     "y": 166.38,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 106,
+     "y": 122.8,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R101|Resistor_SMD:R_0603_1608Metric",
+    "from": {
+     "x": 123.82,
+     "y": 164.83,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 104.5,
+     "y": 126.6,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C118|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 179.99,
+     "y": 153.88,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 115.125,
+     "y": 102.6125,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C112|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 146.93,
+     "y": 153.88,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 104.8625,
+     "y": 110.625,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C104|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 106.35,
+     "y": 153.88,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 102.1375,
+     "y": 125.225,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "SW101|Button_Switch_SMD:SW_SPST_TL3342",
+    "from": {
+     "x": 156.64,
+     "y": 167.1,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 95.0125,
+     "y": 116.005,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U106|Package_TO_SOT_SMD:SOT-23-5",
+    "from": {
+     "x": 89.05,
+     "y": 179.665,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 101,
+     "y": 104.5,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C115|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 162.71,
+     "y": 154.63,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 112.9,
+     "y": 100.0875,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R102|Resistor_SMD:R_0603_1608Metric",
+    "from": {
+     "x": 129.83,
+     "y": 164.83,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 104.5,
+     "y": 130.4,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R104|Resistor_SMD:R_0603_1608Metric",
+    "from": {
+     "x": 141.85,
+     "y": 164.83,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 110.6,
+     "y": 118,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C103|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 101.09,
+     "y": 154.63,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 104.8625,
+     "y": 105.5,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U101|Package_TO_SOT_SMD:SOT-23-5",
+    "from": {
+     "x": 165.99,
+     "y": 165.975,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 100.5,
+     "y": 122,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C119|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 185.25,
+     "y": 154.63,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 98.1125,
+     "y": 110.175,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C102|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 96.58,
+     "y": 154.63,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 99.8875,
+     "y": 124.45,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U102|Package_TO_SOT_SMD:SOT-23-6",
+    "from": {
+     "x": 173.14,
+     "y": 165.975,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 110.5625,
+     "y": 122.07,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U104|Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+    "from": {
+     "x": 192.45,
+     "y": 168.75,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 103,
+     "y": 116,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R105|Resistor_SMD:R_0603_1608Metric",
+    "from": {
+     "x": 147.86,
+     "y": 164.83,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 106.325,
+     "y": 99.6625,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C101|Capacitor_SMD:CP_Elec_5x5.4",
+    "from": {
+     "x": 89.9,
+     "y": 157.1,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 93,
+     "y": 124.5,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U103|Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm",
+    "from": {
+     "x": 182.37,
+     "y": 168.23,
+     "rot": 90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 109.8,
+     "y": 108.8,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C113|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 152.94,
+     "y": 153.88,
+     "rot": 180,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 103.75,
+     "y": 100.6375,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C120|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 189.76,
+     "y": 154.63,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 96.5,
+     "y": 103,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "U105|Package_TO_SOT_SMD:SOT-23-6",
+    "from": {
+     "x": 200.555,
+     "y": 165.975,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 101,
+     "y": 110,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C109|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 131.9,
+     "y": 153.88,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 109.45,
+     "y": 99.3375,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "J101|Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+    "from": {
+     "x": 114.53,
+     "y": 169.42,
+     "rot": -90,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 111.2,
+     "y": 128.699999,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "R103|Resistor_SMD:R_0603_1608Metric",
+    "from": {
+     "x": 135.84,
+     "y": 164.83,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 112.3,
+     "y": 118,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "Y101|Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+    "from": {
+     "x": 96.25,
+     "y": 179.54,
+     "rot": 0,
+     "layer": "F.Cu"
+    },
+    "to": {
+     "x": 106.6,
+     "y": 102.2625,
+     "rot": 180,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C107|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 121.38,
+     "y": 153.88,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 112.85,
+     "y": 103.0875,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C111|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 141.67,
+     "y": 154.63,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 112.925,
+     "y": 113.7375,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C501|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 92.24,
+     "y": 165.58,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 124.05,
+     "y": 133.68,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C114|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 158.2,
+     "y": 154.63,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 110.15,
+     "y": 114.5125,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C110|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 137.16,
+     "y": 154.63,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 106.8625,
+     "y": 119.655,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C117|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 173.98,
+     "y": 153.88,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 115.5,
+     "y": 101.1125,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C105|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 111.61,
+     "y": 154.63,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 115.525,
+     "y": 111.9875,
+     "rot": 0,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C701|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 101.26,
+     "y": 165.58,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 162.15,
+     "y": 133.68,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C401|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 87.73,
+     "y": 165.58,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 171.1,
+     "y": 116.38,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C301|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 203.29,
+     "y": 154.63,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 152.05,
+     "y": 116.38,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C106|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 116.12,
+     "y": 154.63,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 111.25,
+     "y": 103.0875,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C201|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 198.78,
+     "y": 154.63,
+     "rot": 90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 133,
+     "y": 116.38,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C601|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 96.75,
+     "y": 165.58,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 143.1,
+     "y": 133.68,
+     "rot": -90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C116|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 167.97,
+     "y": 153.88,
+     "rot": 180,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 115.5,
+     "y": 115.5,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   },
+   {
+    "ref": "C108|Capacitor_SMD:C_0603_1608Metric",
+    "from": {
+     "x": 126.64,
+     "y": 154.63,
+     "rot": -90,
+     "layer": "B.Cu"
+    },
+    "to": {
+     "x": 115.2,
+     "y": 105,
+     "rot": 90,
+     "layer": "B.Cu"
+    }
+   }
+  ]
+ },
+ "place": {
+  "footprints": 54,
+  "keptMoved": [],
+  "missing": [],
+  "added": [],
+  "offBoard": [],
+  "wrongSide": [],
+  "placedSides": {
+   "F": 0,
+   "B": 42
+  },
+  "outlineMm": [
+   86.65,
+   40.8
+  ],
+  "areaMm2": 3231.6,
+  "outlineClosed": true
+ },
+ "agent": {
+  "model": "claude-haiku-5-5",
+  "costUsd": 9.227279289999993,
+  "turns": 42,
+  "subtype": "success",
+  "isError": false,
+  "tools": {
+   "Bash": 215,
+   "Read": 10,
+   "ToolSearch": 1,
+   "Monitor": 30,
+   "Write": 9,
+   "Edit": 1
+  },
+  "web": [],
+  "hosts": {
+   "api.anthropic.com": 9,
+   "http-intake.logs.us5.datadoghq.com": 147
+  },
+  "denied": {},
+  "notes": "# Macropad, 2-layer JLCPCB board: placement, routing, decisions, open items\n\nBoard: `/work/macropad-top.kicad_pcb` (KiCad 10). Checks at the end of the work:\n- `bt check`: CHECK OK, 0 DRC errors, 2 warnings, 0 unconnected, 0 nets in pieces.\n- KiCad's own DRC (`kicad-cli pcb drc`): 0 errors, 2 warnings, 0 unconnected, 0 schematic-parity issues.\n- `bt same` against the original: no locked footprint moved; no footprint added or removed; no pad net changed.\n\nThe two warnings: `lib_footprint_mismatch` on the RP2040 (the footprint definition in the board differs from the library copy; I did not touch footprint definitions) and `silk_over_copper` inside that same footprint (its silk polygon touches the pad of C112). Both are inside the locked-definition footprint, so I left them.\n\n## Board and outline\n\n- All 42 unlocked parts are on B.Cu, including the USB-C connector J101. The 12 locked parts (SW201..SW701, D201..D701) were not touched.\n- The key area is unchanged: x 117..176.15, y 100..138.1.\n- The left block is redrawn: x 89.55..117, y 97.35..133 (rounded corners, radius 1). Its top and left edges come from `bt outline --fit`. Its bottom edge sits at y = 133 so the USB-C front face (about y 132.5) is on the board edge.\n- **The board is not smaller than the original.** Outline area is about 3230 mm2 (block about 27.5 x 35.7 mm plus the key area), against about 3070 mm2 for the original outline (its bottom-left notch removed about 313 mm2). The reason: the USB-C moved to the bottom edge, which made the block taller. A narrower block would need a different placement; I did not attempt one.\n\n## Placement approach\n\n- **RP2040 U103** at (109.8, 108.8), rotation 0, B side. On this side the key pins 31..37 face east toward the switches, the QSPI and USB pins face south, the crystal pins face north, and the LED data pins face west. The orientation was chosen so the keys leave toward the switch matrix.\n- **USB-C J101** on the bottom edge: rotation 180, mouth facing down, pads at about y 125. The USB pins are directly above it, so D+/D- run straight down.\n- **USB protection and power entry** between the MCU and the connector: ESD clamp U102, series resistors R103/R104 (27 ohm), fuse F101, CC pull-downs R101/R102 (moved to the south-west corner so the key corridor stayed open).\n- **Flash U104** south-west of the MCU; **BOOTSEL SW101** beside the flash's CS pin.\n- **Crystal Y101** north of the MCU with C109, C113 and R105 (1 k). It sits rotated so XIN and XOUT come out toward the MCU's north pins.\n- **Power:** LDO U101 and bulk C101 at the lower left, C102/C104 around the LDO. Load switch U105 (TPS22917) and level shifter U106 (74AHCT1G125) at the upper left, next to the MCU's LED data and enable pins.\n- **Decoupling:** most of the 11 +3V3 and 3 +1V1 caps sit on the MCU's left, top and right-bottom edges, as close as the escape lanes allowed.\n- **LED decoupling:** C201..C701 each sit beside its LED on the free side of the key cell.\n\nNet classes (set with `bt rules`, the board minimums unchanged):\n- `Power`: +5V, +5V_LED, and the fuse's VBUS side, 0.5 mm.\n- `Vdd`: +3V3 and +1V1, 0.3 mm.\n- `Default`: everything else, 0.2 mm. Clearance 0.2 mm everywhere; vias 0.6/0.3.\n\n## Routing approach\n\n- **USB D+/D-**: on B.Cu from the series resistors through the ESD clamp to both connector pins of each polarity. D+ takes no vias; D- takes two, because its ESD pin is on the far side. The VBUS pads on the connector's back row are tied together with a short F.Cu bridge.\n- **QSPI**: the three east-side nets (SD0, SD3, SCLK) run directly on B.Cu. The three west-side nets (SD1, SD2, SS) use F.Cu through vias, because the flash's west pins sit on the far side of the chip's bottom-left corner.\n- **Keys**: the six key nets are the hardest part of the board. The MCU's key pins are at 0.4 mm pitch and the top keys' pins are on the opposite side of the pin row from the bottom keys', so greedy routing from the pads boxed the neighbours in. What worked: `bt escape` on the six pins (stubs and vias staggered in two rows, three vias inside the RP2040 body and three just outside it), then all six routed together from those vias with `--order escapes-first --prefer F.Cu`.\n- **LED chain**: the five DOUT-to-DIN links route on B.Cu, 14 to 20 mm each. LED_DIN is 34 mm (F.Cu and B.Cu, two vias).\n- **+5V_LED**: 15 links, all on B.Cu at 0.5 mm, no vias.\n- **+1V1 and +3V3**: routed with escape vias for the pins that were boxed in (bottom pins 45 and 50 and top pin 22). Pin 33 connects through two vias.\n- **GND**: a F.Cu pour over the whole outline, filled with `bt fill`. Each GND pad has a via into the pour (about 60 of the 92 vias in the board). The RP2040's exposed pad has three thermal vias. There is no B.Cu pour.\n\nBoard numbers: 437 track segments (265 at 0.2 mm, 85 at 0.5 mm, 70 at 0.3 mm, 17 at 0.127 mm), 92 vias.\n\n## Decisions that a reviewer should look at\n\n1. **Switch cutouts are not in Edge.Cuts.** The MX-style footprints carry only Dwgs.User corner marks for the 14 mm switch hole, and the reverse-mount LED footprints sit inside that square. I did not add cutouts, because the key area was supposed to stay as delivered. If the switches need a 14 mm hole in this board, it has to be added, and the LED pads would need to be checked against it. **Please confirm before ordering.**\n2. **Board size** is slightly larger than the original (see above).\n3. **Some decoupling is not tight.** C110 (flash VCC) is 1.8 mm from its pin; C114 (USB supply, pin 48) is 2.3 mm; C116 (VREG output, pin 45) is 5.1 mm; C118 (pin 26) is 4.5 mm. Two are not good: **C117 (+1V1, pin 50) is about 12.6 mm from its pin**, and **C120 (+5V_LED bulk) is about 9.7 mm from the load switch output**. The RP2040's bottom edge had no room for closer caps once the USB, QSPI and +1V1/+3V3 escapes were in place.\n4. **USB impedance is not controlled.** D+/D- are 0.2 mm tracks on B.Cu with the F.Cu pour as their reference, on a 1.6 mm two-layer stack. That gives roughly 140 ohm single-ended and a differential impedance well above 90 ohm; a true 90 ohm pair needs about 1 mm tracks on this stack. USB full-speed tolerates this over short runs, but it is not a controlled pair. D+ is 10.3 mm and D- is 13.5 mm and they are not length-matched.\n5. **QSPI**: SS is 19.8 mm (BOOTSEL sits at the left, away from the flash), SD1 is 12.6 mm, SD2 is 13.2 mm. The short east-side nets are 3.4 to 5.7 mm. Lengths are not matched. Boot-flash at the default clock should be fine, but this is the first thing I would tune on a real board.\n6. **Narrow necks**: 17 segments run at 0.127 mm, the fab minimum, where a pin or via is boxed in. Most are at RP2040 pins and the ESD clamp's VBUS pin (which draws only leakage).\n7. **GND**: F.Cu pour only, no B.Cu pour, no stitching fence beyond the per-pad vias. A return path beyond the pour is only as good as those vias.\n8. **Power integrity of the LED rail**: +5V_LED is 0.5 mm copper (about 150 mm in total) through the key corridor. It should be fine for six LEDs at moderate brightness, but I did not calculate the voltage drop.\n\n## Schematic observations (not changed; for whoever owns the schematic)\n\n- RUN (RP2040 pin 26) is tied directly to +3V3, so there is no reset button.\n- SWCLK and SWDIO (pins 24 and 25) are not brought out, so there are no debug or test points.\n- C101 is a 5 x 5.4 mm electrolytic footprint. I left it.\n\n## Not finished / not good\n\n- The switch-cutout question above is open.\n- Decoupling C117 and C120 are poorly placed, and C118/C116/C110 are not tight.\n- USB and QSPI lengths are not matched and the USB impedance is not controlled.\n- The board is not smaller than the original outline.\n- The two DRC warnings are footprint-library and silkscreen issues inside a locked-definition footprint.\n- I did not run a fab-specific check (JLCPCB's own DFM) — only KiCad DRC and bt's checks.\n"
+ }
+}

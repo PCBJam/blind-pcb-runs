@@ -1,0 +1,1 @@
+KiCad reported zero unconnected items on the saved board. Moving C78 to accessible core-supply copper and locating R67 along the existing sensor connection resolved two trapped passive pads. The compute-module RUN signal now has a staggered escape. The RP2040 standby region extends to its remote pullup. This checkpoint precedes cleanup and length tuning.
